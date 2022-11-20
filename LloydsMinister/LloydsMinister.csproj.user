@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Balance\BalanceMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Balance\Balance_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Balance\Balance_LongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Balance\Balance_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Deposit\DepositMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Deposit\Deposit_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Deposit\Deposit_LongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Deposit\Deposit_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer\TransferMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer\Transfer_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer\Transfer_LongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer\Transfer_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewStatement\ViewStatementMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewStatement\ViewStatement_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewStatement\ViewStatement_LongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewStatement\ViewStatement_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw\WithdrawMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw\Withdraw_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw\Withdraw_LongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw\Withdraw_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
