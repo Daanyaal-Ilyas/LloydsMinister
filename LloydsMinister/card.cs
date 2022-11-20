@@ -1,3 +1,5 @@
+using SQLite;
+
 namespace LloydsMinister
 {
     public partial class CardInsert : Form
@@ -20,6 +22,17 @@ namespace LloydsMinister
         private void CardInsert_Load(object sender, EventArgs e)
         {
             pictureBox2.Cursor = Cursors.Hand;
+            if (System.IO.File.Exists("D:\\LloydsMinister\\LloydsMinister\\customer.db3"))
+            {
+
+            }
+            else
+            {
+                var db = new SQLiteConnection("D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+
+                db.CreateTable<DB>();
+                db.Close();
+            }
         }
     }
 }
