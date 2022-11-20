@@ -134,6 +134,7 @@
             this.Controls.Add(this.BalSimpleBackbtn);
             this.Name = "Balance_SimpleDeposit";
             this.Text = "Balance_SimpleDeposit";
+            this.Load += new System.EventHandler(this.Balance_SimpleDeposit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra3btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra5btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra1btn)).EndInit();

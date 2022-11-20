@@ -32,20 +32,13 @@ namespace LloydsMinister
         {
             
         }
-
-        private void textEnter1_Click(object sender, EventArgs e)
+        public static class pininput
         {
-            if (enterPin1.Text == "1234")
-            {
-                new Menu().Show();
-                this.Hide();
-            }
-            else if (enterPin1.Text != "1234")
-            {
-                MessageBox.Show("You have not entered the correct pin. Please enter the correct Pin");
-                enterPin1.Clear();
-                enterPin1.Focus();
-            }
+            public static string Data { get; set; }
+        }
+        public void textEnter1_Click(object sender, EventArgs e)
+        {
+            pininput.Data = enterPin1.Text;
         }
     }
 }

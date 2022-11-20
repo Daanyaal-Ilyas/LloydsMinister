@@ -24,7 +24,7 @@ namespace LloydsMinister
             pictureBox2.Cursor = Cursors.Hand;
             if (System.IO.File.Exists("D:\\LloydsMinister\\LloydsMinister\\customer.db3"))
             {
-
+                // nothing happens because you got the db already
             }
             else
             {
