@@ -9,7 +9,9 @@ namespace LloydsMinister
 {
     class DB
     {
-        [PrimaryKey, AutoIncrement]
+        [PrimaryKey,AutoIncrement]
+
+        public int Id { get; set; }
 
     }
 }

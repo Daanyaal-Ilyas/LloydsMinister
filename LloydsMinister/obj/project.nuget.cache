@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kXw0gu1gXVuVFAGGzz833CuNuqFffkWG3xFCFTGgx6wX1Ore6TK4kWPk2gXo9VC1AsgguiZYQehC7STI6Mh2Gg==",
+  "dgSpecHash": "QcdNV0dcjgX7rk5zPUpQVpmksFs1ar3AemWYDgrvOqn7TQzPbWo5wh2biIoD61YJXiZHK9dVOFyrNmLtSNEicg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajad\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\rajad\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\rajad\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\rajad\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\rajad\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\rajad\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
