@@ -34,6 +34,12 @@
             this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
+            this.lbDep_LongBack = new System.Windows.Forms.Label();
+            this.lbDep_Long150 = new System.Windows.Forms.Label();
+            this.lbDep_Long100 = new System.Windows.Forms.Label();
+            this.lbDep_Long50 = new System.Windows.Forms.Label();
+            this.lbDep_Long20 = new System.Windows.Forms.Label();
+            this.lbDep_Long10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
@@ -97,12 +103,78 @@
             this.pictureTriangle3.TabIndex = 19;
             this.pictureTriangle3.TabStop = false;
             // 
+            // lbDep_LongBack
+            // 
+            this.lbDep_LongBack.AutoSize = true;
+            this.lbDep_LongBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_LongBack.Location = new System.Drawing.Point(652, 391);
+            this.lbDep_LongBack.Name = "lbDep_LongBack";
+            this.lbDep_LongBack.Size = new System.Drawing.Size(77, 37);
+            this.lbDep_LongBack.TabIndex = 42;
+            this.lbDep_LongBack.Text = "Back";
+            // 
+            // lbDep_Long150
+            // 
+            this.lbDep_Long150.AutoSize = true;
+            this.lbDep_Long150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Long150.Location = new System.Drawing.Point(70, 391);
+            this.lbDep_Long150.Name = "lbDep_Long150";
+            this.lbDep_Long150.Size = new System.Drawing.Size(81, 37);
+            this.lbDep_Long150.TabIndex = 41;
+            this.lbDep_Long150.Text = "£150";
+            // 
+            // lbDep_Long100
+            // 
+            this.lbDep_Long100.AutoSize = true;
+            this.lbDep_Long100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Long100.Location = new System.Drawing.Point(648, 260);
+            this.lbDep_Long100.Name = "lbDep_Long100";
+            this.lbDep_Long100.Size = new System.Drawing.Size(81, 37);
+            this.lbDep_Long100.TabIndex = 40;
+            this.lbDep_Long100.Text = "£100";
+            // 
+            // lbDep_Long50
+            // 
+            this.lbDep_Long50.AutoSize = true;
+            this.lbDep_Long50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Long50.Location = new System.Drawing.Point(70, 260);
+            this.lbDep_Long50.Name = "lbDep_Long50";
+            this.lbDep_Long50.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Long50.TabIndex = 39;
+            this.lbDep_Long50.Text = "£50";
+            // 
+            // lbDep_Long20
+            // 
+            this.lbDep_Long20.AutoSize = true;
+            this.lbDep_Long20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Long20.Location = new System.Drawing.Point(664, 124);
+            this.lbDep_Long20.Name = "lbDep_Long20";
+            this.lbDep_Long20.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Long20.TabIndex = 38;
+            this.lbDep_Long20.Text = "£20";
+            // 
+            // lbDep_Long10
+            // 
+            this.lbDep_Long10.AutoSize = true;
+            this.lbDep_Long10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Long10.Location = new System.Drawing.Point(70, 124);
+            this.lbDep_Long10.Name = "lbDep_Long10";
+            this.lbDep_Long10.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Long10.TabIndex = 37;
+            this.lbDep_Long10.Text = "£10";
+            // 
             // Deposit_LongTerm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbDep_LongBack);
+            this.Controls.Add(this.lbDep_Long150);
+            this.Controls.Add(this.lbDep_Long100);
+            this.Controls.Add(this.lbDep_Long50);
+            this.Controls.Add(this.lbDep_Long20);
+            this.Controls.Add(this.lbDep_Long10);
             this.Controls.Add(this.pictureTriangle6);
             this.Controls.Add(this.pictureTriangle5);
             this.Controls.Add(this.pictureTriangle4);
@@ -118,6 +190,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -129,5 +202,11 @@
         private PictureBox pictureTriangle2;
         private PictureBox pictureTriangle1;
         private PictureBox pictureTriangle3;
+        private Label lbDep_LongBack;
+        private Label lbDep_Long150;
+        private Label lbDep_Long100;
+        private Label lbDep_Long50;
+        private Label lbDep_Long20;
+        private Label lbDep_Long10;
     }
 }

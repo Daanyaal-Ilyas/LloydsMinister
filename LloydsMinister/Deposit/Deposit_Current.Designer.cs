@@ -34,6 +34,12 @@
             this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
+            this.lbDep_CurrentBack = new System.Windows.Forms.Label();
+            this.lbDep_Current150 = new System.Windows.Forms.Label();
+            this.lbDep_Current100 = new System.Windows.Forms.Label();
+            this.lbDep_Current50 = new System.Windows.Forms.Label();
+            this.lbDep_Current20 = new System.Windows.Forms.Label();
+            this.lbDep_Current10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
@@ -97,12 +103,78 @@
             this.pictureTriangle3.TabIndex = 19;
             this.pictureTriangle3.TabStop = false;
             // 
+            // lbDep_CurrentBack
+            // 
+            this.lbDep_CurrentBack.AutoSize = true;
+            this.lbDep_CurrentBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_CurrentBack.Location = new System.Drawing.Point(653, 391);
+            this.lbDep_CurrentBack.Name = "lbDep_CurrentBack";
+            this.lbDep_CurrentBack.Size = new System.Drawing.Size(77, 37);
+            this.lbDep_CurrentBack.TabIndex = 48;
+            this.lbDep_CurrentBack.Text = "Back";
+            // 
+            // lbDep_Current150
+            // 
+            this.lbDep_Current150.AutoSize = true;
+            this.lbDep_Current150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Current150.Location = new System.Drawing.Point(71, 391);
+            this.lbDep_Current150.Name = "lbDep_Current150";
+            this.lbDep_Current150.Size = new System.Drawing.Size(81, 37);
+            this.lbDep_Current150.TabIndex = 47;
+            this.lbDep_Current150.Text = "£150";
+            // 
+            // lbDep_Current100
+            // 
+            this.lbDep_Current100.AutoSize = true;
+            this.lbDep_Current100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Current100.Location = new System.Drawing.Point(649, 260);
+            this.lbDep_Current100.Name = "lbDep_Current100";
+            this.lbDep_Current100.Size = new System.Drawing.Size(81, 37);
+            this.lbDep_Current100.TabIndex = 46;
+            this.lbDep_Current100.Text = "£100";
+            // 
+            // lbDep_Current50
+            // 
+            this.lbDep_Current50.AutoSize = true;
+            this.lbDep_Current50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Current50.Location = new System.Drawing.Point(71, 260);
+            this.lbDep_Current50.Name = "lbDep_Current50";
+            this.lbDep_Current50.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Current50.TabIndex = 45;
+            this.lbDep_Current50.Text = "£50";
+            // 
+            // lbDep_Current20
+            // 
+            this.lbDep_Current20.AutoSize = true;
+            this.lbDep_Current20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Current20.Location = new System.Drawing.Point(665, 124);
+            this.lbDep_Current20.Name = "lbDep_Current20";
+            this.lbDep_Current20.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Current20.TabIndex = 44;
+            this.lbDep_Current20.Text = "£20";
+            // 
+            // lbDep_Current10
+            // 
+            this.lbDep_Current10.AutoSize = true;
+            this.lbDep_Current10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDep_Current10.Location = new System.Drawing.Point(71, 124);
+            this.lbDep_Current10.Name = "lbDep_Current10";
+            this.lbDep_Current10.Size = new System.Drawing.Size(65, 37);
+            this.lbDep_Current10.TabIndex = 43;
+            this.lbDep_Current10.Text = "£10";
+            // 
             // Deposit_Current
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbDep_CurrentBack);
+            this.Controls.Add(this.lbDep_Current150);
+            this.Controls.Add(this.lbDep_Current100);
+            this.Controls.Add(this.lbDep_Current50);
+            this.Controls.Add(this.lbDep_Current20);
+            this.Controls.Add(this.lbDep_Current10);
             this.Controls.Add(this.pictureTriangle6);
             this.Controls.Add(this.pictureTriangle5);
             this.Controls.Add(this.pictureTriangle4);
@@ -118,6 +190,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -129,5 +202,11 @@
         private PictureBox pictureTriangle2;
         private PictureBox pictureTriangle1;
         private PictureBox pictureTriangle3;
+        private Label lbDep_CurrentBack;
+        private Label lbDep_Current150;
+        private Label lbDep_Current100;
+        private Label lbDep_Current50;
+        private Label lbDep_Current20;
+        private Label lbDep_Current10;
     }
 }

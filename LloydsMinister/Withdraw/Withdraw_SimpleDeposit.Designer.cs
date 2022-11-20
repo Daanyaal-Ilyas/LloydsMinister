@@ -34,12 +34,12 @@
             this.btnWith2 = new System.Windows.Forms.PictureBox();
             this.btnWith1 = new System.Windows.Forms.PictureBox();
             this.btnWith3 = new System.Windows.Forms.PictureBox();
-            this.lbWith10 = new System.Windows.Forms.Label();
-            this.lbWith20 = new System.Windows.Forms.Label();
-            this.lbWith50 = new System.Windows.Forms.Label();
-            this.lbWith100 = new System.Windows.Forms.Label();
-            this.lbWith150 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbWith_Simple10 = new System.Windows.Forms.Label();
+            this.lbWith_Simple20 = new System.Windows.Forms.Label();
+            this.lbWith_Simple50 = new System.Windows.Forms.Label();
+            this.lbWith_Simple100 = new System.Windows.Forms.Label();
+            this.lbWith_Simple150 = new System.Windows.Forms.Label();
+            this.lbWith_SimpleBack = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith4)).BeginInit();
@@ -103,59 +103,65 @@
             this.btnWith3.TabIndex = 19;
             this.btnWith3.TabStop = false;
             // 
-            // lbWith10
+            // lbWith_Simple10
             // 
-            this.lbWith10.AutoSize = true;
-            this.lbWith10.Location = new System.Drawing.Point(71, 133);
-            this.lbWith10.Name = "lbWith10";
-            this.lbWith10.Size = new System.Drawing.Size(25, 15);
-            this.lbWith10.TabIndex = 25;
-            this.lbWith10.Text = "£10";
+            this.lbWith_Simple10.AutoSize = true;
+            this.lbWith_Simple10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_Simple10.Location = new System.Drawing.Point(71, 124);
+            this.lbWith_Simple10.Name = "lbWith_Simple10";
+            this.lbWith_Simple10.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple10.TabIndex = 25;
+            this.lbWith_Simple10.Text = "£10";
             // 
-            // lbWith20
+            // lbWith_Simple20
             // 
-            this.lbWith20.AutoSize = true;
-            this.lbWith20.Location = new System.Drawing.Point(705, 133);
-            this.lbWith20.Name = "lbWith20";
-            this.lbWith20.Size = new System.Drawing.Size(25, 15);
-            this.lbWith20.TabIndex = 26;
-            this.lbWith20.Text = "£20";
+            this.lbWith_Simple20.AutoSize = true;
+            this.lbWith_Simple20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_Simple20.Location = new System.Drawing.Point(665, 124);
+            this.lbWith_Simple20.Name = "lbWith_Simple20";
+            this.lbWith_Simple20.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple20.TabIndex = 26;
+            this.lbWith_Simple20.Text = "£20";
             // 
-            // lbWith50
+            // lbWith_Simple50
             // 
-            this.lbWith50.AutoSize = true;
-            this.lbWith50.Location = new System.Drawing.Point(71, 271);
-            this.lbWith50.Name = "lbWith50";
-            this.lbWith50.Size = new System.Drawing.Size(25, 15);
-            this.lbWith50.TabIndex = 27;
-            this.lbWith50.Text = "£50";
+            this.lbWith_Simple50.AutoSize = true;
+            this.lbWith_Simple50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_Simple50.Location = new System.Drawing.Point(71, 260);
+            this.lbWith_Simple50.Name = "lbWith_Simple50";
+            this.lbWith_Simple50.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple50.TabIndex = 27;
+            this.lbWith_Simple50.Text = "£50";
             // 
-            // lbWith100
+            // lbWith_Simple100
             // 
-            this.lbWith100.AutoSize = true;
-            this.lbWith100.Location = new System.Drawing.Point(699, 271);
-            this.lbWith100.Name = "lbWith100";
-            this.lbWith100.Size = new System.Drawing.Size(31, 15);
-            this.lbWith100.TabIndex = 28;
-            this.lbWith100.Text = "£100";
+            this.lbWith_Simple100.AutoSize = true;
+            this.lbWith_Simple100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_Simple100.Location = new System.Drawing.Point(649, 260);
+            this.lbWith_Simple100.Name = "lbWith_Simple100";
+            this.lbWith_Simple100.Size = new System.Drawing.Size(81, 37);
+            this.lbWith_Simple100.TabIndex = 28;
+            this.lbWith_Simple100.Text = "£100";
             // 
-            // lbWith150
+            // lbWith_Simple150
             // 
-            this.lbWith150.AutoSize = true;
-            this.lbWith150.Location = new System.Drawing.Point(71, 402);
-            this.lbWith150.Name = "lbWith150";
-            this.lbWith150.Size = new System.Drawing.Size(31, 15);
-            this.lbWith150.TabIndex = 29;
-            this.lbWith150.Text = "£150";
+            this.lbWith_Simple150.AutoSize = true;
+            this.lbWith_Simple150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_Simple150.Location = new System.Drawing.Point(71, 391);
+            this.lbWith_Simple150.Name = "lbWith_Simple150";
+            this.lbWith_Simple150.Size = new System.Drawing.Size(81, 37);
+            this.lbWith_Simple150.TabIndex = 29;
+            this.lbWith_Simple150.Text = "£150";
             // 
-            // label1
+            // lbWith_SimpleBack
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(699, 402);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 15);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Back";
+            this.lbWith_SimpleBack.AutoSize = true;
+            this.lbWith_SimpleBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbWith_SimpleBack.Location = new System.Drawing.Point(653, 391);
+            this.lbWith_SimpleBack.Name = "lbWith_SimpleBack";
+            this.lbWith_SimpleBack.Size = new System.Drawing.Size(77, 37);
+            this.lbWith_SimpleBack.TabIndex = 30;
+            this.lbWith_SimpleBack.Text = "Back";
             // 
             // Withdraw_SimpleDeposit
             // 
@@ -163,12 +169,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbWith150);
-            this.Controls.Add(this.lbWith100);
-            this.Controls.Add(this.lbWith50);
-            this.Controls.Add(this.lbWith20);
-            this.Controls.Add(this.lbWith10);
+            this.Controls.Add(this.lbWith_SimpleBack);
+            this.Controls.Add(this.lbWith_Simple150);
+            this.Controls.Add(this.lbWith_Simple100);
+            this.Controls.Add(this.lbWith_Simple50);
+            this.Controls.Add(this.lbWith_Simple20);
+            this.Controls.Add(this.lbWith_Simple10);
             this.Controls.Add(this.btnWith6);
             this.Controls.Add(this.btnWith5);
             this.Controls.Add(this.btnWith4);
@@ -196,11 +202,11 @@
         private PictureBox btnWith2;
         private PictureBox btnWith1;
         private PictureBox btnWith3;
-        private Label lbWith10;
-        private Label lbWith20;
-        private Label lbWith50;
-        private Label lbWith100;
-        private Label lbWith150;
-        private Label label1;
+        private Label lbWith_Simple10;
+        private Label lbWith_Simple20;
+        private Label lbWith_Simple50;
+        private Label lbWith_Simple100;
+        private Label lbWith_Simple150;
+        private Label lbWith_SimpleBack;
     }
 }
