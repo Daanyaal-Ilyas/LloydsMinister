@@ -22,6 +22,7 @@ namespace LloydsMinister
         {
             string input = pininput.Data;
             SQLiteConnection con = new SQLiteConnection("Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+
             string query = ("SELECT BalanceSimple FROM customer WHERE Pin = " + input);
             SQLiteCommand com = new SQLiteCommand(query, con);
 
@@ -30,7 +31,9 @@ namespace LloydsMinister
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(dt);
 
-            lbBalSimpleBalance.Text = dt.Rows[0]["BalanceSimple"].ToString();
+            string data = dt.Rows[0]["BalanceSimple"].ToString();
+
+            lbBalSimpleBal.Text = "£ " + data;
         }
     }
 }

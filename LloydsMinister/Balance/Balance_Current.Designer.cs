@@ -35,7 +35,7 @@
             this.BalanceCurrentextra4btn = new System.Windows.Forms.PictureBox();
             this.BalCurrentbackbtn = new System.Windows.Forms.PictureBox();
             this.lbBalCurrentBack = new System.Windows.Forms.Label();
-            this.lbBalCurrentBalance = new System.Windows.Forms.Label();
+            this.lbBalcurrentBal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra5btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra1btn)).BeginInit();
@@ -102,21 +102,21 @@
             // 
             this.lbBalCurrentBack.AutoSize = true;
             this.lbBalCurrentBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalCurrentBack.Location = new System.Drawing.Point(663, 391);
+            this.lbBalCurrentBack.Location = new System.Drawing.Point(663, 392);
             this.lbBalCurrentBack.Name = "lbBalCurrentBack";
             this.lbBalCurrentBack.Size = new System.Drawing.Size(67, 32);
-            this.lbBalCurrentBack.TabIndex = 14;
+            this.lbBalCurrentBack.TabIndex = 13;
             this.lbBalCurrentBack.Text = "Back";
             // 
-            // lbBalCurrentBalance
+            // lbBalcurrentBal
             // 
-            this.lbBalCurrentBalance.AutoSize = true;
-            this.lbBalCurrentBalance.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalCurrentBalance.Location = new System.Drawing.Point(324, 9);
-            this.lbBalCurrentBalance.Name = "lbBalCurrentBalance";
-            this.lbBalCurrentBalance.Size = new System.Drawing.Size(102, 32);
-            this.lbBalCurrentBalance.TabIndex = 13;
-            this.lbBalCurrentBalance.Text = "Balance";
+            this.lbBalcurrentBal.AutoSize = true;
+            this.lbBalcurrentBal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbBalcurrentBal.Location = new System.Drawing.Point(329, 9);
+            this.lbBalcurrentBal.Name = "lbBalcurrentBal";
+            this.lbBalcurrentBal.Size = new System.Drawing.Size(102, 32);
+            this.lbBalcurrentBal.TabIndex = 15;
+            this.lbBalcurrentBal.Text = "Balance";
             // 
             // Balance_Current
             // 
@@ -124,8 +124,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbBalcurrentBal);
             this.Controls.Add(this.lbBalCurrentBack);
-            this.Controls.Add(this.lbBalCurrentBalance);
             this.Controls.Add(this.BalanceCurrentextra3btn);
             this.Controls.Add(this.BalanceCurrentextra5btn);
             this.Controls.Add(this.BalanceCurrentextra1btn);
@@ -134,6 +134,7 @@
             this.Controls.Add(this.BalCurrentbackbtn);
             this.Name = "Balance_Current";
             this.Text = "Balance_Current";
+            this.Load += new System.EventHandler(this.Balance_Current_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra3btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra5btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra1btn)).EndInit();
@@ -154,6 +155,6 @@
         private PictureBox BalanceCurrentextra4btn;
         private PictureBox BalCurrentbackbtn;
         private Label lbBalCurrentBack;
-        private Label lbBalCurrentBalance;
+        private Label lbBalcurrentBal;
     }
 }
