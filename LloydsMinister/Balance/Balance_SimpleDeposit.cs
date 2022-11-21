@@ -21,17 +21,17 @@ namespace LloydsMinister
         private void Balance_SimpleDeposit_Load(object sender, EventArgs e)
         {
             string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection("Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
-
+            SQLiteConnection con = new SQLiteConnection(@"data source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            con.Open();
             string query = ("SELECT BalanceSimple FROM customer WHERE Pin = " + input);
-            SQLiteCommand com = new SQLiteCommand(query, con);
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
 
-            DataTable dt = new DataTable();
+            DataTable bs = new DataTable();
 
-            SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            adapter.Fill(dt);
+            SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
+            adapt.Fill(bs);
 
-            string data = dt.Rows[0]["BalanceSimple"].ToString();
+            string data = bs.Rows[0]["BalanceSimple"].ToString();
 
             lbBalSimpleBal.Text = "£ " + data;
         }

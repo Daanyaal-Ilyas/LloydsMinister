@@ -21,15 +21,14 @@ namespace LloydsMinister
         private void Balance_Current_Load(object sender, EventArgs e)
         {
             string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection("Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
-            string query = "SELECT BalanceCurrent FROM customer WHERE Pin = " + input;
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            con.Open();
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = " + input);
             SQLiteCommand com = new SQLiteCommand(query, con);
-
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             string data = bc.Rows[0]["BalanceCurrent"].ToString();
-
             lbBalcurrentBal.Text = "£ " + data;
         }
     }
