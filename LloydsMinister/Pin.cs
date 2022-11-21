@@ -19,26 +19,30 @@ namespace LloydsMinister
 
         private void Pin_Load(object sender, EventArgs e)
         {
-            textEnter1.Cursor = Cursors.Hand;
+            pictureBox1.Cursor = Cursors.Hand;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Menu m2 = new Menu();
-            m2.ShowDialog();
-        }
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+            menu.Closed += (s, args) => this.Close();
 
-        private void enterPin1_TextChanged(object sender, EventArgs e)
-        {
-            
+            pininput.Data = enterPin1.Text;
         }
         public static class pininput
         {
             public static string Data { get; set; }
         }
+        //Useless Code
+        private void enterPin1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         public void textEnter1_Click(object sender, EventArgs e)
         {
-            pininput.Data = enterPin1.Text;
+            
         }
     }
 }
