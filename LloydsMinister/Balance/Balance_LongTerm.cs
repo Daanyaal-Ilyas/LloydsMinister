@@ -24,13 +24,13 @@ namespace LloydsMinister
             string input = pininput.Data;
             SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
             con.Open();
-            string query = ("SELECT BalanceLong FROM customer WHERE Pin =  = 6565" );
+            string query = ("SELECT BalanceLong FROM customer WHERE Pin = 6565");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             DataTable bl = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
             adapt.Fill(bl);
             string data = bl.Rows[0]["BalanceLong"].ToString();
-            lbBalLongTermBack.Text = "£ " + data;
+            lbBalLongTermBalance.Text = "£ " + data;
         }
     }
 }
