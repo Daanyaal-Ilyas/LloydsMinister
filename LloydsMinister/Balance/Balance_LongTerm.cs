@@ -22,7 +22,7 @@ namespace LloydsMinister
         private void Balance_LongTerm_Load(object sender, EventArgs e)
         {
             string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
             con.Open();
             string query = ("SELECT BalanceLong FROM customer WHERE Pin = 6565");
             SQLiteCommand cmd = new SQLiteCommand(query, con);

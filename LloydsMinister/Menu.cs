@@ -17,7 +17,17 @@ namespace LloydsMinister
             InitializeComponent();
         }
 
-        private void lbMenuBalance_Click(object sender, EventArgs e)
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            btnMenubalance.Cursor   = Cursors.Hand;
+            btnMenuWithdraw.Cursor  = Cursors.Hand;
+            btnMenuStatement.Cursor = Cursors.Hand;
+            btnMenuDeposit.Cursor   = Cursors.Hand;
+            btnMenuTransfer.Cursor  = Cursors.Hand;
+            btnMenuExit.Cursor      = Cursors.Hand;
+        }
+
+        private void btnMenubalance_Click(object sender, EventArgs e)
         {
             this.Hide();
             BalanceMenu balance = new BalanceMenu();
@@ -25,7 +35,7 @@ namespace LloydsMinister
             balance.Closed += (s, args) => this.Close();
         }
 
-        private void lbMenuWithdraw_Click(object sender, EventArgs e)
+        private void btnMenuWithdraw_Click(object sender, EventArgs e)
         {
             this.Hide();
             WithdrawMenu withdraw = new WithdrawMenu();
@@ -33,15 +43,7 @@ namespace LloydsMinister
             withdraw.Closed += (s, args) => this.Close();
         }
 
-        private void lbMenuStatement_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            ViewStatementMenu statement = new ViewStatementMenu();
-            statement.ShowDialog();
-            statement.Closed += (s, args) => this.Close();
-        }
-
-        private void lbMenuDeposit_Click(object sender, EventArgs e)
+        private void btnMenuDeposit_Click(object sender, EventArgs e)
         {
             this.Hide();
             DepositMenu deposit = new DepositMenu();
@@ -49,7 +51,7 @@ namespace LloydsMinister
             deposit.Closed += (s, args) => this.Close();
         }
 
-        private void lbMenuTransfer_Click(object sender, EventArgs e)
+        private void btnMenuTransfer_Click(object sender, EventArgs e)
         {
             this.Hide();
             TransferMenu transfer = new TransferMenu();
@@ -57,19 +59,48 @@ namespace LloydsMinister
             transfer.Closed += (s, args) => this.Close();
         }
 
-        private void lbMenuExit_Click(object sender, EventArgs e)
+        private void btnMenuStatement_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewStatementMenu statement = new ViewStatementMenu();
+            statement.ShowDialog();
+            statement.Closed += (s, args) => this.Close();
+        }
+
+        private void btnMenuExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void Menu_Load(object sender, EventArgs e)
+        //Useless bunch of codes
+        private void lbMenuBalance_Click(object sender, EventArgs e)
         {
-            lbMenuBalance.Cursor   = Cursors.Hand;
-            lbMenuWithdraw.Cursor  = Cursors.Hand;
-            lbMenuStatement.Cursor = Cursors.Hand;
-            lbMenuDeposit.Cursor   = Cursors.Hand;
-            lbMenuTransfer.Cursor  = Cursors.Hand;
-            lbMenuExit.Cursor      = Cursors.Hand;
+
+        }
+
+        private void lbMenuWithdraw_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbMenuStatement_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbMenuDeposit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbMenuTransfer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbMenuExit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
