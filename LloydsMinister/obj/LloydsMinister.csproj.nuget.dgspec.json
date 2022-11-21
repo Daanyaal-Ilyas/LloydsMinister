@@ -52,14 +52,6 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
-            "SQLite_2013_netFx451_x86": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "SQLite_2013_x64": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.116, )"

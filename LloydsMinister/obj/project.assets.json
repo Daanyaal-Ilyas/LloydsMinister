@@ -786,36 +786,6 @@
           "lib/System.Data.SQLite.dll": {}
         }
       },
-      "SQLite_2013_netFx451_x86/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/SQLite.Designer.dll": {},
-          "lib/System.Data.SQLite.EF6.dll": {},
-          "lib/System.Data.SQLite.Linq.dll": {},
-          "lib/System.Data.SQLite.dll": {}
-        },
-        "runtime": {
-          "lib/SQLite.Designer.dll": {},
-          "lib/System.Data.SQLite.EF6.dll": {},
-          "lib/System.Data.SQLite.Linq.dll": {},
-          "lib/System.Data.SQLite.dll": {}
-        }
-      },
-      "SQLite_2013_x64/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/SQLite.Designer.dll": {},
-          "lib/System.Data.SQLite.EF6.dll": {},
-          "lib/System.Data.SQLite.Linq.dll": {},
-          "lib/System.Data.SQLite.dll": {}
-        },
-        "runtime": {
-          "lib/SQLite.Designer.dll": {},
-          "lib/System.Data.SQLite.EF6.dll": {},
-          "lib/System.Data.SQLite.Linq.dll": {},
-          "lib/System.Data.SQLite.dll": {}
-        }
-      },
       "Stub.System.Data.SQLite.Core.NetStandard/1.0.116": {
         "type": "package",
         "compile": {
@@ -2505,46 +2475,6 @@
         "sqlite_2012_x64.nuspec"
       ]
     },
-    "SQLite_2013_netFx451_x86/1.0.0": {
-      "sha512": "BRkNpa5pIX4S8+yPAGxQEMwVUuq0P/u7SP2RdJbioDlakGiSPmzRZnA4K/pKqI/gz/Vv0yfvuNhZHgyWsHoZcw==",
-      "type": "package",
-      "path": "sqlite_2013_netfx451_x86/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/System.Data.SQLite.dll.config",
-        "lib/SQLite.Designer.dll",
-        "lib/SQLite.Designer.pdb",
-        "lib/System.Data.SQLite.EF6.dll",
-        "lib/System.Data.SQLite.EF6.pdb",
-        "lib/System.Data.SQLite.Linq.dll",
-        "lib/System.Data.SQLite.Linq.pdb",
-        "lib/System.Data.SQLite.dll",
-        "lib/System.Data.SQLite.pdb",
-        "sqlite_2013_netfx451_x86.1.0.0.nupkg.sha512",
-        "sqlite_2013_netfx451_x86.nuspec"
-      ]
-    },
-    "SQLite_2013_x64/1.0.0": {
-      "sha512": "HCejohnEyvPlJ7d3vKhvUz9jKArYgtlE+MVWAnC1AmPFSN5TDBt9rtzcyNAxwVv6BYs/fKrh9EUS7cr1ZgfYng==",
-      "type": "package",
-      "path": "sqlite_2013_x64/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/System.Data.SQLite.dll.config",
-        "lib/SQLite.Designer.dll",
-        "lib/SQLite.Designer.pdb",
-        "lib/System.Data.SQLite.EF6.dll",
-        "lib/System.Data.SQLite.EF6.pdb",
-        "lib/System.Data.SQLite.Linq.dll",
-        "lib/System.Data.SQLite.Linq.pdb",
-        "lib/System.Data.SQLite.dll",
-        "lib/System.Data.SQLite.pdb",
-        "sqlite_2013_x64.1.0.0.nupkg.sha512",
-        "sqlite_2013_x64.nuspec"
-      ]
-    },
     "Stub.System.Data.SQLite.Core.NetStandard/1.0.116": {
       "sha512": "VEe/vzvn2ECKovtyb+nf8fsnNQ4EYOUms7gnp9729NN7FSR/0v/uVoBDO7DETzV7YCquRVwRnSnYuoOwAoTEKA==",
       "type": "package",
@@ -4124,8 +4054,6 @@
       "Microsoft.Data.SqlClient >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "SQLite_2012_x64 >= 1.0.0",
-      "SQLite_2013_netFx451_x86 >= 1.0.0",
-      "SQLite_2013_x64 >= 1.0.0",
       "System.Data.SQLite >= 1.0.116",
       "sqlite-net-pcl >= 1.8.116"
     ]
@@ -4181,14 +4109,6 @@
             "target": "Package",
             "version": "[1.0.0, )"
           },
-          "SQLite_2013_netFx451_x86": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
-          "SQLite_2013_x64": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "System.Data.SQLite": {
             "target": "Package",
             "version": "[1.0.116, )"
@@ -4228,26 +4148,6 @@
       "warningLevel": 1,
       "message": "Package 'SQLite_2012_x64 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "SQLite_2012_x64",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SQLite_2013_netFx451_x86 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "SQLite_2013_netFx451_x86",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SQLite_2013_x64 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "SQLite_2013_x64",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]

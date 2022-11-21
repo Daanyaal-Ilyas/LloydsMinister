@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static LloydsMinister.Pin;
 
 namespace LloydsMinister
 {
@@ -15,6 +17,20 @@ namespace LloydsMinister
         public Balance_LongTerm()
         {
             InitializeComponent();
+        }
+
+        private void Balance_LongTerm_Load(object sender, EventArgs e)
+        {
+            string input = pininput.Data;
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            con.Open();
+            string query = ("SELECT BalanceLong FROM customer WHERE Pin =  = 6565" );
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
+            DataTable bl = new DataTable();
+            SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
+            adapt.Fill(bl);
+            string data = bl.Rows[0]["BalanceLong"].ToString();
+            lbBalLongTermBack.Text = "£ " + data;
         }
     }
 }

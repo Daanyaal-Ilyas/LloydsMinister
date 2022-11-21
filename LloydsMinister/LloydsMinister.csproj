@@ -13,8 +13,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="SQLite_2012_x64" Version="1.0.0" />
-    <PackageReference Include="SQLite_2013_netFx451_x86" Version="1.0.0" />
-    <PackageReference Include="SQLite_2013_x64" Version="1.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
   </ItemGroup>
 

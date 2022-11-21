@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using SQLitePCL;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
@@ -21,18 +22,14 @@ namespace LloydsMinister
         private void Balance_SimpleDeposit_Load(object sender, EventArgs e)
         {
             string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection(@"data source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = " + input);
+            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = 6565");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
-
             DataTable bs = new DataTable();
-
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
             adapt.Fill(bs);
-
             string data = bs.Rows[0]["BalanceSimple"].ToString();
-
             lbBalSimpleBal.Text = "£ " + data;
         }
     }

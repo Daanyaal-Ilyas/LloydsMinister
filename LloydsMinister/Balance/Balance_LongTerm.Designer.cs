@@ -134,6 +134,7 @@
             this.Controls.Add(this.BalLongTermBackbtn);
             this.Name = "Balance_LongTerm";
             this.Text = "Balance_LongTerm";
+            this.Load += new System.EventHandler(this.Balance_LongTerm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra3btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra5btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra1btn)).EndInit();
