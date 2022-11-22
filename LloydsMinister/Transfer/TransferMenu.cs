@@ -17,7 +17,15 @@ namespace LloydsMinister
             InitializeComponent();
         }
 
-        private void lbTranMenuCurrent_Click(object sender, EventArgs e)
+        private void TransferMenu_Load(object sender, EventArgs e)
+        {
+            btnTransferCurrent.Cursor  = Cursors.Hand;
+            TransferLongTermbtn.Cursor = Cursors.Hand;
+            btnTransferSimple.Cursor   = Cursors.Hand;
+            btnTransferBack.Cursor     = Cursors.Hand;
+        }
+
+        private void btnTransferCurrent_Click(object sender, EventArgs e)
         {
             this.Hide();
             Transfer_Current current = new Transfer_Current();
@@ -25,7 +33,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void lbTranMenuLongTerm_Click(object sender, EventArgs e)
+        private void TransferLongTermbtn_Click(object sender, EventArgs e)
         {
             this.Hide();
             Transfer_LongTerm longTerm = new Transfer_LongTerm();
@@ -33,7 +41,7 @@ namespace LloydsMinister
             longTerm.Closed += (s, args) => this.Close();
         }
 
-        private void lbTranMenuSimple_Click(object sender, EventArgs e)
+        private void btnTransferSimple_Click(object sender, EventArgs e)
         {
             this.Hide();
             Transfer_SimpleDeposit simpleDeposit = new Transfer_SimpleDeposit();
@@ -41,7 +49,7 @@ namespace LloydsMinister
             simpleDeposit.Closed += (s, args) => this.Close();
         }
 
-        private void lbTranMenuBack_Click(object sender, EventArgs e)
+        private void btnTransferBack_Click(object sender, EventArgs e)
         {
             this.Hide();
             Menu menu = new Menu();
@@ -49,12 +57,25 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void TransferMenu_Load(object sender, EventArgs e)
+        //useless code
+        private void lbTranMenuCurrent_Click(object sender, EventArgs e)
         {
-            lbTranMenuCurrent.Cursor  = Cursors.Hand;
-            lbTranMenuLongTerm.Cursor = Cursors.Hand;
-            lbTranMenuSimple.Cursor   = Cursors.Hand;
-            lbTranMenuBack.Cursor     = Cursors.Hand;
+
+        }
+
+        private void lbTranMenuLongTerm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbTranMenuSimple_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbTranMenuBack_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

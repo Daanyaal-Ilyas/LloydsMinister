@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureTriangle6 = new System.Windows.Forms.PictureBox();
+            this.btnDepositBack = new System.Windows.Forms.PictureBox();
             this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
@@ -40,7 +40,8 @@
             this.lbDep_Long50 = new System.Windows.Forms.Label();
             this.lbDep_Long20 = new System.Windows.Forms.Label();
             this.lbDep_Long10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
@@ -48,14 +49,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureTriangle6
+            // btnDepositBack
             // 
-            this.pictureTriangle6.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle6.Location = new System.Drawing.Point(735, 367);
-            this.pictureTriangle6.Name = "pictureTriangle6";
-            this.pictureTriangle6.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle6.TabIndex = 24;
-            this.pictureTriangle6.TabStop = false;
+            this.btnDepositBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnDepositBack.Location = new System.Drawing.Point(735, 367);
+            this.btnDepositBack.Name = "btnDepositBack";
+            this.btnDepositBack.Size = new System.Drawing.Size(65, 84);
+            this.btnDepositBack.TabIndex = 24;
+            this.btnDepositBack.TabStop = false;
+            this.btnDepositBack.Click += new System.EventHandler(this.btnDepositBack_Click);
             // 
             // pictureTriangle5
             // 
@@ -163,19 +165,30 @@
             this.lbDep_Long10.TabIndex = 37;
             this.lbDep_Long10.Text = "£10";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(310, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(165, 41);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Long Term";
+            // 
             // Deposit_LongTerm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDep_LongBack);
             this.Controls.Add(this.lbDep_Long150);
             this.Controls.Add(this.lbDep_Long100);
             this.Controls.Add(this.lbDep_Long50);
             this.Controls.Add(this.lbDep_Long20);
             this.Controls.Add(this.lbDep_Long10);
-            this.Controls.Add(this.pictureTriangle6);
+            this.Controls.Add(this.btnDepositBack);
             this.Controls.Add(this.pictureTriangle5);
             this.Controls.Add(this.pictureTriangle4);
             this.Controls.Add(this.pictureTriangle2);
@@ -183,7 +196,8 @@
             this.Controls.Add(this.pictureTriangle3);
             this.Name = "Deposit_LongTerm";
             this.Text = "Deposit_LongTerm";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).EndInit();
+            this.Load += new System.EventHandler(this.Deposit_LongTerm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
@@ -196,7 +210,7 @@
 
         #endregion
 
-        private PictureBox pictureTriangle6;
+        private PictureBox btnDepositBack;
         private PictureBox pictureTriangle5;
         private PictureBox pictureTriangle4;
         private PictureBox pictureTriangle2;
@@ -208,5 +222,6 @@
         private Label lbDep_Long50;
         private Label lbDep_Long20;
         private Label lbDep_Long10;
+        private Label label1;
     }
 }

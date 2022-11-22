@@ -17,7 +17,15 @@ namespace LloydsMinister
             InitializeComponent();
         }
 
-        private void lbDepMenuCurrent_Click(object sender, EventArgs e)
+        private void DepositMenu_Load(object sender, EventArgs e)
+        {
+            btnDepositCurrent.Cursor  = Cursors.Hand;
+            btnDepositLongTerm.Cursor = Cursors.Hand;
+            btnDepositSimple.Cursor   = Cursors.Hand;
+            btnDepositBack.Cursor     = Cursors.Hand;
+        }
+
+        private void btnDepositCurrent_Click(object sender, EventArgs e)
         {
             this.Hide();
             Deposit_Current current = new Deposit_Current();
@@ -25,7 +33,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void lbDepMenuLongTerm_Click(object sender, EventArgs e)
+        private void btnDepositLongTerm_Click(object sender, EventArgs e)
         {
             this.Hide();
             Deposit_LongTerm longTerm = new Deposit_LongTerm();
@@ -33,7 +41,7 @@ namespace LloydsMinister
             longTerm.Closed += (s, args) => this.Close();
         }
 
-        private void lbDepMenuSimple_Click(object sender, EventArgs e)
+        private void btnDepositSimple_Click(object sender, EventArgs e)
         {
             this.Hide();
             Deposit_SimpleDeposit simpleDeposit = new Deposit_SimpleDeposit();
@@ -41,7 +49,7 @@ namespace LloydsMinister
             simpleDeposit.Closed += (s, args) => this.Close();
         }
 
-        private void lbDepMenuBack_Click(object sender, EventArgs e)
+        private void btnDepositBack_Click(object sender, EventArgs e)
         {
             this.Hide();
             Menu menu = new Menu();
@@ -49,12 +57,25 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void DepositMenu_Load(object sender, EventArgs e)
+        //useless code
+        private void lbDepMenuCurrent_Click(object sender, EventArgs e)
         {
-            lbDepMenuCurrent.Cursor  = Cursors.Hand;
-            lbDepMenuLongTerm.Cursor = Cursors.Hand;
-            lbDepMenuSimple.Cursor   = Cursors.Hand;
-            lbDepMenuBack.Cursor     = Cursors.Hand;
+
+        }
+
+        private void lbDepMenuLongTerm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbDepMenuSimple_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbDepMenuBack_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
