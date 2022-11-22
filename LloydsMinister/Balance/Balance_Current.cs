@@ -30,6 +30,21 @@ namespace LloydsMinister
             adapter.Fill(bc);
             string data = bc.Rows[0]["BalanceCurrent"].ToString();
             lbBalcurrentBal.Text = "£ " + data;
+
+            BalanceCurrentBackbtn.Cursor = Cursors.Hand;
+            BalanceCurrentextra1btn.Cursor = Cursors.Hand;
+            BalanceCurrentextra2btn.Cursor = Cursors.Hand;
+            BalanceCurrentextra3btn.Cursor = Cursors.Hand;
+            BalanceCurrentextra4btn.Cursor = Cursors.Hand;
+            BalCurrentExtra5kbtn.Cursor = Cursors.Hand;
+        }
+
+        private void BalanceCurrentextra5btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BalanceMenu balance = new BalanceMenu();
+            balance.ShowDialog();
+            balance.Closed += (s, args) => this.Close();
         }
     }
 }

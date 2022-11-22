@@ -9,6 +9,7 @@ namespace LloydsMinister
 {
     class DB
     {
+
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string FirstName { get; set; }

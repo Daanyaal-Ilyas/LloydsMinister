@@ -61,6 +61,7 @@
             this.BalSimpleExtra5btn.Size = new System.Drawing.Size(67, 85);
             this.BalSimpleExtra5btn.TabIndex = 10;
             this.BalSimpleExtra5btn.TabStop = false;
+            this.BalSimpleExtra5btn.Click += new System.EventHandler(this.BalSimpleExtra5btn_Click);
             // 
             // BalSimpleExtra1btn
             // 

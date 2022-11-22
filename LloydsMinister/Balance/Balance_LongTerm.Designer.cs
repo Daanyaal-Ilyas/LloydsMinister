@@ -61,6 +61,7 @@
             this.BalLongTermExtra5btn.Size = new System.Drawing.Size(67, 85);
             this.BalLongTermExtra5btn.TabIndex = 10;
             this.BalLongTermExtra5btn.TabStop = false;
+            this.BalLongTermExtra5btn.Click += new System.EventHandler(this.BalLongTermExtra5btn_Click);
             // 
             // BalLongTermExtra1btn
             // 

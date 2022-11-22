@@ -22,7 +22,7 @@ namespace LloydsMinister
         private void Balance_SimpleDeposit_Load(object sender, EventArgs e)
         {
             string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\LloydsMinister\LloydsMinister\customer.db3");
             con.Open();
             string query = ("SELECT BalanceSimple FROM customer WHERE Pin = 6565");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
@@ -31,6 +31,21 @@ namespace LloydsMinister
             adapt.Fill(bs);
             string data = bs.Rows[0]["BalanceSimple"].ToString();
             lbBalSimpleBal.Text = "£ " + data;
+
+            BalSimpleBackbtn.Cursor = Cursors.Hand;
+            BalSimpleExtra1btn.Cursor = Cursors.Hand;
+            BalSimpleExtra2btn.Cursor = Cursors.Hand;
+            BalSimpleExtra3btn.Cursor = Cursors.Hand;
+            BalSimpleExtra4btn.Cursor = Cursors.Hand;
+            BalSimpleExtra5btn.Cursor = Cursors.Hand;
+        }
+
+        private void BalSimpleExtra5btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BalanceMenu balance = new BalanceMenu();
+            balance.ShowDialog();
+            balance.Closed += (s, args) => this.Close();
         }
     }
 }
