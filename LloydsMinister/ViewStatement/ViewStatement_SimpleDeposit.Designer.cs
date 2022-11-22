@@ -35,6 +35,7 @@
             this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
             this.lbBack = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnStatBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
@@ -109,12 +110,23 @@
             this.lbBack.TabIndex = 26;
             this.lbBack.Text = "Back";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(281, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(211, 36);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Simple Deposit";
+            // 
             // ViewStatement_SimpleDeposit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbBack);
             this.Controls.Add(this.btnStatBack);
             this.Controls.Add(this.pictureTriangle5);
@@ -145,5 +157,6 @@
         private PictureBox pictureTriangle1;
         private PictureBox pictureTriangle3;
         private Label lbBack;
+        private Label label1;
     }
 }
