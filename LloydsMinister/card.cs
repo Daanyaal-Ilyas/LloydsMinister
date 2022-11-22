@@ -22,13 +22,13 @@ namespace LloydsMinister
         private void CardInsert_Load(object sender, EventArgs e)
         {
             pictureBox2.Cursor = Cursors.Hand;
-            if (System.IO.File.Exists("D:\\LloydsMinister\\LloydsMinister\\customer.db3"))
+            if (System.IO.File.Exists("C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\customer.db3"))
             {
                 // nothing happens because you got the db already
             }
             else
             {
-                var db = new SQLiteConnection("D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+                var db = new SQLiteConnection("C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\customer.db3");
 
                 db.CreateTable<DB>();
                 db.Close();

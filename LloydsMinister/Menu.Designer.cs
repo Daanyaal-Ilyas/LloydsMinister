@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnMenubalance = new System.Windows.Forms.PictureBox();
-            this.btnMenuWithdraw = new System.Windows.Forms.PictureBox();
-            this.btnMenuStatement = new System.Windows.Forms.PictureBox();
-            this.btnMenuDeposit = new System.Windows.Forms.PictureBox();
-            this.btnMenuTransfer = new System.Windows.Forms.PictureBox();
-            this.btnMenuExit = new System.Windows.Forms.PictureBox();
             this.lbMenuExit = new System.Windows.Forms.Label();
             this.lbMenuBalance = new System.Windows.Forms.Label();
             this.lbMenuDeposit = new System.Windows.Forms.Label();
@@ -41,80 +35,25 @@
             this.lbMenuStatement = new System.Windows.Forms.Label();
             this.lbMenuTransfer = new System.Windows.Forms.Label();
             this.menuLabel1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenubalance)).BeginInit();
+            this.btnMenuWithdraw = new System.Windows.Forms.PictureBox();
+            this.btnMenuStatement = new System.Windows.Forms.PictureBox();
+            this.btnMenuBalance = new System.Windows.Forms.PictureBox();
+            this.btnMenuExit = new System.Windows.Forms.PictureBox();
+            this.btnMenuTransfer = new System.Windows.Forms.PictureBox();
+            this.btnMenuDeposit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuWithdraw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuStatement)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuBalance)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnMenubalance
-            // 
-            this.btnMenubalance.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnMenubalance.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnMenubalance.Location = new System.Drawing.Point(0, 99);
-            this.btnMenubalance.Name = "btnMenubalance";
-            this.btnMenubalance.Size = new System.Drawing.Size(65, 84);
-            this.btnMenubalance.TabIndex = 7;
-            this.btnMenubalance.TabStop = false;
-            this.btnMenubalance.Click += new System.EventHandler(this.btnMenubalance_Click);
-            // 
-            // btnMenuWithdraw
-            // 
-            this.btnMenuWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnMenuWithdraw.Location = new System.Drawing.Point(0, 235);
-            this.btnMenuWithdraw.Name = "btnMenuWithdraw";
-            this.btnMenuWithdraw.Size = new System.Drawing.Size(65, 84);
-            this.btnMenuWithdraw.TabIndex = 8;
-            this.btnMenuWithdraw.TabStop = false;
-            this.btnMenuWithdraw.Click += new System.EventHandler(this.btnMenuWithdraw_Click);
-            // 
-            // btnMenuStatement
-            // 
-            this.btnMenuStatement.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnMenuStatement.Location = new System.Drawing.Point(0, 366);
-            this.btnMenuStatement.Name = "btnMenuStatement";
-            this.btnMenuStatement.Size = new System.Drawing.Size(65, 84);
-            this.btnMenuStatement.TabIndex = 9;
-            this.btnMenuStatement.TabStop = false;
-            this.btnMenuStatement.Click += new System.EventHandler(this.btnMenuStatement_Click);
-            // 
-            // btnMenuDeposit
-            // 
-            this.btnMenuDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuDeposit.Location = new System.Drawing.Point(735, 99);
-            this.btnMenuDeposit.Name = "btnMenuDeposit";
-            this.btnMenuDeposit.Size = new System.Drawing.Size(65, 84);
-            this.btnMenuDeposit.TabIndex = 10;
-            this.btnMenuDeposit.TabStop = false;
-            this.btnMenuDeposit.Click += new System.EventHandler(this.btnMenuDeposit_Click);
-            // 
-            // btnMenuTransfer
-            // 
-            this.btnMenuTransfer.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuTransfer.Location = new System.Drawing.Point(735, 235);
-            this.btnMenuTransfer.Name = "btnMenuTransfer";
-            this.btnMenuTransfer.Size = new System.Drawing.Size(65, 84);
-            this.btnMenuTransfer.TabIndex = 11;
-            this.btnMenuTransfer.TabStop = false;
-            this.btnMenuTransfer.Click += new System.EventHandler(this.btnMenuTransfer_Click);
-            // 
-            // btnMenuExit
-            // 
-            this.btnMenuExit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuExit.Location = new System.Drawing.Point(735, 366);
-            this.btnMenuExit.Name = "btnMenuExit";
-            this.btnMenuExit.Size = new System.Drawing.Size(65, 84);
-            this.btnMenuExit.TabIndex = 12;
-            this.btnMenuExit.TabStop = false;
-            this.btnMenuExit.Click += new System.EventHandler(this.btnMenuExit_Click);
             // 
             // lbMenuExit
             // 
             this.lbMenuExit.AutoSize = true;
             this.lbMenuExit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuExit.Location = new System.Drawing.Point(672, 393);
+            this.lbMenuExit.Location = new System.Drawing.Point(673, 392);
             this.lbMenuExit.Name = "lbMenuExit";
             this.lbMenuExit.Size = new System.Drawing.Size(56, 32);
             this.lbMenuExit.TabIndex = 13;
@@ -125,7 +64,7 @@
             // 
             this.lbMenuBalance.AutoSize = true;
             this.lbMenuBalance.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuBalance.Location = new System.Drawing.Point(71, 124);
+            this.lbMenuBalance.Location = new System.Drawing.Point(70, 124);
             this.lbMenuBalance.Name = "lbMenuBalance";
             this.lbMenuBalance.Size = new System.Drawing.Size(102, 32);
             this.lbMenuBalance.TabIndex = 14;
@@ -136,7 +75,7 @@
             // 
             this.lbMenuDeposit.AutoSize = true;
             this.lbMenuDeposit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuDeposit.Location = new System.Drawing.Point(628, 124);
+            this.lbMenuDeposit.Location = new System.Drawing.Point(627, 124);
             this.lbMenuDeposit.Name = "lbMenuDeposit";
             this.lbMenuDeposit.Size = new System.Drawing.Size(102, 32);
             this.lbMenuDeposit.TabIndex = 15;
@@ -147,7 +86,7 @@
             // 
             this.lbMenuWithdraw.AutoSize = true;
             this.lbMenuWithdraw.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuWithdraw.Location = new System.Drawing.Point(71, 261);
+            this.lbMenuWithdraw.Location = new System.Drawing.Point(70, 261);
             this.lbMenuWithdraw.Name = "lbMenuWithdraw";
             this.lbMenuWithdraw.Size = new System.Drawing.Size(125, 32);
             this.lbMenuWithdraw.TabIndex = 16;
@@ -158,7 +97,7 @@
             // 
             this.lbMenuStatement.AutoSize = true;
             this.lbMenuStatement.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuStatement.Location = new System.Drawing.Point(71, 393);
+            this.lbMenuStatement.Location = new System.Drawing.Point(70, 393);
             this.lbMenuStatement.Name = "lbMenuStatement";
             this.lbMenuStatement.Size = new System.Drawing.Size(129, 32);
             this.lbMenuStatement.TabIndex = 17;
@@ -169,7 +108,7 @@
             // 
             this.lbMenuTransfer.AutoSize = true;
             this.lbMenuTransfer.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuTransfer.Location = new System.Drawing.Point(621, 261);
+            this.lbMenuTransfer.Location = new System.Drawing.Point(622, 261);
             this.lbMenuTransfer.Name = "lbMenuTransfer";
             this.lbMenuTransfer.Size = new System.Drawing.Size(107, 32);
             this.lbMenuTransfer.TabIndex = 17;
@@ -185,6 +124,67 @@
             this.menuLabel1.Size = new System.Drawing.Size(97, 41);
             this.menuLabel1.TabIndex = 18;
             this.menuLabel1.Text = "Menu";
+            this.menuLabel1.Click += new System.EventHandler(this.menuLabel1_Click);
+            // 
+            // btnMenuWithdraw
+            // 
+            this.btnMenuWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnMenuWithdraw.Location = new System.Drawing.Point(0, 235);
+            this.btnMenuWithdraw.Name = "btnMenuWithdraw";
+            this.btnMenuWithdraw.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuWithdraw.TabIndex = 38;
+            this.btnMenuWithdraw.TabStop = false;
+            this.btnMenuWithdraw.Click += new System.EventHandler(this.btnMenuWithdraw_Click);
+            // 
+            // btnMenuStatement
+            // 
+            this.btnMenuStatement.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnMenuStatement.Location = new System.Drawing.Point(0, 367);
+            this.btnMenuStatement.Name = "btnMenuStatement";
+            this.btnMenuStatement.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuStatement.TabIndex = 37;
+            this.btnMenuStatement.TabStop = false;
+            this.btnMenuStatement.Click += new System.EventHandler(this.btnMenuStatement_Click);
+            // 
+            // btnMenuBalance
+            // 
+            this.btnMenuBalance.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnMenuBalance.Location = new System.Drawing.Point(0, 98);
+            this.btnMenuBalance.Name = "btnMenuBalance";
+            this.btnMenuBalance.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuBalance.TabIndex = 36;
+            this.btnMenuBalance.TabStop = false;
+            this.btnMenuBalance.Click += new System.EventHandler(this.btnMenuBalance_Click);
+            // 
+            // btnMenuExit
+            // 
+            this.btnMenuExit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnMenuExit.Location = new System.Drawing.Point(735, 365);
+            this.btnMenuExit.Name = "btnMenuExit";
+            this.btnMenuExit.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuExit.TabIndex = 41;
+            this.btnMenuExit.TabStop = false;
+            this.btnMenuExit.Click += new System.EventHandler(this.btnMenuExit_Click);
+            // 
+            // btnMenuTransfer
+            // 
+            this.btnMenuTransfer.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnMenuTransfer.Location = new System.Drawing.Point(735, 235);
+            this.btnMenuTransfer.Name = "btnMenuTransfer";
+            this.btnMenuTransfer.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuTransfer.TabIndex = 40;
+            this.btnMenuTransfer.TabStop = false;
+            this.btnMenuTransfer.Click += new System.EventHandler(this.btnMenuTransfer_Click);
+            // 
+            // btnMenuDeposit
+            // 
+            this.btnMenuDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnMenuDeposit.Location = new System.Drawing.Point(735, 98);
+            this.btnMenuDeposit.Name = "btnMenuDeposit";
+            this.btnMenuDeposit.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuDeposit.TabIndex = 39;
+            this.btnMenuDeposit.TabStop = false;
+            this.btnMenuDeposit.Click += new System.EventHandler(this.btnMenuDeposit_Click);
             // 
             // Menu
             // 
@@ -192,6 +192,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMenuExit);
+            this.Controls.Add(this.btnMenuTransfer);
+            this.Controls.Add(this.btnMenuDeposit);
+            this.Controls.Add(this.btnMenuWithdraw);
+            this.Controls.Add(this.btnMenuStatement);
+            this.Controls.Add(this.btnMenuBalance);
             this.Controls.Add(this.menuLabel1);
             this.Controls.Add(this.lbMenuTransfer);
             this.Controls.Add(this.lbMenuStatement);
@@ -199,34 +205,21 @@
             this.Controls.Add(this.lbMenuDeposit);
             this.Controls.Add(this.lbMenuBalance);
             this.Controls.Add(this.lbMenuExit);
-            this.Controls.Add(this.btnMenuExit);
-            this.Controls.Add(this.btnMenuTransfer);
-            this.Controls.Add(this.btnMenuDeposit);
-            this.Controls.Add(this.btnMenuStatement);
-            this.Controls.Add(this.btnMenuWithdraw);
-            this.Controls.Add(this.btnMenubalance);
             this.Name = "Menu";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenubalance)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuWithdraw)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuStatement)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuBalance)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private PictureBox btnMenubalance;
-        private PictureBox btnMenuWithdraw;
-        private PictureBox btnMenuStatement;
-        private PictureBox btnMenuDeposit;
-        private PictureBox btnMenuTransfer;
-        private PictureBox btnMenuExit;
         private Label lbMenuExit;
         private Label lbMenuBalance;
         private Label lbMenuDeposit;
@@ -234,5 +227,11 @@
         private Label lbMenuStatement;
         private Label lbMenuTransfer;
         private Label menuLabel1;
+        private PictureBox btnMenuWithdraw;
+        private PictureBox btnMenuStatement;
+        private PictureBox btnMenuBalance;
+        private PictureBox btnMenuExit;
+        private PictureBox btnMenuTransfer;
+        private PictureBox btnMenuDeposit;
     }
 }
