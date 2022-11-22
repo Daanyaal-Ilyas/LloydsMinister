@@ -32,6 +32,7 @@ namespace LloydsMinister
             string data = bl.Rows[0]["BalanceLong"].ToString();
             lbBalLongTermBalance.Text = "£ " + data;
 
+<<<<<<< HEAD
             //cursor
             btnBalanceBack.Cursor = Cursors.Hand;
         }
@@ -42,6 +43,23 @@ namespace LloydsMinister
             BalanceMenu menu = new BalanceMenu();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
+=======
+            BalLongTermBackbtn.Cursor = Cursors.Hand;
+            BalLongTermExtra1btn.Cursor = Cursors.Hand;
+            BalLongTermExtra2btn.Cursor = Cursors.Hand;
+            BalLongTermExtra3btn.Cursor = Cursors.Hand;
+            BalLongTermExtra4btn.Cursor = Cursors.Hand;
+            BalLongTermExtra5btn.Cursor = Cursors.Hand;
+
+        }
+
+        private void BalLongTermExtra5btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BalanceMenu balance = new BalanceMenu();
+            balance.ShowDialog();
+            balance.Closed += (s, args) => this.Close();
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
         }
     }
 }

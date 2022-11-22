@@ -29,20 +29,28 @@
         private void InitializeComponent()
         {
             this.BalanceCurrentextra3btn = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.btnBalanceBack = new System.Windows.Forms.PictureBox();
+=======
+            this.BalanceCurrentBackbtn = new System.Windows.Forms.PictureBox();
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             this.BalanceCurrentextra1btn = new System.Windows.Forms.PictureBox();
             this.BalanceCurrentextra2btn = new System.Windows.Forms.PictureBox();
             this.BalanceCurrentextra4btn = new System.Windows.Forms.PictureBox();
-            this.BalCurrentbackbtn = new System.Windows.Forms.PictureBox();
+            this.BalCurrentExtra5kbtn = new System.Windows.Forms.PictureBox();
             this.lbBalCurrentBack = new System.Windows.Forms.Label();
             this.lbBalcurrentBal = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra3btn)).BeginInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentBackbtn)).BeginInit();
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra1btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra4btn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BalCurrentbackbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalCurrentExtra5kbtn)).BeginInit();
             this.SuspendLayout();
             // 
             // BalanceCurrentextra3btn
@@ -54,6 +62,7 @@
             this.BalanceCurrentextra3btn.TabIndex = 9;
             this.BalanceCurrentextra3btn.TabStop = false;
             // 
+<<<<<<< HEAD
             // btnBalanceBack
             // 
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
@@ -63,6 +72,17 @@
             this.btnBalanceBack.TabIndex = 10;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
+=======
+            // BalanceCurrentBackbtn
+            // 
+            this.BalanceCurrentBackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.BalanceCurrentBackbtn.Location = new System.Drawing.Point(736, 365);
+            this.BalanceCurrentBackbtn.Name = "BalanceCurrentBackbtn";
+            this.BalanceCurrentBackbtn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceCurrentBackbtn.TabIndex = 10;
+            this.BalanceCurrentBackbtn.TabStop = false;
+            this.BalanceCurrentBackbtn.Click += new System.EventHandler(this.BalanceCurrentextra5btn_Click);
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             // 
             // BalanceCurrentextra1btn
             // 
@@ -91,14 +111,23 @@
             this.BalanceCurrentextra4btn.TabIndex = 6;
             this.BalanceCurrentextra4btn.TabStop = false;
             // 
-            // BalCurrentbackbtn
+            // BalCurrentExtra5kbtn
             // 
+<<<<<<< HEAD
             this.BalCurrentbackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalCurrentbackbtn.Location = new System.Drawing.Point(0, 116);
             this.BalCurrentbackbtn.Name = "BalCurrentbackbtn";
             this.BalCurrentbackbtn.Size = new System.Drawing.Size(64, 83);
             this.BalCurrentbackbtn.TabIndex = 5;
             this.BalCurrentbackbtn.TabStop = false;
+=======
+            this.BalCurrentExtra5kbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalCurrentExtra5kbtn.Location = new System.Drawing.Point(-2, 114);
+            this.BalCurrentExtra5kbtn.Name = "BalCurrentExtra5kbtn";
+            this.BalCurrentExtra5kbtn.Size = new System.Drawing.Size(64, 83);
+            this.BalCurrentExtra5kbtn.TabIndex = 5;
+            this.BalCurrentExtra5kbtn.TabStop = false;
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             // 
             // lbBalCurrentBack
             // 
@@ -140,20 +169,28 @@
             this.Controls.Add(this.lbBalcurrentBal);
             this.Controls.Add(this.lbBalCurrentBack);
             this.Controls.Add(this.BalanceCurrentextra3btn);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBalanceBack);
+=======
+            this.Controls.Add(this.BalanceCurrentBackbtn);
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             this.Controls.Add(this.BalanceCurrentextra1btn);
             this.Controls.Add(this.BalanceCurrentextra2btn);
             this.Controls.Add(this.BalanceCurrentextra4btn);
-            this.Controls.Add(this.BalCurrentbackbtn);
+            this.Controls.Add(this.BalCurrentExtra5kbtn);
             this.Name = "Balance_Current";
             this.Text = "Balance_Current";
             this.Load += new System.EventHandler(this.Balance_Current_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra3btn)).EndInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentBackbtn)).EndInit();
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra1btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra4btn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BalCurrentbackbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalCurrentExtra5kbtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,11 +199,15 @@
         #endregion
 
         private PictureBox BalanceCurrentextra3btn;
+<<<<<<< HEAD
         private PictureBox btnBalanceBack;
+=======
+        private PictureBox BalanceCurrentBackbtn;
+>>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
         private PictureBox BalanceCurrentextra1btn;
         private PictureBox BalanceCurrentextra2btn;
         private PictureBox BalanceCurrentextra4btn;
-        private PictureBox BalCurrentbackbtn;
+        private PictureBox BalCurrentExtra5kbtn;
         private Label lbBalCurrentBack;
         private Label lbBalcurrentBal;
         private Label label1;
