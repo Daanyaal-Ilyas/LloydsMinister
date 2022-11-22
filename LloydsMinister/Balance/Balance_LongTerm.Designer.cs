@@ -38,6 +38,8 @@
             this.lbBalLongTermBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbBalance = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra1btn)).BeginInit();
@@ -45,6 +47,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra4btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermBackbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // BalLongTermExtra3btn
@@ -105,8 +108,9 @@
             // lbBalLongTermBalance
             // 
             this.lbBalLongTermBalance.AutoSize = true;
+            this.lbBalLongTermBalance.BackColor = System.Drawing.Color.Cyan;
             this.lbBalLongTermBalance.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalLongTermBalance.Location = new System.Drawing.Point(315, 116);
+            this.lbBalLongTermBalance.Location = new System.Drawing.Point(376, 153);
             this.lbBalLongTermBalance.Name = "lbBalLongTermBalance";
             this.lbBalLongTermBalance.Size = new System.Drawing.Size(116, 37);
             this.lbBalLongTermBalance.TabIndex = 11;
@@ -142,12 +146,34 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
+            // lbBalance
+            // 
+            this.lbBalance.AutoSize = true;
+            this.lbBalance.BackColor = System.Drawing.Color.Cyan;
+            this.lbBalance.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lbBalance.Location = new System.Drawing.Point(250, 153);
+            this.lbBalance.Name = "lbBalance";
+            this.lbBalance.Size = new System.Drawing.Size(120, 36);
+            this.lbBalance.TabIndex = 48;
+            this.lbBalance.Text = "Balance:";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Cyan;
+            this.pictureBox2.Location = new System.Drawing.Point(232, 144);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(328, 254);
+            this.pictureBox2.TabIndex = 47;
+            this.pictureBox2.TabStop = false;
+            // 
             // Balance_LongTerm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbBalance);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbBalLongTermBack);
             this.Controls.Add(this.lbBalLongTermBalance);
@@ -158,6 +184,7 @@
             this.Controls.Add(this.BalLongTermExtra4btn);
             this.Controls.Add(this.BalLongTermBackbtn);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "Balance_LongTerm";
             this.Text = "Balance_LongTerm";
             this.Load += new System.EventHandler(this.Balance_LongTerm_Load);
@@ -168,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra4btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermBackbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,5 +213,7 @@
         private Label lbBalLongTermBack;
         private Label label1;
         private PictureBox pictureBox1;
+        private Label lbBalance;
+        private PictureBox pictureBox2;
     }
 }

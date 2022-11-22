@@ -38,6 +38,8 @@
             this.lbBalSimpleBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbBalance = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra1btn)).BeginInit();
@@ -45,6 +47,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra4btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleBackbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // BalSimpleExtra3btn
@@ -105,8 +108,9 @@
             // lbBalSimpleBal
             // 
             this.lbBalSimpleBal.AutoSize = true;
+            this.lbBalSimpleBal.BackColor = System.Drawing.Color.Cyan;
             this.lbBalSimpleBal.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalSimpleBal.Location = new System.Drawing.Point(287, 114);
+            this.lbBalSimpleBal.Location = new System.Drawing.Point(376, 153);
             this.lbBalSimpleBal.Name = "lbBalSimpleBal";
             this.lbBalSimpleBal.Size = new System.Drawing.Size(116, 37);
             this.lbBalSimpleBal.TabIndex = 14;
@@ -142,12 +146,34 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Cyan;
+            this.pictureBox2.Location = new System.Drawing.Point(232, 144);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(328, 254);
+            this.pictureBox2.TabIndex = 48;
+            this.pictureBox2.TabStop = false;
+            // 
+            // lbBalance
+            // 
+            this.lbBalance.AutoSize = true;
+            this.lbBalance.BackColor = System.Drawing.Color.Cyan;
+            this.lbBalance.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lbBalance.Location = new System.Drawing.Point(250, 153);
+            this.lbBalance.Name = "lbBalance";
+            this.lbBalance.Size = new System.Drawing.Size(120, 36);
+            this.lbBalance.TabIndex = 49;
+            this.lbBalance.Text = "Balance:";
+            // 
             // Balance_SimpleDeposit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbBalance);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbBalSimpleBack);
             this.Controls.Add(this.lbBalSimpleBal);
@@ -158,6 +184,7 @@
             this.Controls.Add(this.BalSimpleExtra4btn);
             this.Controls.Add(this.BalSimpleBackbtn);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "Balance_SimpleDeposit";
             this.Text = "Balance_SimpleDeposit";
             this.Load += new System.EventHandler(this.Balance_SimpleDeposit_Load);
@@ -168,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra4btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleBackbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +214,7 @@
         private Label lbBalSimpleBack;
         private Label label1;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Label lbBalance;
     }
 }
