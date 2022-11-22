@@ -28,78 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureTriangle6 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
             this.lbWithMenuBack = new System.Windows.Forms.Label();
             this.lbWithMenuLongTerm = new System.Windows.Forms.Label();
             this.lbWithMenuSimple = new System.Windows.Forms.Label();
             this.lbWithMenuCurrent = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
+            this.btnWithdrawLongTerm = new System.Windows.Forms.PictureBox();
+            this.BalanceExtrabtn = new System.Windows.Forms.PictureBox();
+            this.btnWithdrawCurrent = new System.Windows.Forms.PictureBox();
+            this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
+            this.BalanceExtra2btn = new System.Windows.Forms.PictureBox();
+            this.btnWithdrawSimple = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawLongTerm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawCurrent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawSimple)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureTriangle6
-            // 
-            this.pictureTriangle6.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle6.Location = new System.Drawing.Point(735, 366);
-            this.pictureTriangle6.Name = "pictureTriangle6";
-            this.pictureTriangle6.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle6.TabIndex = 18;
-            this.pictureTriangle6.TabStop = false;
-            // 
-            // pictureTriangle5
-            // 
-            this.pictureTriangle5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.Location = new System.Drawing.Point(735, 235);
-            this.pictureTriangle5.Name = "pictureTriangle5";
-            this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle5.TabIndex = 17;
-            this.pictureTriangle5.TabStop = false;
-            // 
-            // pictureTriangle4
-            // 
-            this.pictureTriangle4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle4.Location = new System.Drawing.Point(735, 99);
-            this.pictureTriangle4.Name = "pictureTriangle4";
-            this.pictureTriangle4.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle4.TabIndex = 16;
-            this.pictureTriangle4.TabStop = false;
-            // 
-            // pictureTriangle2
-            // 
-            this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.Location = new System.Drawing.Point(-1, 366);
-            this.pictureTriangle2.Name = "pictureTriangle2";
-            this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle2.TabIndex = 15;
-            this.pictureTriangle2.TabStop = false;
-            // 
-            // pictureTriangle1
-            // 
-            this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.Location = new System.Drawing.Point(-1, 235);
-            this.pictureTriangle1.Name = "pictureTriangle1";
-            this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle1.TabIndex = 14;
-            this.pictureTriangle1.TabStop = false;
-            // 
-            // pictureTriangle3
-            // 
-            this.pictureTriangle3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle3.Location = new System.Drawing.Point(-1, 99);
-            this.pictureTriangle3.Name = "pictureTriangle3";
-            this.pictureTriangle3.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle3.TabIndex = 13;
-            this.pictureTriangle3.TabStop = false;
             // 
             // lbWithMenuBack
             // 
@@ -116,7 +62,7 @@
             // 
             this.lbWithMenuLongTerm.AutoSize = true;
             this.lbWithMenuLongTerm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuLongTerm.Location = new System.Drawing.Point(70, 261);
+            this.lbWithMenuLongTerm.Location = new System.Drawing.Point(70, 264);
             this.lbWithMenuLongTerm.Name = "lbWithMenuLongTerm";
             this.lbWithMenuLongTerm.Size = new System.Drawing.Size(135, 32);
             this.lbWithMenuLongTerm.TabIndex = 39;
@@ -127,7 +73,7 @@
             // 
             this.lbWithMenuSimple.AutoSize = true;
             this.lbWithMenuSimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuSimple.Location = new System.Drawing.Point(543, 125);
+            this.lbWithMenuSimple.Location = new System.Drawing.Point(543, 142);
             this.lbWithMenuSimple.Name = "lbWithMenuSimple";
             this.lbWithMenuSimple.Size = new System.Drawing.Size(186, 32);
             this.lbWithMenuSimple.TabIndex = 38;
@@ -138,12 +84,80 @@
             // 
             this.lbWithMenuCurrent.AutoSize = true;
             this.lbWithMenuCurrent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuCurrent.Location = new System.Drawing.Point(70, 125);
+            this.lbWithMenuCurrent.Location = new System.Drawing.Point(70, 142);
             this.lbWithMenuCurrent.Name = "lbWithMenuCurrent";
             this.lbWithMenuCurrent.Size = new System.Drawing.Size(101, 32);
             this.lbWithMenuCurrent.TabIndex = 37;
             this.lbWithMenuCurrent.Text = "Current";
             this.lbWithMenuCurrent.Click += new System.EventHandler(this.lbWithMenuCurrent_Click);
+            // 
+            // btnWithdrawLongTerm
+            // 
+            this.btnWithdrawLongTerm.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnWithdrawLongTerm.Location = new System.Drawing.Point(0, 239);
+            this.btnWithdrawLongTerm.Name = "btnWithdrawLongTerm";
+            this.btnWithdrawLongTerm.Size = new System.Drawing.Size(64, 83);
+            this.btnWithdrawLongTerm.TabIndex = 43;
+            this.btnWithdrawLongTerm.TabStop = false;
+            this.btnWithdrawLongTerm.Click += new System.EventHandler(this.btnWithdrawLongTerm_Click);
+            // 
+            // BalanceExtrabtn
+            // 
+            this.BalanceExtrabtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalanceExtrabtn.Location = new System.Drawing.Point(0, 367);
+            this.BalanceExtrabtn.Name = "BalanceExtrabtn";
+            this.BalanceExtrabtn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceExtrabtn.TabIndex = 42;
+            this.BalanceExtrabtn.TabStop = false;
+            // 
+            // btnWithdrawCurrent
+            // 
+            this.btnWithdrawCurrent.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnWithdrawCurrent.Location = new System.Drawing.Point(0, 116);
+            this.btnWithdrawCurrent.Name = "btnWithdrawCurrent";
+            this.btnWithdrawCurrent.Size = new System.Drawing.Size(64, 83);
+            this.btnWithdrawCurrent.TabIndex = 41;
+            this.btnWithdrawCurrent.TabStop = false;
+            this.btnWithdrawCurrent.Click += new System.EventHandler(this.btnWithdrawCurrent_Click);
+            // 
+            // btnWithdrawBack
+            // 
+            this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnWithdrawBack.Location = new System.Drawing.Point(735, 365);
+            this.btnWithdrawBack.Name = "btnWithdrawBack";
+            this.btnWithdrawBack.Size = new System.Drawing.Size(67, 85);
+            this.btnWithdrawBack.TabIndex = 46;
+            this.btnWithdrawBack.TabStop = false;
+            this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
+            // 
+            // BalanceExtra2btn
+            // 
+            this.BalanceExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.BalanceExtra2btn.Location = new System.Drawing.Point(735, 239);
+            this.BalanceExtra2btn.Name = "BalanceExtra2btn";
+            this.BalanceExtra2btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceExtra2btn.TabIndex = 45;
+            this.BalanceExtra2btn.TabStop = false;
+            // 
+            // btnWithdrawSimple
+            // 
+            this.btnWithdrawSimple.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnWithdrawSimple.Location = new System.Drawing.Point(735, 116);
+            this.btnWithdrawSimple.Name = "btnWithdrawSimple";
+            this.btnWithdrawSimple.Size = new System.Drawing.Size(67, 85);
+            this.btnWithdrawSimple.TabIndex = 44;
+            this.btnWithdrawSimple.TabStop = false;
+            this.btnWithdrawSimple.Click += new System.EventHandler(this.btnWithdrawSimple_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(265, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(249, 41);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "Withdraw Menu";
             // 
             // WithdrawMenu
             // 
@@ -151,41 +165,42 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnWithdrawBack);
+            this.Controls.Add(this.BalanceExtra2btn);
+            this.Controls.Add(this.btnWithdrawSimple);
+            this.Controls.Add(this.btnWithdrawLongTerm);
+            this.Controls.Add(this.BalanceExtrabtn);
+            this.Controls.Add(this.btnWithdrawCurrent);
             this.Controls.Add(this.lbWithMenuBack);
             this.Controls.Add(this.lbWithMenuLongTerm);
             this.Controls.Add(this.lbWithMenuSimple);
             this.Controls.Add(this.lbWithMenuCurrent);
-            this.Controls.Add(this.pictureTriangle6);
-            this.Controls.Add(this.pictureTriangle5);
-            this.Controls.Add(this.pictureTriangle4);
-            this.Controls.Add(this.pictureTriangle2);
-            this.Controls.Add(this.pictureTriangle1);
-            this.Controls.Add(this.pictureTriangle3);
             this.Name = "WithdrawMenu";
             this.Text = "WithdrawMenu";
             this.Load += new System.EventHandler(this.WithdrawMenu_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawLongTerm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawCurrent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawSimple)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private PictureBox pictureTriangle6;
-        private PictureBox pictureTriangle5;
-        private PictureBox pictureTriangle4;
-        private PictureBox pictureTriangle2;
-        private PictureBox pictureTriangle1;
-        private PictureBox pictureTriangle3;
         private Label lbWithMenuBack;
         private Label lbWithMenuLongTerm;
         private Label lbWithMenuSimple;
         private Label lbWithMenuCurrent;
+        private PictureBox btnWithdrawLongTerm;
+        private PictureBox BalanceExtrabtn;
+        private PictureBox btnWithdrawCurrent;
+        private PictureBox btnWithdrawBack;
+        private PictureBox BalanceExtra2btn;
+        private PictureBox btnWithdrawSimple;
+        private Label label1;
     }
 }
