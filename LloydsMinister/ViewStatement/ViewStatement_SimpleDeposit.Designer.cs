@@ -36,12 +36,14 @@
             this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
             this.lbBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnStatBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStatBack
@@ -113,12 +115,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(281, 43);
+            this.label1.Location = new System.Drawing.Point(284, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(211, 36);
             this.label1.TabIndex = 27;
             this.label1.Text = "Simple Deposit";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 43;
+            this.pictureBox1.TabStop = false;
             // 
             // ViewStatement_SimpleDeposit
             // 
@@ -134,6 +146,7 @@
             this.Controls.Add(this.pictureTriangle2);
             this.Controls.Add(this.pictureTriangle1);
             this.Controls.Add(this.pictureTriangle3);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "ViewStatement_SimpleDeposit";
             this.Text = "ViewStatement_SimpleDeposit";
             this.Load += new System.EventHandler(this.ViewStatement_SimpleDeposit_Load);
@@ -143,6 +156,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,5 +172,6 @@
         private PictureBox pictureTriangle3;
         private Label lbBack;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

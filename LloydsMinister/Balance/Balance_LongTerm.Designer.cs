@@ -37,12 +37,14 @@
             this.lbBalLongTermBalance = new System.Windows.Forms.Label();
             this.lbBalLongTermBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra1btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra4btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermBackbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BalLongTermExtra3btn
@@ -104,7 +106,7 @@
             // 
             this.lbBalLongTermBalance.AutoSize = true;
             this.lbBalLongTermBalance.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalLongTermBalance.Location = new System.Drawing.Point(326, 116);
+            this.lbBalLongTermBalance.Location = new System.Drawing.Point(315, 116);
             this.lbBalLongTermBalance.Name = "lbBalLongTermBalance";
             this.lbBalLongTermBalance.Size = new System.Drawing.Size(116, 37);
             this.lbBalLongTermBalance.TabIndex = 11;
@@ -123,12 +125,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(312, 50);
+            this.label1.Location = new System.Drawing.Point(315, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 36);
             this.label1.TabIndex = 13;
             this.label1.Text = "Long Term";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // Balance_LongTerm
             // 
@@ -145,6 +157,7 @@
             this.Controls.Add(this.BalLongTermExtra2btn);
             this.Controls.Add(this.BalLongTermExtra4btn);
             this.Controls.Add(this.BalLongTermBackbtn);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Balance_LongTerm";
             this.Text = "Balance_LongTerm";
             this.Load += new System.EventHandler(this.Balance_LongTerm_Load);
@@ -154,6 +167,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermExtra4btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalLongTermBackbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,5 +184,6 @@
         private Label lbBalLongTermBalance;
         private Label lbBalLongTermBack;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

@@ -37,12 +37,14 @@
             this.lbBalSimpleBal = new System.Windows.Forms.Label();
             this.lbBalSimpleBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra1btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra4btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleBackbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BalSimpleExtra3btn
@@ -104,7 +106,7 @@
             // 
             this.lbBalSimpleBal.AutoSize = true;
             this.lbBalSimpleBal.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalSimpleBal.Location = new System.Drawing.Point(326, 128);
+            this.lbBalSimpleBal.Location = new System.Drawing.Point(287, 114);
             this.lbBalSimpleBal.Name = "lbBalSimpleBal";
             this.lbBalSimpleBal.Size = new System.Drawing.Size(116, 37);
             this.lbBalSimpleBal.TabIndex = 14;
@@ -123,12 +125,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(287, 44);
+            this.label1.Location = new System.Drawing.Point(287, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(211, 36);
             this.label1.TabIndex = 18;
             this.label1.Text = "Simple Deposit";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // Balance_SimpleDeposit
             // 
@@ -145,6 +157,7 @@
             this.Controls.Add(this.BalSimpleExtra2btn);
             this.Controls.Add(this.BalSimpleExtra4btn);
             this.Controls.Add(this.BalSimpleBackbtn);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Balance_SimpleDeposit";
             this.Text = "Balance_SimpleDeposit";
             this.Load += new System.EventHandler(this.Balance_SimpleDeposit_Load);
@@ -154,6 +167,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleExtra4btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalSimpleBackbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,5 +185,6 @@
         private Label lbBalSimpleBalance;
         private Label lbBalSimpleBack;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

@@ -39,12 +39,14 @@
             this.lbBalMenuLongTerm = new System.Windows.Forms.Label();
             this.lbBalMenuBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceCurrentbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceLongTermbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceSimplebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceBackbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBalanceCurrentbtn
@@ -152,12 +154,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(282, 39);
+            this.label1.Location = new System.Drawing.Point(282, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 41);
             this.label1.TabIndex = 9;
             this.label1.Text = "Balance Menu";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // BalanceMenu
             // 
@@ -176,6 +188,7 @@
             this.Controls.Add(this.BalanceLongTermbtn);
             this.Controls.Add(this.BalanceExtrabtn);
             this.Controls.Add(this.btnBalanceCurrentbtn);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "BalanceMenu";
             this.Text = "BalanceMenu";
             this.Load += new System.EventHandler(this.BalanceMenu_Load);
@@ -185,6 +198,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalanceSimplebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceBackbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,5 +217,6 @@
         private Label lbBalMenuLongTerm;
         private Label lbBalMenuBack;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

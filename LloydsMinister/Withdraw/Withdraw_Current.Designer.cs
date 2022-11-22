@@ -41,12 +41,14 @@
             this.lbWith_Current20 = new System.Windows.Forms.Label();
             this.lbWith_Current10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnWithdrawBack
@@ -168,12 +170,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(318, 33);
+            this.label1.Location = new System.Drawing.Point(319, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 41);
             this.label1.TabIndex = 43;
             this.label1.Text = "Current";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // Withdraw_Current
             // 
@@ -194,6 +206,7 @@
             this.Controls.Add(this.pictureTriangle2);
             this.Controls.Add(this.pictureTriangle1);
             this.Controls.Add(this.pictureTriangle3);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Withdraw_Current";
             this.Text = "Withdraw_Current";
             this.Load += new System.EventHandler(this.Withdraw_Current_Load);
@@ -203,6 +216,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,5 +237,6 @@
         private Label lbWith_Current20;
         private Label lbWith_Current10;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

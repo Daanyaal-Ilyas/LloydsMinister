@@ -39,12 +39,14 @@
             this.BalanceExtra2btn = new System.Windows.Forms.PictureBox();
             this.btnViewStatSimple = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatLongTerm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatCurrent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatSimple)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbStatMenuBack
@@ -152,12 +154,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(226, 31);
+            this.label1.Location = new System.Drawing.Point(235, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(326, 41);
             this.label1.TabIndex = 43;
             this.label1.Text = "View Statement Menu";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // ViewStatementMenu
             // 
@@ -176,6 +188,7 @@
             this.Controls.Add(this.lbStatMenuLongTerm);
             this.Controls.Add(this.lbStatMenuSimple);
             this.Controls.Add(this.lbStatMenuCurrent);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "ViewStatementMenu";
             this.Text = "ViewStatementMenu";
             this.Load += new System.EventHandler(this.ViewStatementMenu_Load);
@@ -185,6 +198,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnViewStatSimple)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,5 +216,6 @@
         private PictureBox BalanceExtra2btn;
         private PictureBox btnViewStatSimple;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

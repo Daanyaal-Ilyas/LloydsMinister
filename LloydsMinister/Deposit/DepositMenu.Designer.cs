@@ -39,12 +39,14 @@
             this.btnDepositSimple = new System.Windows.Forms.PictureBox();
             this.btnDepositBack = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositLongTerm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositCurrent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositSimple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbDepMenuBack
@@ -152,12 +154,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(274, 39);
+            this.label1.Location = new System.Drawing.Point(276, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(211, 41);
             this.label1.TabIndex = 35;
             this.label1.Text = "Deposit Menu";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // DepositMenu
             // 
@@ -176,6 +188,7 @@
             this.Controls.Add(this.lbDepMenuLongTerm);
             this.Controls.Add(this.lbDepMenuSimple);
             this.Controls.Add(this.lbDepMenuCurrent);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "DepositMenu";
             this.Text = "DepositMenu";
             this.Load += new System.EventHandler(this.DepositMenu_Load);
@@ -185,6 +198,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositSimple)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,5 +216,6 @@
         private PictureBox btnDepositSimple;
         private PictureBox btnDepositBack;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

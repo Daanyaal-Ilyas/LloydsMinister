@@ -37,12 +37,14 @@
             this.lbBalCurrentBack = new System.Windows.Forms.Label();
             this.lbBalcurrentBal = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra3btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra1btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra4btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalCurrentExtra5kbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BalanceCurrentextra3btn
@@ -114,7 +116,7 @@
             // 
             this.lbBalcurrentBal.AutoSize = true;
             this.lbBalcurrentBal.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalcurrentBal.Location = new System.Drawing.Point(303, 116);
+            this.lbBalcurrentBal.Location = new System.Drawing.Point(323, 114);
             this.lbBalcurrentBal.Name = "lbBalcurrentBal";
             this.lbBalcurrentBal.Size = new System.Drawing.Size(116, 37);
             this.lbBalcurrentBal.TabIndex = 15;
@@ -123,12 +125,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(303, 43);
+            this.label1.Location = new System.Drawing.Point(323, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 36);
             this.label1.TabIndex = 19;
             this.label1.Text = "Current";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // Balance_Current
             // 
@@ -145,6 +157,7 @@
             this.Controls.Add(this.BalanceCurrentextra2btn);
             this.Controls.Add(this.BalanceCurrentextra4btn);
             this.Controls.Add(this.BalCurrentExtra5kbtn);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Balance_Current";
             this.Text = "Balance_Current";
             this.Load += new System.EventHandler(this.Balance_Current_Load);
@@ -154,6 +167,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceCurrentextra4btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalCurrentExtra5kbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,5 +188,6 @@
         private Label lbBalCurrentBack;
         private Label lbBalcurrentBal;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }
