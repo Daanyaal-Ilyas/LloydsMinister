@@ -168,8 +168,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(316, 36);
+            this.label1.Location = new System.Drawing.Point(317, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 41);
             this.label1.TabIndex = 37;

@@ -124,11 +124,11 @@
   <data name="Triangle point to right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Triangle point to right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Triangle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triangle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="arrow up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="big-triangle-outline-shape-triangle-transparent-background-11562886916khsfyzf69z" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\big-triangle-outline-shape-triangle-transparent-background-11562886916khsfyzf69z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,10 +136,13 @@
   <data name="Triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Triangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Triangle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Triangle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="box2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\box2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big-triangle-outline-shape-triangle-transparent-background-11562886916khsfyzf69z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big-triangle-outline-shape-triangle-transparent-background-11562886916khsfyzf69z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

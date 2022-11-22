@@ -52,7 +52,7 @@
             // btnWithdrawBack
             // 
             this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawBack.Location = new System.Drawing.Point(736, 367);
+            this.btnWithdrawBack.Location = new System.Drawing.Point(735, 366);
             this.btnWithdrawBack.Name = "btnWithdrawBack";
             this.btnWithdrawBack.Size = new System.Drawing.Size(65, 84);
             this.btnWithdrawBack.TabIndex = 24;
@@ -62,7 +62,7 @@
             // btnWith5
             // 
             this.btnWith5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWith5.Location = new System.Drawing.Point(736, 236);
+            this.btnWith5.Location = new System.Drawing.Point(735, 235);
             this.btnWith5.Name = "btnWith5";
             this.btnWith5.Size = new System.Drawing.Size(65, 84);
             this.btnWith5.TabIndex = 23;
@@ -71,7 +71,7 @@
             // btnWith4
             // 
             this.btnWith4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWith4.Location = new System.Drawing.Point(736, 100);
+            this.btnWith4.Location = new System.Drawing.Point(735, 99);
             this.btnWith4.Name = "btnWith4";
             this.btnWith4.Size = new System.Drawing.Size(65, 84);
             this.btnWith4.TabIndex = 22;
@@ -119,7 +119,7 @@
             // 
             this.lbWith_Simple20.AutoSize = true;
             this.lbWith_Simple20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple20.Location = new System.Drawing.Point(665, 124);
+            this.lbWith_Simple20.Location = new System.Drawing.Point(664, 123);
             this.lbWith_Simple20.Name = "lbWith_Simple20";
             this.lbWith_Simple20.Size = new System.Drawing.Size(65, 37);
             this.lbWith_Simple20.TabIndex = 26;
@@ -139,7 +139,7 @@
             // 
             this.lbWith_Simple100.AutoSize = true;
             this.lbWith_Simple100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple100.Location = new System.Drawing.Point(649, 260);
+            this.lbWith_Simple100.Location = new System.Drawing.Point(648, 259);
             this.lbWith_Simple100.Name = "lbWith_Simple100";
             this.lbWith_Simple100.Size = new System.Drawing.Size(81, 37);
             this.lbWith_Simple100.TabIndex = 28;
@@ -159,7 +159,7 @@
             // 
             this.lbWith_SimpleBack.AutoSize = true;
             this.lbWith_SimpleBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_SimpleBack.Location = new System.Drawing.Point(653, 391);
+            this.lbWith_SimpleBack.Location = new System.Drawing.Point(652, 390);
             this.lbWith_SimpleBack.Name = "lbWith_SimpleBack";
             this.lbWith_SimpleBack.Size = new System.Drawing.Size(77, 37);
             this.lbWith_SimpleBack.TabIndex = 30;
@@ -169,7 +169,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(297, 32);
+            this.label1.Location = new System.Drawing.Point(273, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(228, 41);
             this.label1.TabIndex = 44;
