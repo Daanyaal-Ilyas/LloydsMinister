@@ -31,6 +31,17 @@ namespace LloydsMinister
             adapt.Fill(bs);
             string data = bs.Rows[0]["BalanceSimple"].ToString();
             lbBalSimpleBal.Text = "£ " + data;
+
+            //cursor 
+            btnBalanceBack.Cursor= Cursors.Hand;
+        }
+
+        private void btnBalanceBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BalanceMenu menu = new BalanceMenu();
+            menu.ShowDialog();
+            menu.Closed += (s, args) => this.Close();
         }
     }
 }

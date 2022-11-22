@@ -16,5 +16,18 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
+
+        private void ViewStatement_SimpleDeposit_Load(object sender, EventArgs e)
+        {
+            btnStatBack.Cursor = Cursors.Hand;
+        }
+
+        private void btnStatBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewStatementMenu menu = new ViewStatementMenu();
+            menu.ShowDialog();
+            menu.Closed += (s, args) => this.Close();
+        }
     }
 }

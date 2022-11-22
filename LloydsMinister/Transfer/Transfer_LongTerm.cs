@@ -16,5 +16,18 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
+
+        private void Transfer_LongTerm_Load(object sender, EventArgs e)
+        {
+            btnTransferBack.Cursor = Cursors.Hand;
+        }
+
+        private void btnTransferBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TransferMenu menu = new TransferMenu();
+            menu.ShowDialog();
+            menu.Closed += (s, args) => this.Close();
+        }
     }
 }

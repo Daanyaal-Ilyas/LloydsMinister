@@ -15,6 +15,7 @@ namespace LloydsMinister
         public Menu()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.Fixed3D;
         }
 
         private void Menu_Load(object sender, EventArgs e)

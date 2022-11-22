@@ -155,9 +155,9 @@
             this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(282, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 41);
+            this.label1.Size = new System.Drawing.Size(219, 41);
             this.label1.TabIndex = 9;
-            this.label1.Text = "BalanceMenu";
+            this.label1.Text = "Balance Menu";
             // 
             // BalanceMenu
             // 
