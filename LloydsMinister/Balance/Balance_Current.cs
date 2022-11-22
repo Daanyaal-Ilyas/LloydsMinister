@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using static LloydsMinister.Pin;
-
 namespace LloydsMinister
 {
     public partial class Balance_Current : Form
@@ -23,7 +22,7 @@ namespace LloydsMinister
             string input = pininput.Data;
             SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = 6565" );
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = 6565");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
