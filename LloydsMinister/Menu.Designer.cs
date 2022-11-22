@@ -41,12 +41,14 @@
             this.btnMenuExit = new System.Windows.Forms.PictureBox();
             this.btnMenuTransfer = new System.Windows.Forms.PictureBox();
             this.btnMenuDeposit = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuWithdraw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuStatement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuBalance)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbMenuExit
@@ -186,6 +188,14 @@
             this.btnMenuDeposit.TabStop = false;
             this.btnMenuDeposit.Click += new System.EventHandler(this.btnMenuDeposit_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 42;
+            this.pictureBox1.TabStop = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -205,6 +215,7 @@
             this.Controls.Add(this.lbMenuDeposit);
             this.Controls.Add(this.lbMenuBalance);
             this.Controls.Add(this.lbMenuExit);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Menu";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
@@ -214,6 +225,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,5 +245,6 @@
         private PictureBox btnMenuExit;
         private PictureBox btnMenuTransfer;
         private PictureBox btnMenuDeposit;
+        private PictureBox pictureBox1;
     }
 }

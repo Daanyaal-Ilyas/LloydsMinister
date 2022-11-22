@@ -56,7 +56,7 @@
             // 
             // btnBalanceBack
             // 
-<<<<<<< HEAD
+
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnBalanceBack.Location = new System.Drawing.Point(735, 365);
             this.btnBalanceBack.Name = "btnBalanceBack";
@@ -64,15 +64,8 @@
             this.btnBalanceBack.TabIndex = 10;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
-=======
-            this.BalSimpleExtra5btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalSimpleExtra5btn.Location = new System.Drawing.Point(734, 365);
-            this.BalSimpleExtra5btn.Name = "BalSimpleExtra5btn";
-            this.BalSimpleExtra5btn.Size = new System.Drawing.Size(67, 85);
-            this.BalSimpleExtra5btn.TabIndex = 10;
-            this.BalSimpleExtra5btn.TabStop = false;
-            this.BalSimpleExtra5btn.Click += new System.EventHandler(this.BalSimpleExtra5btn_Click);
->>>>>>> aad93185930da9c8e245b29e9b49d1c2d88acd79
+
+
             // 
             // BalSimpleExtra1btn
             // 
