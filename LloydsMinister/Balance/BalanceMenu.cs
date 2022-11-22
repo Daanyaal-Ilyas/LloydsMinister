@@ -17,15 +17,7 @@ namespace LloydsMinister
             InitializeComponent();
         }
 
-        private void BalanceMenu_Load(object sender, EventArgs e)
-        {
-            btnBalanceCurrentbtn.Cursor  = Cursors.Hand;
-            BalanceLongTermbtn.Cursor    = Cursors.Hand;
-            BalanceSimplebtn.Cursor      = Cursors.Hand;
-            BalanceBackbtn.Cursor        = Cursors.Hand;
-        }
-
-        private void btnBalanceCurrentbtn_Click(object sender, EventArgs e)
+        private void lbBalMenuCurrent_Click(object sender, EventArgs e)
         {
             this.Hide();
             Balance_Current current = new Balance_Current();
@@ -33,7 +25,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void BalanceLongTermbtn_Click(object sender, EventArgs e)
+        private void lbBalMenuLongTerm_Click(object sender, EventArgs e)
         {
             this.Hide();
             Balance_LongTerm longTerm = new Balance_LongTerm();
@@ -41,7 +33,7 @@ namespace LloydsMinister
             longTerm.Closed += (s, args) => this.Close();
         }
 
-        private void BalanceSimplebtn_Click(object sender, EventArgs e)
+        private void lbBalMenuSimple_Click(object sender, EventArgs e)
         {
             this.Hide();
             Balance_SimpleDeposit simpleDeposit = new Balance_SimpleDeposit();
@@ -49,33 +41,20 @@ namespace LloydsMinister
             simpleDeposit.Closed += (s, args) => this.Close();
         }
 
-        private void BalanceBackbtn_Click(object sender, EventArgs e)
+        private void lbBalMenuBack_Click(object sender, EventArgs e)
         {
             this.Hide();
             Menu menu = new Menu();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }
-        //useless code
-        private void lbBalMenuCurrent_Click(object sender, EventArgs e)
+
+        private void BalanceMenu_Load(object sender, EventArgs e)
         {
-
+            lbBalMenuCurrent.Cursor     = Cursors.Hand;
+            lbBalMenuLongTerm.Cursor    = Cursors.Hand;
+            lbBalMenuSimple.Cursor      = Cursors.Hand;
+            lbBalMenuBack.Cursor        = Cursors.Hand;
         }
-
-        private void lbBalMenuLongTerm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbBalMenuSimple_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbBalMenuBack_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

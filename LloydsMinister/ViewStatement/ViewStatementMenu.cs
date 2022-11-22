@@ -17,15 +17,7 @@ namespace LloydsMinister
             InitializeComponent();
         }
 
-        private void ViewStatementMenu_Load(object sender, EventArgs e)
-        {
-            btnViewStatCurrent.Cursor  = Cursors.Hand;
-            btnViewStatLongTerm.Cursor = Cursors.Hand;
-            btnViewStatSimple.Cursor   = Cursors.Hand;
-            btnViewStatBack.Cursor     = Cursors.Hand;
-        }
-
-        private void btnViewStatCurrent_Click(object sender, EventArgs e)
+        private void lbStatMenuCurrent_Click(object sender, EventArgs e)
         {
             this.Hide();
             ViewStatement_Current current = new ViewStatement_Current();
@@ -33,7 +25,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnViewStatLongTerm_Click(object sender, EventArgs e)
+        private void lbStatMenuLongTerm_Click(object sender, EventArgs e)
         {
             this.Hide();
             ViewStatement_LongTerm longTerm = new ViewStatement_LongTerm();
@@ -41,7 +33,7 @@ namespace LloydsMinister
             longTerm.Closed += (s, args) => this.Close();
         }
 
-        private void btnViewStatSimple_Click(object sender, EventArgs e)
+        private void lbStatMenuSimple_Click(object sender, EventArgs e)
         {
             this.Hide();
             ViewStatement_SimpleDeposit simpleDeposit = new ViewStatement_SimpleDeposit();
@@ -49,7 +41,7 @@ namespace LloydsMinister
             simpleDeposit.Closed += (s, args) => this.Close();
         }
 
-        private void btnViewStatBack_Click(object sender, EventArgs e)
+        private void lbStatMenuBack_Click(object sender, EventArgs e)
         {
             this.Hide();
             Menu menu = new Menu();
@@ -57,25 +49,12 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        //useless code
-        private void lbStatMenuCurrent_Click(object sender, EventArgs e)
+        private void ViewStatementMenu_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void lbStatMenuLongTerm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbStatMenuSimple_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbStatMenuBack_Click(object sender, EventArgs e)
-        {
-
+            lbStatMenuCurrent.Cursor  = Cursors.Hand;
+            lbStatMenuLongTerm.Cursor = Cursors.Hand;
+            lbStatMenuSimple.Cursor   = Cursors.Hand;
+            lbStatMenuBack.Cursor     = Cursors.Hand;
         }
     }
 }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
+            this.btnWith6 = new System.Windows.Forms.PictureBox();
             this.btnWith5 = new System.Windows.Forms.PictureBox();
             this.btnWith4 = new System.Windows.Forms.PictureBox();
             this.btnWith2 = new System.Windows.Forms.PictureBox();
@@ -40,8 +40,7 @@
             this.lbWith_Simple100 = new System.Windows.Forms.Label();
             this.lbWith_Simple150 = new System.Windows.Forms.Label();
             this.lbWith_SimpleBack = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWith6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith2)).BeginInit();
@@ -49,15 +48,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnWith3)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnWithdrawBack
+            // btnWith6
             // 
-            this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawBack.Location = new System.Drawing.Point(736, 367);
-            this.btnWithdrawBack.Name = "btnWithdrawBack";
-            this.btnWithdrawBack.Size = new System.Drawing.Size(65, 84);
-            this.btnWithdrawBack.TabIndex = 24;
-            this.btnWithdrawBack.TabStop = false;
-            this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
+            this.btnWith6.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnWith6.Location = new System.Drawing.Point(736, 367);
+            this.btnWith6.Name = "btnWith6";
+            this.btnWith6.Size = new System.Drawing.Size(65, 84);
+            this.btnWith6.TabIndex = 24;
+            this.btnWith6.TabStop = false;
             // 
             // btnWith5
             // 
@@ -165,30 +163,19 @@
             this.lbWith_SimpleBack.TabIndex = 30;
             this.lbWith_SimpleBack.Text = "Back";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(297, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 41);
-            this.label1.TabIndex = 44;
-            this.label1.Text = "Simple Deposit";
-            // 
             // Withdraw_SimpleDeposit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbWith_SimpleBack);
             this.Controls.Add(this.lbWith_Simple150);
             this.Controls.Add(this.lbWith_Simple100);
             this.Controls.Add(this.lbWith_Simple50);
             this.Controls.Add(this.lbWith_Simple20);
             this.Controls.Add(this.lbWith_Simple10);
-            this.Controls.Add(this.btnWithdrawBack);
+            this.Controls.Add(this.btnWith6);
             this.Controls.Add(this.btnWith5);
             this.Controls.Add(this.btnWith4);
             this.Controls.Add(this.btnWith2);
@@ -196,8 +183,7 @@
             this.Controls.Add(this.btnWith3);
             this.Name = "Withdraw_SimpleDeposit";
             this.Text = "Withdraw_SimpleDeposit";
-            this.Load += new System.EventHandler(this.Withdraw_SimpleDeposit_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWith6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWith2)).EndInit();
@@ -210,7 +196,7 @@
 
         #endregion
 
-        private PictureBox btnWithdrawBack;
+        private PictureBox btnWith6;
         private PictureBox btnWith5;
         private PictureBox btnWith4;
         private PictureBox btnWith2;
@@ -222,6 +208,5 @@
         private Label lbWith_Simple100;
         private Label lbWith_Simple150;
         private Label lbWith_SimpleBack;
-        private Label label1;
     }
 }

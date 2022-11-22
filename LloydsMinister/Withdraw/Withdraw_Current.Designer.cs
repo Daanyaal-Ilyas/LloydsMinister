@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
+            this.pictureTriangle6 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
@@ -40,8 +40,7 @@
             this.lbWith_Current50 = new System.Windows.Forms.Label();
             this.lbWith_Current20 = new System.Windows.Forms.Label();
             this.lbWith_Current10 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
@@ -49,15 +48,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnWithdrawBack
+            // pictureTriangle6
             // 
-            this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawBack.Location = new System.Drawing.Point(735, 366);
-            this.btnWithdrawBack.Name = "btnWithdrawBack";
-            this.btnWithdrawBack.Size = new System.Drawing.Size(65, 84);
-            this.btnWithdrawBack.TabIndex = 24;
-            this.btnWithdrawBack.TabStop = false;
-            this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
+            this.pictureTriangle6.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.pictureTriangle6.Location = new System.Drawing.Point(735, 366);
+            this.pictureTriangle6.Name = "pictureTriangle6";
+            this.pictureTriangle6.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle6.TabIndex = 24;
+            this.pictureTriangle6.TabStop = false;
             // 
             // pictureTriangle5
             // 
@@ -165,30 +163,19 @@
             this.lbWith_Current10.TabIndex = 37;
             this.lbWith_Current10.Text = "£10";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(318, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 41);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Current";
-            // 
             // Withdraw_Current
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbWith_CurrentBack);
             this.Controls.Add(this.lbWith_Current150);
             this.Controls.Add(this.lbWith_Current100);
             this.Controls.Add(this.lbWith_Current50);
             this.Controls.Add(this.lbWith_Current20);
             this.Controls.Add(this.lbWith_Current10);
-            this.Controls.Add(this.btnWithdrawBack);
+            this.Controls.Add(this.pictureTriangle6);
             this.Controls.Add(this.pictureTriangle5);
             this.Controls.Add(this.pictureTriangle4);
             this.Controls.Add(this.pictureTriangle2);
@@ -196,8 +183,7 @@
             this.Controls.Add(this.pictureTriangle3);
             this.Name = "Withdraw_Current";
             this.Text = "Withdraw_Current";
-            this.Load += new System.EventHandler(this.Withdraw_Current_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
@@ -210,7 +196,7 @@
 
         #endregion
 
-        private PictureBox btnWithdrawBack;
+        private PictureBox pictureTriangle6;
         private PictureBox pictureTriangle5;
         private PictureBox pictureTriangle4;
         private PictureBox pictureTriangle2;
@@ -222,6 +208,5 @@
         private Label lbWith_Current50;
         private Label lbWith_Current20;
         private Label lbWith_Current10;
-        private Label label1;
     }
 }
