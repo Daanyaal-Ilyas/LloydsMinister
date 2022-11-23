@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static LloydsMinister.Pin;
+using System.Data.SQLite;
 
 namespace LloydsMinister
 {
@@ -21,7 +25,6 @@ namespace LloydsMinister
         private void Deposit_Current_Load(object sender, EventArgs e)
         {
             btnDepositBack.Cursor = Cursors.Hand;
-
         }
 
         private void btnDepositBack_Click(object sender, EventArgs e)
@@ -32,9 +35,9 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle3_Click(object sender, EventArgs e)
-        {            
-
+        private void btn10CurrentDeposit_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

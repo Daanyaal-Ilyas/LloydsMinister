@@ -33,7 +33,6 @@
             this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
             this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
             this.lbDep_CurrentBack = new System.Windows.Forms.Label();
             this.lbDep_Current150 = new System.Windows.Forms.Label();
             this.lbDep_Current100 = new System.Windows.Forms.Label();
@@ -42,13 +41,14 @@
             this.lbDep_Current10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn10CurrentDeposit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10CurrentDeposit)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDepositBack
@@ -96,17 +96,6 @@
             this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle1.TabIndex = 20;
             this.pictureTriangle1.TabStop = false;
-            // 
-            // pictureTriangle3
-            // 
-            this.pictureTriangle3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle3.Location = new System.Drawing.Point(0, 100);
-            this.pictureTriangle3.Name = "pictureTriangle3";
-            this.pictureTriangle3.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle3.TabIndex = 19;
-            this.pictureTriangle3.TabStop = false;
-            this.pictureTriangle3.Click += new System.EventHandler(this.pictureTriangle3_Click);
             // 
             // lbDep_CurrentBack
             // 
@@ -188,12 +177,23 @@
             this.pictureBox1.TabIndex = 50;
             this.pictureBox1.TabStop = false;
             // 
+            // btn10CurrentDeposit
+            // 
+            this.btn10CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn10CurrentDeposit.Location = new System.Drawing.Point(0, 100);
+            this.btn10CurrentDeposit.Name = "btn10CurrentDeposit";
+            this.btn10CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn10CurrentDeposit.TabIndex = 51;
+            this.btn10CurrentDeposit.TabStop = false;
+            this.btn10CurrentDeposit.Click += new System.EventHandler(this.btn10CurrentDeposit_Click);
+            // 
             // Deposit_Current
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn10CurrentDeposit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDep_CurrentBack);
             this.Controls.Add(this.lbDep_Current150);
@@ -206,7 +206,6 @@
             this.Controls.Add(this.pictureTriangle4);
             this.Controls.Add(this.pictureTriangle2);
             this.Controls.Add(this.pictureTriangle1);
-            this.Controls.Add(this.pictureTriangle3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Deposit_Current";
             this.Text = "Deposit_Current";
@@ -216,8 +215,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10CurrentDeposit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,7 +229,6 @@
         private PictureBox pictureTriangle4;
         private PictureBox pictureTriangle2;
         private PictureBox pictureTriangle1;
-        private PictureBox pictureTriangle3;
         private Label lbDep_CurrentBack;
         private Label lbDep_Current150;
         private Label lbDep_Current100;
@@ -239,5 +237,6 @@
         private Label lbDep_Current10;
         private Label label1;
         private PictureBox pictureBox1;
+        private PictureBox btn10CurrentDeposit;
     }
 }
