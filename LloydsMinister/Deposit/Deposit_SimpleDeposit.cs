@@ -34,7 +34,7 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle3_Click(object sender, EventArgs e)
+        private void btn10SimpleDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -49,7 +49,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle4_Click(object sender, EventArgs e)
+        private void btn20SimpleDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -64,7 +64,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle1_Click(object sender, EventArgs e)
+        private void btn50SimpleDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -79,7 +79,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle5_Click(object sender, EventArgs e)
+        private void btn100SimpleDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -94,7 +94,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle2_Click(object sender, EventArgs e)
+        private void btn150SimpleDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
