@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.btnDepositBack = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
+            this.btn100CurrentDeposit = new System.Windows.Forms.PictureBox();
+            this.btn20CurrentDeposit = new System.Windows.Forms.PictureBox();
+            this.btn150CurrentDeposit = new System.Windows.Forms.PictureBox();
+            this.btn50CurrentDeposit = new System.Windows.Forms.PictureBox();
             this.lbDep_CurrentBack = new System.Windows.Forms.Label();
             this.lbDep_Current150 = new System.Windows.Forms.Label();
             this.lbDep_Current100 = new System.Windows.Forms.Label();
@@ -43,10 +43,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn10CurrentDeposit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100CurrentDeposit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20CurrentDeposit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150CurrentDeposit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50CurrentDeposit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn10CurrentDeposit)).BeginInit();
             this.SuspendLayout();
@@ -61,45 +61,45 @@
             this.btnDepositBack.TabStop = false;
             this.btnDepositBack.Click += new System.EventHandler(this.btnDepositBack_Click);
             // 
-            // pictureTriangle5
+            // btn100CurrentDeposit
             // 
-            this.pictureTriangle5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.Location = new System.Drawing.Point(736, 236);
-            this.pictureTriangle5.Name = "pictureTriangle5";
-            this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle5.TabIndex = 23;
-            this.pictureTriangle5.TabStop = false;
-            this.pictureTriangle5.Click += new System.EventHandler(this.pictureTriangle5_Click);
+            this.btn100CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn100CurrentDeposit.Location = new System.Drawing.Point(736, 236);
+            this.btn100CurrentDeposit.Name = "btn100CurrentDeposit";
+            this.btn100CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn100CurrentDeposit.TabIndex = 23;
+            this.btn100CurrentDeposit.TabStop = false;
+            this.btn100CurrentDeposit.Click += new System.EventHandler(this.btn100CurrentDeposit_Click);
             // 
-            // pictureTriangle4
+            // btn20CurrentDeposit
             // 
-            this.pictureTriangle4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle4.Location = new System.Drawing.Point(736, 100);
-            this.pictureTriangle4.Name = "pictureTriangle4";
-            this.pictureTriangle4.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle4.TabIndex = 22;
-            this.pictureTriangle4.TabStop = false;
-            this.pictureTriangle4.Click += new System.EventHandler(this.pictureTriangle4_Click);
+            this.btn20CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn20CurrentDeposit.Location = new System.Drawing.Point(736, 100);
+            this.btn20CurrentDeposit.Name = "btn20CurrentDeposit";
+            this.btn20CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn20CurrentDeposit.TabIndex = 22;
+            this.btn20CurrentDeposit.TabStop = false;
+            this.btn20CurrentDeposit.Click += new System.EventHandler(this.btn20CurrentDeposit_Click);
             // 
-            // pictureTriangle2
+            // btn150CurrentDeposit
             // 
-            this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.Location = new System.Drawing.Point(0, 367);
-            this.pictureTriangle2.Name = "pictureTriangle2";
-            this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle2.TabIndex = 21;
-            this.pictureTriangle2.TabStop = false;
-            this.pictureTriangle2.Click += new System.EventHandler(this.pictureTriangle2_Click);
+            this.btn150CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn150CurrentDeposit.Location = new System.Drawing.Point(0, 367);
+            this.btn150CurrentDeposit.Name = "btn150CurrentDeposit";
+            this.btn150CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn150CurrentDeposit.TabIndex = 21;
+            this.btn150CurrentDeposit.TabStop = false;
+            this.btn150CurrentDeposit.Click += new System.EventHandler(this.btn150CurrentDeposit_Click);
             // 
-            // pictureTriangle1
+            // btn50CurrentDeposit
             // 
-            this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.Location = new System.Drawing.Point(0, 236);
-            this.pictureTriangle1.Name = "pictureTriangle1";
-            this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle1.TabIndex = 20;
-            this.pictureTriangle1.TabStop = false;
-            this.pictureTriangle1.Click += new System.EventHandler(this.pictureTriangle1_Click);
+            this.btn50CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn50CurrentDeposit.Location = new System.Drawing.Point(0, 236);
+            this.btn50CurrentDeposit.Name = "btn50CurrentDeposit";
+            this.btn50CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn50CurrentDeposit.TabIndex = 20;
+            this.btn50CurrentDeposit.TabStop = false;
+            this.btn50CurrentDeposit.Click += new System.EventHandler(this.btn50CurrentDeposit_Click);
             // 
             // lbDep_CurrentBack
             // 
@@ -206,19 +206,19 @@
             this.Controls.Add(this.lbDep_Current20);
             this.Controls.Add(this.lbDep_Current10);
             this.Controls.Add(this.btnDepositBack);
-            this.Controls.Add(this.pictureTriangle5);
-            this.Controls.Add(this.pictureTriangle4);
-            this.Controls.Add(this.pictureTriangle2);
-            this.Controls.Add(this.pictureTriangle1);
+            this.Controls.Add(this.btn100CurrentDeposit);
+            this.Controls.Add(this.btn20CurrentDeposit);
+            this.Controls.Add(this.btn150CurrentDeposit);
+            this.Controls.Add(this.btn50CurrentDeposit);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Deposit_Current";
             this.Text = "Deposit_Current";
             this.Load += new System.EventHandler(this.Deposit_Current_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100CurrentDeposit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20CurrentDeposit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150CurrentDeposit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50CurrentDeposit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn10CurrentDeposit)).EndInit();
             this.ResumeLayout(false);
@@ -229,10 +229,10 @@
         #endregion
 
         private PictureBox btnDepositBack;
-        private PictureBox pictureTriangle5;
-        private PictureBox pictureTriangle4;
-        private PictureBox pictureTriangle2;
-        private PictureBox pictureTriangle1;
+        private PictureBox btn100CurrentDeposit;
+        private PictureBox btn20CurrentDeposit;
+        private PictureBox btn150CurrentDeposit;
+        private PictureBox btn50CurrentDeposit;
         private Label lbDep_CurrentBack;
         private Label lbDep_Current150;
         private Label lbDep_Current100;

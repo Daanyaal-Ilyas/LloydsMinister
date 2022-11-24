@@ -61,9 +61,6 @@
     <Compile Update="ViewStatement\ViewStatement_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\Final2.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Withdraw\WithdrawMenu.cs">
       <SubType>Form</SubType>
     </Compile>

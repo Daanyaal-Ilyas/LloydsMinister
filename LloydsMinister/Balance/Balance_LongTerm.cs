@@ -17,7 +17,7 @@ namespace LloydsMinister
 {
     public partial class Balance_LongTerm : Form
     {
-       protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+       protected string path = (@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
         public Balance_LongTerm()
         {
             InitializeComponent();

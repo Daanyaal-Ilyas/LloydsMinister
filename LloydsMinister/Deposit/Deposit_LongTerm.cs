@@ -34,7 +34,7 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle3_Click(object sender, EventArgs e)
+        private void btn10LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
@@ -45,7 +45,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle4_Click(object sender, EventArgs e)
+        private void btn20LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
@@ -56,7 +56,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle1_Click(object sender, EventArgs e)
+        private void btn50LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
@@ -67,7 +67,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle5_Click(object sender, EventArgs e)
+        private void btn100LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
@@ -78,7 +78,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle2_Click(object sender, EventArgs e)
+        private void btn150LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 150 WHERE Pin = '" + Pin.SetValuepin + "'");

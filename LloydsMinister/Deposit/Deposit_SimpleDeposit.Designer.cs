@@ -84,7 +84,7 @@
             // pictureTriangle2
             // 
             this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.Location = new System.Drawing.Point(-1, 366);
+            this.pictureTriangle2.Location = new System.Drawing.Point(0, 366);
             this.pictureTriangle2.Name = "pictureTriangle2";
             this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle2.TabIndex = 21;
@@ -94,7 +94,7 @@
             // pictureTriangle1
             // 
             this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.Location = new System.Drawing.Point(-1, 235);
+            this.pictureTriangle1.Location = new System.Drawing.Point(0, 235);
             this.pictureTriangle1.Name = "pictureTriangle1";
             this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle1.TabIndex = 20;
@@ -105,7 +105,7 @@
             // 
             this.pictureTriangle3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle3.Location = new System.Drawing.Point(-1, 99);
+            this.pictureTriangle3.Location = new System.Drawing.Point(0, 99);
             this.pictureTriangle3.Name = "pictureTriangle3";
             this.pictureTriangle3.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle3.TabIndex = 19;
@@ -126,7 +126,7 @@
             // 
             this.lbDep_Simple150.AutoSize = true;
             this.lbDep_Simple150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Simple150.Location = new System.Drawing.Point(70, 390);
+            this.lbDep_Simple150.Location = new System.Drawing.Point(71, 390);
             this.lbDep_Simple150.Name = "lbDep_Simple150";
             this.lbDep_Simple150.Size = new System.Drawing.Size(81, 37);
             this.lbDep_Simple150.TabIndex = 35;
@@ -146,7 +146,7 @@
             // 
             this.lbDep_Simple50.AutoSize = true;
             this.lbDep_Simple50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Simple50.Location = new System.Drawing.Point(70, 259);
+            this.lbDep_Simple50.Location = new System.Drawing.Point(71, 259);
             this.lbDep_Simple50.Name = "lbDep_Simple50";
             this.lbDep_Simple50.Size = new System.Drawing.Size(65, 37);
             this.lbDep_Simple50.TabIndex = 33;
@@ -166,7 +166,7 @@
             // 
             this.lbDep_Simple10.AutoSize = true;
             this.lbDep_Simple10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Simple10.Location = new System.Drawing.Point(70, 123);
+            this.lbDep_Simple10.Location = new System.Drawing.Point(71, 123);
             this.lbDep_Simple10.Name = "lbDep_Simple10";
             this.lbDep_Simple10.Size = new System.Drawing.Size(65, 37);
             this.lbDep_Simple10.TabIndex = 31;
