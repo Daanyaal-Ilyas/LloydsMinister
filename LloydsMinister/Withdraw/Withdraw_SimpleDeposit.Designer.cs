@@ -69,6 +69,7 @@
             this.btnWith5.Size = new System.Drawing.Size(65, 84);
             this.btnWith5.TabIndex = 23;
             this.btnWith5.TabStop = false;
+            this.btnWith5.Click += new System.EventHandler(this.btnWith5_Click);
             // 
             // btnWith4
             // 
@@ -78,6 +79,7 @@
             this.btnWith4.Size = new System.Drawing.Size(65, 84);
             this.btnWith4.TabIndex = 22;
             this.btnWith4.TabStop = false;
+            this.btnWith4.Click += new System.EventHandler(this.btnWith4_Click);
             // 
             // btnWith2
             // 
@@ -87,6 +89,7 @@
             this.btnWith2.Size = new System.Drawing.Size(65, 84);
             this.btnWith2.TabIndex = 21;
             this.btnWith2.TabStop = false;
+            this.btnWith2.Click += new System.EventHandler(this.btnWith2_Click);
             // 
             // btnWith1
             // 
@@ -96,6 +99,7 @@
             this.btnWith1.Size = new System.Drawing.Size(65, 84);
             this.btnWith1.TabIndex = 20;
             this.btnWith1.TabStop = false;
+            this.btnWith1.Click += new System.EventHandler(this.btnWith1_Click);
             // 
             // btnWith3
             // 
@@ -106,6 +110,7 @@
             this.btnWith3.Size = new System.Drawing.Size(65, 84);
             this.btnWith3.TabIndex = 19;
             this.btnWith3.TabStop = false;
+            this.btnWith3.Click += new System.EventHandler(this.btnWith3_Click);
             // 
             // lbWith_Simple10
             // 
@@ -171,10 +176,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(275, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 41);
+            this.label1.Size = new System.Drawing.Size(265, 39);
             this.label1.TabIndex = 44;
             this.label1.Text = "Simple Deposit";
             // 
