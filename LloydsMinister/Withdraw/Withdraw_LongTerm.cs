@@ -23,6 +23,11 @@ namespace LloydsMinister
         private void Withdraw_LongTerm_Load(object sender, EventArgs e)
         {
             btnWithdrawBack.Cursor = Cursors.Hand;
+            btn10LongWithdraw.Cursor  = Cursors.Hand;
+            btn20LongWithdraw.Cursor  = Cursors.Hand;
+            btn50LongWithdraw.Cursor  = Cursors.Hand;
+            btn100LongWithdraw.Cursor = Cursors.Hand;
+            btn150LongWithdraw.Cursor = Cursors.Hand;
         }
 
         private void btnWithdrawBack_Click(object sender, EventArgs e)
@@ -33,7 +38,7 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle3_Click(object sender, EventArgs e)
+        private void btn10LongWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -48,7 +53,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle4_Click(object sender, EventArgs e)
+        private void btn20LongWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -63,7 +68,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle1_Click(object sender, EventArgs e)
+        private void btn50LongWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -78,7 +83,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle5_Click(object sender, EventArgs e)
+        private void btn100LongWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -93,7 +98,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void pictureTriangle2_Click(object sender, EventArgs e)
+        private void btn150LongWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();

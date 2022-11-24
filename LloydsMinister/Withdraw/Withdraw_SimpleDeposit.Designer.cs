@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
-            this.btnWith5 = new System.Windows.Forms.PictureBox();
-            this.btnWith4 = new System.Windows.Forms.PictureBox();
-            this.btnWith2 = new System.Windows.Forms.PictureBox();
-            this.btnWith1 = new System.Windows.Forms.PictureBox();
-            this.btnWith3 = new System.Windows.Forms.PictureBox();
+            this.btn100SimpleWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn20SimpleWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn150SimpleWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn50SimpleWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn10SimpleWithdraw = new System.Windows.Forms.PictureBox();
             this.lbWith_Simple10 = new System.Windows.Forms.Label();
             this.lbWith_Simple20 = new System.Windows.Forms.Label();
             this.lbWith_Simple50 = new System.Windows.Forms.Label();
@@ -43,11 +43,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100SimpleWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20SimpleWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150SimpleWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50SimpleWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10SimpleWithdraw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,56 +61,56 @@
             this.btnWithdrawBack.TabStop = false;
             this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
             // 
-            // btnWith5
+            // btn100SimpleWithdraw
             // 
-            this.btnWith5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWith5.Location = new System.Drawing.Point(735, 235);
-            this.btnWith5.Name = "btnWith5";
-            this.btnWith5.Size = new System.Drawing.Size(65, 84);
-            this.btnWith5.TabIndex = 23;
-            this.btnWith5.TabStop = false;
-            this.btnWith5.Click += new System.EventHandler(this.btnWith5_Click);
+            this.btn100SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn100SimpleWithdraw.Location = new System.Drawing.Point(735, 235);
+            this.btn100SimpleWithdraw.Name = "btn100SimpleWithdraw";
+            this.btn100SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn100SimpleWithdraw.TabIndex = 23;
+            this.btn100SimpleWithdraw.TabStop = false;
+            this.btn100SimpleWithdraw.Click += new System.EventHandler(this.btn100SimpleWithdraw_Click);
             // 
-            // btnWith4
+            // btn20SimpleWithdraw
             // 
-            this.btnWith4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWith4.Location = new System.Drawing.Point(735, 99);
-            this.btnWith4.Name = "btnWith4";
-            this.btnWith4.Size = new System.Drawing.Size(65, 84);
-            this.btnWith4.TabIndex = 22;
-            this.btnWith4.TabStop = false;
-            this.btnWith4.Click += new System.EventHandler(this.btnWith4_Click);
+            this.btn20SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn20SimpleWithdraw.Location = new System.Drawing.Point(735, 99);
+            this.btn20SimpleWithdraw.Name = "btn20SimpleWithdraw";
+            this.btn20SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn20SimpleWithdraw.TabIndex = 22;
+            this.btn20SimpleWithdraw.TabStop = false;
+            this.btn20SimpleWithdraw.Click += new System.EventHandler(this.btn20SimpleWithdraw_Click);
             // 
-            // btnWith2
+            // btn150SimpleWithdraw
             // 
-            this.btnWith2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnWith2.Location = new System.Drawing.Point(0, 367);
-            this.btnWith2.Name = "btnWith2";
-            this.btnWith2.Size = new System.Drawing.Size(65, 84);
-            this.btnWith2.TabIndex = 21;
-            this.btnWith2.TabStop = false;
-            this.btnWith2.Click += new System.EventHandler(this.btnWith2_Click);
+            this.btn150SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn150SimpleWithdraw.Location = new System.Drawing.Point(0, 367);
+            this.btn150SimpleWithdraw.Name = "btn150SimpleWithdraw";
+            this.btn150SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn150SimpleWithdraw.TabIndex = 21;
+            this.btn150SimpleWithdraw.TabStop = false;
+            this.btn150SimpleWithdraw.Click += new System.EventHandler(this.btn150SimpleWithdraw_Click);
             // 
-            // btnWith1
+            // btn50SimpleWithdraw
             // 
-            this.btnWith1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnWith1.Location = new System.Drawing.Point(0, 236);
-            this.btnWith1.Name = "btnWith1";
-            this.btnWith1.Size = new System.Drawing.Size(65, 84);
-            this.btnWith1.TabIndex = 20;
-            this.btnWith1.TabStop = false;
-            this.btnWith1.Click += new System.EventHandler(this.btnWith1_Click);
+            this.btn50SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn50SimpleWithdraw.Location = new System.Drawing.Point(0, 236);
+            this.btn50SimpleWithdraw.Name = "btn50SimpleWithdraw";
+            this.btn50SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn50SimpleWithdraw.TabIndex = 20;
+            this.btn50SimpleWithdraw.TabStop = false;
+            this.btn50SimpleWithdraw.Click += new System.EventHandler(this.btn50SimpleWithdraw_Click);
             // 
-            // btnWith3
+            // btn10SimpleWithdraw
             // 
-            this.btnWith3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnWith3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnWith3.Location = new System.Drawing.Point(0, 100);
-            this.btnWith3.Name = "btnWith3";
-            this.btnWith3.Size = new System.Drawing.Size(65, 84);
-            this.btnWith3.TabIndex = 19;
-            this.btnWith3.TabStop = false;
-            this.btnWith3.Click += new System.EventHandler(this.btnWith3_Click);
+            this.btn10SimpleWithdraw.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.btn10SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn10SimpleWithdraw.Location = new System.Drawing.Point(0, 100);
+            this.btn10SimpleWithdraw.Name = "btn10SimpleWithdraw";
+            this.btn10SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn10SimpleWithdraw.TabIndex = 19;
+            this.btn10SimpleWithdraw.TabStop = false;
+            this.btn10SimpleWithdraw.Click += new System.EventHandler(this.btn10SimpleWithdraw_Click);
             // 
             // lbWith_Simple10
             // 
@@ -206,21 +206,21 @@
             this.Controls.Add(this.lbWith_Simple20);
             this.Controls.Add(this.lbWith_Simple10);
             this.Controls.Add(this.btnWithdrawBack);
-            this.Controls.Add(this.btnWith5);
-            this.Controls.Add(this.btnWith4);
-            this.Controls.Add(this.btnWith2);
-            this.Controls.Add(this.btnWith1);
-            this.Controls.Add(this.btnWith3);
+            this.Controls.Add(this.btn100SimpleWithdraw);
+            this.Controls.Add(this.btn20SimpleWithdraw);
+            this.Controls.Add(this.btn150SimpleWithdraw);
+            this.Controls.Add(this.btn50SimpleWithdraw);
+            this.Controls.Add(this.btn10SimpleWithdraw);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Withdraw_SimpleDeposit";
             this.Text = "Withdraw_SimpleDeposit";
             this.Load += new System.EventHandler(this.Withdraw_SimpleDeposit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWith3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100SimpleWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20SimpleWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150SimpleWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50SimpleWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10SimpleWithdraw)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -230,11 +230,11 @@
         #endregion
 
         private PictureBox btnWithdrawBack;
-        private PictureBox btnWith5;
-        private PictureBox btnWith4;
-        private PictureBox btnWith2;
-        private PictureBox btnWith1;
-        private PictureBox btnWith3;
+        private PictureBox btn100SimpleWithdraw;
+        private PictureBox btn20SimpleWithdraw;
+        private PictureBox btn150SimpleWithdraw;
+        private PictureBox btn50SimpleWithdraw;
+        private PictureBox btn10SimpleWithdraw;
         private Label lbWith_Simple10;
         private Label lbWith_Simple20;
         private Label lbWith_Simple50;

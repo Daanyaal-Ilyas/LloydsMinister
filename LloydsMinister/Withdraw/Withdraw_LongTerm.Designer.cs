@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle4 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
+            this.btn100LongWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn20LongWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn150LongWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn50LongWithdraw = new System.Windows.Forms.PictureBox();
+            this.btn10LongWithdraw = new System.Windows.Forms.PictureBox();
             this.lbWith_LongBack = new System.Windows.Forms.Label();
             this.lbWith_Long150 = new System.Windows.Forms.Label();
             this.lbWith_Long100 = new System.Windows.Forms.Label();
@@ -43,11 +43,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100LongWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20LongWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150LongWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50LongWithdraw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10LongWithdraw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,56 +61,56 @@
             this.btnWithdrawBack.TabStop = false;
             this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
             // 
-            // pictureTriangle5
+            // btn100LongWithdraw
             // 
-            this.pictureTriangle5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.Location = new System.Drawing.Point(735, 235);
-            this.pictureTriangle5.Name = "pictureTriangle5";
-            this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle5.TabIndex = 23;
-            this.pictureTriangle5.TabStop = false;
-            this.pictureTriangle5.Click += new System.EventHandler(this.pictureTriangle5_Click);
+            this.btn100LongWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn100LongWithdraw.Location = new System.Drawing.Point(735, 235);
+            this.btn100LongWithdraw.Name = "btn100LongWithdraw";
+            this.btn100LongWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn100LongWithdraw.TabIndex = 23;
+            this.btn100LongWithdraw.TabStop = false;
+            this.btn100LongWithdraw.Click += new System.EventHandler(this.btn100LongWithdraw_Click);
             // 
-            // pictureTriangle4
+            // btn20LongWithdraw
             // 
-            this.pictureTriangle4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle4.Location = new System.Drawing.Point(735, 99);
-            this.pictureTriangle4.Name = "pictureTriangle4";
-            this.pictureTriangle4.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle4.TabIndex = 22;
-            this.pictureTriangle4.TabStop = false;
-            this.pictureTriangle4.Click += new System.EventHandler(this.pictureTriangle4_Click);
+            this.btn20LongWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn20LongWithdraw.Location = new System.Drawing.Point(735, 99);
+            this.btn20LongWithdraw.Name = "btn20LongWithdraw";
+            this.btn20LongWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn20LongWithdraw.TabIndex = 22;
+            this.btn20LongWithdraw.TabStop = false;
+            this.btn20LongWithdraw.Click += new System.EventHandler(this.btn20LongWithdraw_Click);
             // 
-            // pictureTriangle2
+            // btn150LongWithdraw
             // 
-            this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.Location = new System.Drawing.Point(-1, 366);
-            this.pictureTriangle2.Name = "pictureTriangle2";
-            this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle2.TabIndex = 21;
-            this.pictureTriangle2.TabStop = false;
-            this.pictureTriangle2.Click += new System.EventHandler(this.pictureTriangle2_Click);
+            this.btn150LongWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn150LongWithdraw.Location = new System.Drawing.Point(-1, 366);
+            this.btn150LongWithdraw.Name = "btn150LongWithdraw";
+            this.btn150LongWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn150LongWithdraw.TabIndex = 21;
+            this.btn150LongWithdraw.TabStop = false;
+            this.btn150LongWithdraw.Click += new System.EventHandler(this.btn150LongWithdraw_Click);
             // 
-            // pictureTriangle1
+            // btn50LongWithdraw
             // 
-            this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.Location = new System.Drawing.Point(-1, 235);
-            this.pictureTriangle1.Name = "pictureTriangle1";
-            this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle1.TabIndex = 20;
-            this.pictureTriangle1.TabStop = false;
-            this.pictureTriangle1.Click += new System.EventHandler(this.pictureTriangle1_Click);
+            this.btn50LongWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn50LongWithdraw.Location = new System.Drawing.Point(-1, 235);
+            this.btn50LongWithdraw.Name = "btn50LongWithdraw";
+            this.btn50LongWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn50LongWithdraw.TabIndex = 20;
+            this.btn50LongWithdraw.TabStop = false;
+            this.btn50LongWithdraw.Click += new System.EventHandler(this.btn50LongWithdraw_Click);
             // 
-            // pictureTriangle3
+            // btn10LongWithdraw
             // 
-            this.pictureTriangle3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle3.Location = new System.Drawing.Point(-1, 99);
-            this.pictureTriangle3.Name = "pictureTriangle3";
-            this.pictureTriangle3.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle3.TabIndex = 19;
-            this.pictureTriangle3.TabStop = false;
-            this.pictureTriangle3.Click += new System.EventHandler(this.pictureTriangle3_Click);
+            this.btn10LongWithdraw.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.btn10LongWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn10LongWithdraw.Location = new System.Drawing.Point(-1, 99);
+            this.btn10LongWithdraw.Name = "btn10LongWithdraw";
+            this.btn10LongWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn10LongWithdraw.TabIndex = 19;
+            this.btn10LongWithdraw.TabStop = false;
+            this.btn10LongWithdraw.Click += new System.EventHandler(this.btn10LongWithdraw_Click);
             // 
             // lbWith_LongBack
             // 
@@ -206,21 +206,21 @@
             this.Controls.Add(this.lbWith_Long20);
             this.Controls.Add(this.lbWith_Long10);
             this.Controls.Add(this.btnWithdrawBack);
-            this.Controls.Add(this.pictureTriangle5);
-            this.Controls.Add(this.pictureTriangle4);
-            this.Controls.Add(this.pictureTriangle2);
-            this.Controls.Add(this.pictureTriangle1);
-            this.Controls.Add(this.pictureTriangle3);
+            this.Controls.Add(this.btn100LongWithdraw);
+            this.Controls.Add(this.btn20LongWithdraw);
+            this.Controls.Add(this.btn150LongWithdraw);
+            this.Controls.Add(this.btn50LongWithdraw);
+            this.Controls.Add(this.btn10LongWithdraw);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Withdraw_LongTerm";
             this.Text = "Withdraw_LongTerm";
             this.Load += new System.EventHandler(this.Withdraw_LongTerm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn100LongWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn20LongWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn150LongWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn50LongWithdraw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn10LongWithdraw)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -230,11 +230,11 @@
         #endregion
 
         private PictureBox btnWithdrawBack;
-        private PictureBox pictureTriangle5;
-        private PictureBox pictureTriangle4;
-        private PictureBox pictureTriangle2;
-        private PictureBox pictureTriangle1;
-        private PictureBox pictureTriangle3;
+        private PictureBox btn100LongWithdraw;
+        private PictureBox btn20LongWithdraw;
+        private PictureBox btn150LongWithdraw;
+        private PictureBox btn50LongWithdraw;
+        private PictureBox btn10LongWithdraw;
         private Label lbWith_LongBack;
         private Label lbWith_Long150;
         private Label lbWith_Long100;

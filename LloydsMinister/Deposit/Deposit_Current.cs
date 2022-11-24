@@ -28,6 +28,11 @@ namespace LloydsMinister
         private void Deposit_Current_Load(object sender, EventArgs e)
         {
             btnDepositBack.Cursor = Cursors.Hand;
+            btn10CurrentDeposit.Cursor  = Cursors.Hand;
+            btn20CurrentDeposit.Cursor  = Cursors.Hand;
+            btn50CurrentDeposit.Cursor  = Cursors.Hand;
+            btn100CurrentDeposit.Cursor = Cursors.Hand;
+            btn150CurrentDeposit.Cursor = Cursors.Hand;
         }
 
         private void btnDepositBack_Click(object sender, EventArgs e)

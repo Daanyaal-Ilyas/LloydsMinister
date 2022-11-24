@@ -19,11 +19,17 @@ namespace LloydsMinister
         public Deposit_SimpleDeposit()
         {
             InitializeComponent();
+
         }
 
         private void Deposit_SimpleDeposit_Load(object sender, EventArgs e)
         {
-            btnDepositBack.Cursor = Cursors.Hand;
+            btnDepositBack.Cursor      = Cursors.Hand;
+            btn10SimpleDeposit.Cursor  = Cursors.Hand;
+            btn20SimpleDeposit.Cursor  = Cursors.Hand;
+            btn50SimpleDeposit.Cursor  = Cursors.Hand;
+            btn100SimpleDeposit.Cursor = Cursors.Hand;
+            btn150SimpleDeposit.Cursor = Cursors.Hand;
         }
 
         private void btnDepositBack_Click(object sender, EventArgs e)

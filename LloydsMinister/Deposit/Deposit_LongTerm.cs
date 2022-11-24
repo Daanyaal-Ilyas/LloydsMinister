@@ -24,6 +24,11 @@ namespace LloydsMinister
         private void Deposit_LongTerm_Load(object sender, EventArgs e)
         {
             btnDepositBack.Cursor = Cursors.Hand;
+            btn10LongDeposit.Cursor  = Cursors.Hand;
+            btn20LongDeposit.Cursor  = Cursors.Hand;
+            btn50LongDeposit.Cursor  = Cursors.Hand;
+            btn100LongDeposit.Cursor = Cursors.Hand;
+            btn150LongDeposit.Cursor = Cursors.Hand;
         }
 
         private void btnDepositBack_Click(object sender, EventArgs e)

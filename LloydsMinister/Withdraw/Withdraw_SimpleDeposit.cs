@@ -23,6 +23,11 @@ namespace LloydsMinister
         private void Withdraw_SimpleDeposit_Load(object sender, EventArgs e)
         {
             btnWithdrawBack.Cursor = Cursors.Hand;
+            btn10SimpleWithdraw.Cursor  = Cursors.Hand;
+            btn20SimpleWithdraw.Cursor  = Cursors.Hand;
+            btn50SimpleWithdraw.Cursor  = Cursors.Hand;
+            btn100SimpleWithdraw.Cursor = Cursors.Hand;
+            btn150SimpleWithdraw.Cursor = Cursors.Hand;
         }
 
         private void btnWithdrawBack_Click(object sender, EventArgs e)
@@ -33,7 +38,7 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
-        private void btnWith3_Click(object sender, EventArgs e)
+        private void btn10SimpleWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -48,7 +53,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnWith4_Click(object sender, EventArgs e)
+        private void btn20SimpleWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -63,7 +68,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnWith1_Click(object sender, EventArgs e)
+        private void btn50SimpleWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -78,7 +83,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnWith5_Click(object sender, EventArgs e)
+        private void btn100SimpleWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
@@ -93,7 +98,7 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnWith2_Click(object sender, EventArgs e)
+        private void btn150SimpleWithdraw_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
