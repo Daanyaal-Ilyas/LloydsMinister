@@ -13,13 +13,14 @@ namespace LloydsMinister
 {
     public partial class Balance_Current : Form
     {
+        string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Balance_Current()
         {
             InitializeComponent();
         }
         private void Balance_Current_Load(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
             string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
             SQLiteCommand com = new SQLiteCommand(query, con);

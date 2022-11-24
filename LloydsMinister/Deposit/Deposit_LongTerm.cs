@@ -12,6 +12,7 @@ namespace LloydsMinister
 {
     public partial class Deposit_LongTerm : Form
     {
+        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Deposit_LongTerm()
         {
             InitializeComponent();
@@ -28,6 +29,11 @@ namespace LloydsMinister
             DepositMenu menu = new DepositMenu();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
+        }
+
+        private void pictureTriangle3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

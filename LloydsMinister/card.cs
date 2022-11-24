@@ -2,8 +2,10 @@ using SQLite;
 
 namespace LloydsMinister
 {
+
     public partial class CardInsert : Form
     {
+        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public CardInsert()
         {
             InitializeComponent();
@@ -22,14 +24,14 @@ namespace LloydsMinister
         private void CardInsert_Load(object sender, EventArgs e)
         {
             pictureBox2.Cursor = Cursors.Hand;
-            if (System.IO.File.Exists("D:\\LloydsMinister\\LloydsMinister\\customer.db3"))
+            if (System.IO.File.Exists(path))
             {
                 // nothing happens because you got the db already
             }
 
             else
             {
-                var db = new SQLiteConnection("D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+                var db = new SQLiteConnection(path);
 
                 db.CreateTable<DB>();
                 db.Close();
