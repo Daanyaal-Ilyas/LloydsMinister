@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using static LloydsMinister.Pin;
 using System.Data.SQLite;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
+using LloydsMinister.Deposit;
 
 namespace LloydsMinister
 {
@@ -42,7 +43,10 @@ namespace LloydsMinister
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            Application.Exit();
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
         }
 
         private void pictureTriangle4_Click(object sender, EventArgs e)
@@ -50,7 +54,10 @@ namespace LloydsMinister
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            Application.Exit();
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
         }
 
         private void pictureTriangle1_Click(object sender, EventArgs e)
@@ -66,7 +73,10 @@ namespace LloydsMinister
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            Application.Exit();
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
         }
 
         private void pictureTriangle2_Click(object sender, EventArgs e)
@@ -74,7 +84,10 @@ namespace LloydsMinister
             SQLiteConnection con = new SQLiteConnection(path);
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            Application.Exit();
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
         }
     }
 }
