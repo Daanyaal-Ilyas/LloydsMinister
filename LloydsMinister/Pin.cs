@@ -24,25 +24,12 @@ namespace LloydsMinister
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            SetValuepin = enterPin1.Text;
             this.Hide();
             Menu m2 = new Menu();
             m2.ShowDialog();
             m2.Closed += (s, args) => this.Close();
         }
-
-        public static class pininput
-        {
-            public static string Data { get; set; }
-        }
-        public void textEnter1_Click(object sender, EventArgs e)
-        {
-            pininput.Data = enterPin1.Text;            
-        }
-
-        //useless code
-        private void enterPin1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+        public static string SetValuepin = "";
     }
 }

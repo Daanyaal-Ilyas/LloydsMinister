@@ -51,7 +51,6 @@
             this.enterPin1.Name = "enterPin1";
             this.enterPin1.Size = new System.Drawing.Size(200, 23);
             this.enterPin1.TabIndex = 2;
-            this.enterPin1.TextChanged += new System.EventHandler(this.enterPin1_TextChanged);
             // 
             // pictureBox1
             // 
@@ -73,7 +72,6 @@
             this.textEnter1.Size = new System.Drawing.Size(74, 30);
             this.textEnter1.TabIndex = 4;
             this.textEnter1.Text = "Enter ";
-            this.textEnter1.Click += new System.EventHandler(this.textEnter1_Click);
             // 
             // Pin
             // 

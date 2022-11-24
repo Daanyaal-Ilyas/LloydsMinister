@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
@@ -21,17 +24,15 @@ namespace LloydsMinister
 
         private void Balance_LongTerm_Load(object sender, EventArgs e)
         {
-            string input = pininput.Data;
-            SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
             con.Open();
-            string query = ("SELECT BalanceLong FROM customer WHERE Pin = 6565");
+            string query = ("SELECT BalanceLong FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
-            DataTable bl = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
+            DataTable bl = new DataTable();
             adapt.Fill(bl);
             string data = bl.Rows[0]["BalanceLong"].ToString();
             lbBalLongTermBalance.Text = "£ " + data;
-
 
             //cursor
             btnBalanceBack.Cursor = Cursors.Hand;
