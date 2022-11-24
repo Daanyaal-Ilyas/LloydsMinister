@@ -263,3 +263,5 @@ C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.Final.resources
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.FormState.resources
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.FormState.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final.resources
