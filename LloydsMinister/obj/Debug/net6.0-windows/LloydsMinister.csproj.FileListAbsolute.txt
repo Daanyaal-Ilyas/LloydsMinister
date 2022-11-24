@@ -261,3 +261,5 @@ C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.Final.resources
+C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.FormState.resources
+C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final.resources

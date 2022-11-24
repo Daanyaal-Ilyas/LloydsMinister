@@ -28,9 +28,6 @@
     <Compile Update="Deposit\Deposit_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\Final.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +56,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewStatement\ViewStatement_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw\Final.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Withdraw\WithdrawMenu.cs">

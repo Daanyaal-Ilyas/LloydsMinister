@@ -176,10 +176,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(311, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 39);
+            this.label1.Size = new System.Drawing.Size(165, 41);
             this.label1.TabIndex = 43;
             this.label1.Text = "Long Term";
             // 
