@@ -13,7 +13,7 @@ namespace LloydsMinister
 {
     public partial class Balance_Current : Form
     {
-        string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Balance_Current()
         {
             InitializeComponent();

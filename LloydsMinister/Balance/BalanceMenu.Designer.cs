@@ -116,7 +116,6 @@
             this.lbBalMenuCurrent.Size = new System.Drawing.Size(101, 32);
             this.lbBalMenuCurrent.TabIndex = 5;
             this.lbBalMenuCurrent.Text = "Current";
-            this.lbBalMenuCurrent.Click += new System.EventHandler(this.lbBalMenuCurrent_Click);
             // 
             // lbBalMenuSimple
             // 
@@ -127,7 +126,6 @@
             this.lbBalMenuSimple.Size = new System.Drawing.Size(186, 32);
             this.lbBalMenuSimple.TabIndex = 6;
             this.lbBalMenuSimple.Text = "Simple Deposit";
-            this.lbBalMenuSimple.Click += new System.EventHandler(this.lbBalMenuSimple_Click);
             // 
             // lbBalMenuLongTerm
             // 
@@ -138,7 +136,6 @@
             this.lbBalMenuLongTerm.Size = new System.Drawing.Size(135, 32);
             this.lbBalMenuLongTerm.TabIndex = 7;
             this.lbBalMenuLongTerm.Text = "Long Term";
-            this.lbBalMenuLongTerm.Click += new System.EventHandler(this.lbBalMenuLongTerm_Click);
             // 
             // lbBalMenuBack
             // 
@@ -149,7 +146,6 @@
             this.lbBalMenuBack.Size = new System.Drawing.Size(67, 32);
             this.lbBalMenuBack.TabIndex = 8;
             this.lbBalMenuBack.Text = "Back";
-            this.lbBalMenuBack.Click += new System.EventHandler(this.lbBalMenuBack_Click);
             // 
             // label1
             // 

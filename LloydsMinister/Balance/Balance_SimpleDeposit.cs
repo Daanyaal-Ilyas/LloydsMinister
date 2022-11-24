@@ -14,13 +14,14 @@ namespace LloydsMinister
 {
     public partial class Balance_SimpleDeposit : Form
     {
+        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Balance_SimpleDeposit()
         {
             InitializeComponent();
         }
         private void Balance_SimpleDeposit_Load(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+            SQLiteConnection con = new SQLiteConnection(path);
             con.Open();
             string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);

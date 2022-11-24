@@ -1,8 +1,11 @@
-﻿using System;
+﻿using LloydsMinister.Deposit;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +15,7 @@ namespace LloydsMinister
 {
     public partial class Deposit_SimpleDeposit : Form
     {
+        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Deposit_SimpleDeposit()
         {
             InitializeComponent();
@@ -30,5 +34,59 @@ namespace LloydsMinister
             menu.Closed += (s, args) => this.Close();
         }
 
+        private void pictureTriangle3_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection con = new SQLiteConnection(path);
+            string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
+        }
+
+        private void pictureTriangle4_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection con = new SQLiteConnection(path);
+            string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
+        }
+
+        private void pictureTriangle1_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection con = new SQLiteConnection(path);
+            string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
+        }
+
+        private void pictureTriangle5_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection con = new SQLiteConnection(path);
+            string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
+        }
+
+        private void pictureTriangle2_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection con = new SQLiteConnection(path);
+            string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
+        }
     }
 }

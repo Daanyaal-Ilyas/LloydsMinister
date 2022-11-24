@@ -56,26 +56,5 @@ namespace LloydsMinister
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }
-        //useless code
-        private void lbBalMenuCurrent_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbBalMenuLongTerm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbBalMenuSimple_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbBalMenuBack_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

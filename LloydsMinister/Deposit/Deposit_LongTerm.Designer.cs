@@ -69,6 +69,7 @@
             this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle5.TabIndex = 23;
             this.pictureTriangle5.TabStop = false;
+            this.pictureTriangle5.Click += new System.EventHandler(this.pictureTriangle5_Click);
             // 
             // pictureTriangle4
             // 
@@ -78,6 +79,7 @@
             this.pictureTriangle4.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle4.TabIndex = 22;
             this.pictureTriangle4.TabStop = false;
+            this.pictureTriangle4.Click += new System.EventHandler(this.pictureTriangle4_Click);
             // 
             // pictureTriangle2
             // 
@@ -87,6 +89,7 @@
             this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle2.TabIndex = 21;
             this.pictureTriangle2.TabStop = false;
+            this.pictureTriangle2.Click += new System.EventHandler(this.pictureTriangle2_Click);
             // 
             // pictureTriangle1
             // 
@@ -96,6 +99,7 @@
             this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
             this.pictureTriangle1.TabIndex = 20;
             this.pictureTriangle1.TabStop = false;
+            this.pictureTriangle1.Click += new System.EventHandler(this.pictureTriangle1_Click);
             // 
             // pictureTriangle3
             // 
