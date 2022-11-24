@@ -41,8 +41,12 @@ namespace LloydsMinister
         private void btn10CurrentDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -52,8 +56,12 @@ namespace LloydsMinister
         private void btn20CurrentDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -63,16 +71,27 @@ namespace LloydsMinister
         private void btn50CurrentDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            Application.Exit();
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
+            this.Hide();
+            Final current = new Final();
+            current.ShowDialog();
+            current.Closed += (s, args) => this.Close();
         }
 
         private void btn100CurrentDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -82,8 +101,12 @@ namespace LloydsMinister
         private void btn150CurrentDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();

@@ -37,8 +37,12 @@ namespace LloydsMinister
         private void btn10LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -48,8 +52,12 @@ namespace LloydsMinister
         private void btn20LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -59,8 +67,12 @@ namespace LloydsMinister
         private void btn50LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -70,8 +82,12 @@ namespace LloydsMinister
         private void btn100LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
@@ -81,8 +97,12 @@ namespace LloydsMinister
         private void btn150LongDeposit_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path);
+            con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
+            com.CommandText = query;
+            com.CommandType = CommandType.Text;
+            com.ExecuteNonQuery();
             this.Hide();
             Final current = new Final();
             current.ShowDialog();
