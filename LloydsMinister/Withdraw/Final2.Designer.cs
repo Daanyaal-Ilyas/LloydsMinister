@@ -40,9 +40,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(140, 159);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(514, 90);
+            this.label1.Size = new System.Drawing.Size(536, 90);
             this.label1.TabIndex = 1;
-            this.label1.Text = "You have Deposited the Money!\r\n     Please check your Balance!";
+            this.label1.Text = "You have Withdrawn the Money!\r\n     Please check your Balance!";
             // 
             // label2
             // 
@@ -51,9 +51,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(297, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 39);
+            this.label2.Size = new System.Drawing.Size(190, 39);
             this.label2.TabIndex = 50;
-            this.label2.Text = "Deposited";
+            this.label2.Text = "Withdrawn";
             // 
             // pictureBox1
             // 
