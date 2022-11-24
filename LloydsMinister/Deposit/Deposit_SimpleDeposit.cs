@@ -43,7 +43,7 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
+            //opens the message page to say "that it has been deposited"
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -58,7 +58,7 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
+            //opens the message page to say "that it has been deposited"
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -73,7 +73,7 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
+            //opens the message page to say "that it has been deposited"
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -88,7 +88,7 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
+            //opens the message page to say "that it has been deposited"
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -103,7 +103,7 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
+            //opens the message page to say "that it has been deposited"
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();

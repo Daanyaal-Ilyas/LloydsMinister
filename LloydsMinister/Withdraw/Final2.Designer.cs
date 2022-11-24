@@ -1,6 +1,6 @@
-﻿namespace LloydsMinister.Deposit
+﻿namespace LloydsMinister.Withdraw
 {
-    partial class Final
+    partial class Final2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,17 +41,8 @@
             this.label1.Location = new System.Drawing.Point(140, 159);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(514, 90);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 1;
             this.label1.Text = "You have Deposited the Money!\r\n     Please check your Balance!";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
-            this.pictureBox1.TabIndex = 47;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -61,10 +52,19 @@
             this.label2.Location = new System.Drawing.Point(297, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(182, 39);
-            this.label2.TabIndex = 48;
+            this.label2.TabIndex = 50;
             this.label2.Text = "Deposited";
             // 
-            // Final
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Final2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,9 +73,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Final";
-            this.Text = "Final";
-            this.Load += new System.EventHandler(this.Final_Load);
+            this.Name = "Final2";
+            this.Text = "Final2";
+            this.Load += new System.EventHandler(this.Final2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -85,7 +85,7 @@
         #endregion
 
         private Label label1;
-        private PictureBox pictureBox1;
         private Label label2;
+        private PictureBox pictureBox1;
     }
 }

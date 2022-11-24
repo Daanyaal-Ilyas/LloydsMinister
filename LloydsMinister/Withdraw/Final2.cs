@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister.Deposit
+namespace LloydsMinister.Withdraw
 {
-    public partial class Final : Form
+    public partial class Final2 : Form
     {
         private System.Windows.Forms.Timer tmr;
-        public Final()
+        public Final2()
         {
             InitializeComponent();
 
@@ -23,11 +23,11 @@ namespace LloydsMinister.Deposit
             };
             tmr.Interval = (int)TimeSpan.FromSeconds(5).TotalMilliseconds;
             tmr.Start();
-            
-            ControlBox  = false;
+
+            ControlBox = false;
         }
 
-        private void Final_Load(object sender, EventArgs e)
+        private void Final2_Load(object sender, EventArgs e)
         {
 
         }

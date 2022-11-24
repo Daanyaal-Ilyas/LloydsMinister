@@ -14,7 +14,7 @@ namespace LloydsMinister
 {
     public partial class Withdraw_Current : Form
     {
-        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+        protected string path = (@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
         public Withdraw_Current()
         {
             InitializeComponent();
@@ -41,8 +41,8 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
-            Final current = new Final();
+            //opens the message page to say "that it has been Withdrawn"
+            Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
         }
@@ -56,8 +56,8 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
-            Final current = new Final();
+            //opens the message page to say "that it has been Withdrawn"
+            Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
         }
@@ -71,8 +71,8 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
-            Final current = new Final();
+            //opens the message page to say "that it has been Withdrawn"
+            Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
         }
@@ -86,8 +86,8 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
-            Final current = new Final();
+            //opens the message page to say "that it has been Withdrawn"
+            Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
         }
@@ -101,8 +101,8 @@ namespace LloydsMinister
             com.CommandText = query;
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
-            this.Hide();
-            Final current = new Final();
+            //opens the message page to say "that it has been Withdrawn"
+            Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
         }

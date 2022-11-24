@@ -5,7 +5,7 @@ namespace LloydsMinister
 
     public partial class CardInsert : Form
     {
-        protected string path = (@"D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+        protected string path = (@"C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
         public CardInsert()
         {
             InitializeComponent();
