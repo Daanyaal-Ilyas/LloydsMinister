@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static LloydsMinister.Pin;
+using static LloydsMinister.path;
 
 namespace LloydsMinister
 {

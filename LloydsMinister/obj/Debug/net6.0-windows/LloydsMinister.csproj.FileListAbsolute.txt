@@ -260,8 +260,6 @@ C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.FormState.resources
-D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final.resources
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.Final.resources
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final2.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.Final.resources

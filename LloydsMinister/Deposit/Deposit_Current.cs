@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static LloydsMinister.Pin;
+using static LloydsMinister.path;
 using System.Data.SQLite;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
 using LloydsMinister.Deposit;
@@ -52,6 +53,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been deposited"
+            this.Hide();
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -67,6 +69,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been deposited"
+            this.Hide();
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -82,6 +85,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been deposited"
+            this.Hide();
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -97,6 +101,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been deposited"
+            this.Hide();
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -112,6 +117,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been deposited"
+            this.Hide();
             Final current = new Final();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();

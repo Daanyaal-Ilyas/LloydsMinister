@@ -48,6 +48,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been Withdrawn"
+            this.Hide();
             Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -63,6 +64,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been Withdrawn"
+            this.Hide();
             Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -78,6 +80,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been Withdrawn"
+            this.Hide();
             Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -93,6 +96,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been Withdrawn"
+            this.Hide();
             Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
@@ -108,6 +112,7 @@ namespace LloydsMinister
             com.CommandType = CommandType.Text;
             com.ExecuteNonQuery();
             //opens the message page to say "that it has been Withdrawn"
+            this.Hide();
             Final2 current = new Final2();
             current.ShowDialog();
             current.Closed += (s, args) => this.Close();
