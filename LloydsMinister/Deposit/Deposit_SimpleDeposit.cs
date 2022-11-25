@@ -15,7 +15,6 @@ namespace LloydsMinister
 {
     public partial class Deposit_SimpleDeposit : Form
     {
-        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
         public Deposit_SimpleDeposit()
         {
             InitializeComponent();
@@ -42,7 +41,7 @@ namespace LloydsMinister
 
         private void btn10SimpleDeposit_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceSimple = BalanceSimple + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -57,7 +56,7 @@ namespace LloydsMinister
 
         private void btn20SimpleDeposit_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceSimple = BalanceSimple + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -72,7 +71,7 @@ namespace LloydsMinister
 
         private void btn50SimpleDeposit_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceSimple = BalanceSimple + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -87,7 +86,7 @@ namespace LloydsMinister
 
         private void btn100SimpleDeposit_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceSimple = BalanceSimple + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -102,7 +101,7 @@ namespace LloydsMinister
 
         private void btn150SimpleDeposit_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceSimple = BalanceSimple + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);

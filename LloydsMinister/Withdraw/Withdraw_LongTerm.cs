@@ -14,7 +14,7 @@ namespace LloydsMinister
 {
     public partial class Withdraw_LongTerm : Form
     {
-        protected string path = (@"Data Source=D:\\LloydsMinister\\LloydsMinister\\customer.db3");
+        
         public Withdraw_LongTerm()
         {
             InitializeComponent();
@@ -40,7 +40,7 @@ namespace LloydsMinister
 
         private void btn10LongWithdraw_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong - 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -55,7 +55,7 @@ namespace LloydsMinister
 
         private void btn20LongWithdraw_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong - 20 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -70,7 +70,7 @@ namespace LloydsMinister
 
         private void btn50LongWithdraw_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong - 50 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -85,7 +85,7 @@ namespace LloydsMinister
 
         private void btn100LongWithdraw_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong - 100 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
@@ -100,7 +100,7 @@ namespace LloydsMinister
 
         private void btn150LongWithdraw_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("UPDATE customer SET  BalanceLong = BalanceLong - 150 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);

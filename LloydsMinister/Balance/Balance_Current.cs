@@ -9,18 +9,19 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using static LloydsMinister.Pin;
+using static LloydsMinister.path;
 namespace LloydsMinister
 {
     public partial class Balance_Current : Form
     {
-        protected string path = (@"Data Source=C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\customer.db3");
+        
         public Balance_Current()
         {
             InitializeComponent();
         }
         private void Balance_Current_Load(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(path);
+            SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
             string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
             SQLiteCommand com = new SQLiteCommand(query, con);
