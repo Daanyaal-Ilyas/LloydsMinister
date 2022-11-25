@@ -130,8 +130,6 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit_Current.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit_LongTerm.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit_SimpleDeposit.resources
-D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Menu.resources
-D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Pin.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Properties.Resources.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.TransferMenu.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_Current.resources
@@ -263,3 +261,7 @@ C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug
 C:\Users\omaid\OneDrive\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final2.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Deposit.Final.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw.Final2.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Menu_en.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Pin_en.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Transfercurrent_longterm.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Transfercurrent_simple.resources

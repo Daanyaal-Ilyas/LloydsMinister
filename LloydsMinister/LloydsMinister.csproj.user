@@ -37,10 +37,22 @@
     <Compile Update="Pin_en.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\TransferMenu.cs">
+    <Compile Update="Transfer_en\current\Transfercurrentlong_other.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\Transfer_Current.cs">
+    <Compile Update="Transfer_en\current\Transfercurrentsimple_other.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\current\Transfer_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\current\Transfercurrent_longterm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\current\Transfercurrent_simple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\TransferMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Transfer_en\Transfer_LongTerm.cs">
