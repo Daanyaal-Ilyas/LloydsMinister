@@ -1,76 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Balance\BalanceMenu.cs">
+    <Compile Update="Balance_en\BalanceMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Balance\Balance_Current.cs">
+    <Compile Update="Balance_en\Balance_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Balance\Balance_LongTerm.cs">
+    <Compile Update="Balance_en\Balance_LongTerm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Balance\Balance_SimpleDeposit.cs">
+    <Compile Update="Balance_en\Balance_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="card.cs">
+    <Compile Update="card_en.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\DepositMenu.cs">
+    <Compile Update="Deposit_en\DepositMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\Deposit_Current.cs">
+    <Compile Update="Deposit_en\Deposit_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\Deposit_LongTerm.cs">
+    <Compile Update="Deposit_en\Deposit_LongTerm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\Deposit_SimpleDeposit.cs">
+    <Compile Update="Deposit_en\Deposit_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Deposit\Final.cs">
+    <Compile Update="Deposit_en\Final.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Menu.cs">
+    <Compile Update="Menu_en.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Pin.cs">
+    <Compile Update="Pin_en.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer\TransferMenu.cs">
+    <Compile Update="Transfer_en\TransferMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer\Transfer_Current.cs">
+    <Compile Update="Transfer_en\Transfer_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer\Transfer_LongTerm.cs">
+    <Compile Update="Transfer_en\Transfer_LongTerm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer\Transfer_SimpleDeposit.cs">
+    <Compile Update="Transfer_en\Transfer_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewStatement\ViewStatementMenu.cs">
+    <Compile Update="ViewStatement_en\ViewStatementMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewStatement\ViewStatement_Current.cs">
+    <Compile Update="ViewStatement_en\ViewStatement_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewStatement\ViewStatement_LongTerm.cs">
+    <Compile Update="ViewStatement_en\ViewStatement_LongTerm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewStatement\ViewStatement_SimpleDeposit.cs">
+    <Compile Update="ViewStatement_en\ViewStatement_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\Final2.cs">
+    <Compile Update="Withdraw_en\Final2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\WithdrawMenu.cs">
+    <Compile Update="Withdraw_en\WithdrawMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\Withdraw_Current.cs">
+    <Compile Update="Withdraw_en\Withdraw_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\Withdraw_SimpleDeposit.cs">
+    <Compile Update="Withdraw_en\Withdraw_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

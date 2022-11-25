@@ -1,6 +1,6 @@
 ﻿namespace LloydsMinister
 {
-    partial class Pin
+    partial class Pin_en
     {
         /// <summary>
         /// Required designer variable.

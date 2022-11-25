@@ -1,6 +1,6 @@
 ﻿namespace LloydsMinister
 {
-    partial class Menu
+    partial class Menu_en
     {
         /// <summary>
         /// Required designer variable.

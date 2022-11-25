@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LloydsMinister
 {
-    public partial class Menu : Form
+    public partial class Menu_en : Form
     {
-        public Menu()
+        public Menu_en()
         {
             InitializeComponent();
         }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace LloydsMinister
 {
-    public partial class Pin : Form
+    public partial class Pin_en : Form
     {
-        public Pin()
+        public Pin_en()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace LloydsMinister
             SetValuepin = enterPin1.Text;
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT Pin FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT Pin FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             DataTable pin = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
@@ -36,7 +36,7 @@ namespace LloydsMinister
             if(pin.Rows.Count > 0)
             {
                 this.Hide();
-                Menu m2 = new Menu();
+                Menu_en m2 = new Menu_en();
                 m2.ShowDialog();
                 m2.Closed += (s, args) => this.Close();
             }
