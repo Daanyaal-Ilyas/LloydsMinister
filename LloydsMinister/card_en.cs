@@ -14,7 +14,7 @@ namespace LloydsMinister
         {
 
             this.Hide();
-            Pin p2 = new Pin();
+            Pin_en p2 = new Pin_en();
             p2.ShowDialog();
             p2.Closed += (s, args) => this.Close();
             

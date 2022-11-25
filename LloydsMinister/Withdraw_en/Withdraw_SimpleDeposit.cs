@@ -42,8 +42,8 @@ namespace LloydsMinister
 
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -56,7 +56,7 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -68,7 +68,7 @@ namespace LloydsMinister
             }
             else if (saldata >= 30000)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -90,8 +90,8 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -104,7 +104,7 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -116,7 +116,7 @@ namespace LloydsMinister
             }
             else if (saldata >= 30000)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -137,8 +137,8 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -151,7 +151,7 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -163,7 +163,7 @@ namespace LloydsMinister
             }
             else if (saldata >= 30000)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -184,8 +184,8 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -198,7 +198,7 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -210,7 +210,7 @@ namespace LloydsMinister
             }
             else if (saldata >= 30000)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -231,8 +231,8 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -245,7 +245,7 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -257,7 +257,7 @@ namespace LloydsMinister
             }
             else if (saldata >= 30000)
             {
-                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;

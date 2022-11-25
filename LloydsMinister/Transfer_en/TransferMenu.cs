@@ -52,7 +52,7 @@ namespace LloydsMinister
         private void btnTransferBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Menu menu = new Menu();
+            Menu_en menu = new Menu_en();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

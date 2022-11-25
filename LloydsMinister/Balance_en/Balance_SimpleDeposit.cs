@@ -9,7 +9,7 @@ using SQLitePCL;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
-using static LloydsMinister.Pin;
+using static LloydsMinister.Pin_en;
 namespace LloydsMinister
 {
     public partial class Balance_SimpleDeposit : Form
@@ -22,7 +22,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
+            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '"+Pin_en.SetValuepin+"'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             DataTable bs = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);

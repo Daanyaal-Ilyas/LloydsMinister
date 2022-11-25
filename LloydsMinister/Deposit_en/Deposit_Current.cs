@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static LloydsMinister.Pin;
+using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
 using System.Data.SQLite;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
@@ -47,7 +47,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 10 WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             com.CommandText = query;
             com.CommandType = CommandType.Text;
@@ -63,7 +63,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             com.CommandText = query;
             com.CommandType = CommandType.Text;
@@ -79,7 +79,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 50 WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             com.CommandText = query;
             com.CommandType = CommandType.Text;
@@ -95,7 +95,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             com.CommandText = query;
             com.CommandType = CommandType.Text;
@@ -111,7 +111,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 150 WHERE Pin = '" + Pin.SetValuepin + "'");
+            string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent + 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             com.CommandText = query;
             com.CommandType = CommandType.Text;

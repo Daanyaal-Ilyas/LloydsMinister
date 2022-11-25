@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static LloydsMinister.Pin;
+using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
 
 namespace LloydsMinister
@@ -27,7 +27,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceLong FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
+            string query = ("SELECT BalanceLong FROM customer WHERE Pin = '"+Pin_en.SetValuepin+"'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
             DataTable bl = new DataTable();

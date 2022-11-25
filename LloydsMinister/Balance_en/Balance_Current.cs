@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-using static LloydsMinister.Pin;
+using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
 namespace LloydsMinister
 {
@@ -23,7 +23,7 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '"+Pin.SetValuepin+"'");
+            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '"+Pin_en.SetValuepin+"'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
