@@ -42,7 +42,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(536, 90);
             this.label1.TabIndex = 1;
-            this.label1.Text = "You have Withdrawn the Money!\r\n     Please check your Balance!";
+            this.label1.Text = "You have Withdrawn the Money!\r\n     Please Take it!";
             // 
             // label2
             // 
@@ -75,7 +75,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Final2";
             this.Text = "Final2";
-            this.Load += new System.EventHandler(this.Final2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,4 +1,5 @@
 ﻿using LloydsMinister.Withdraw;
+using LloydsMinister.Withdraw_en;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,18 +41,13 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
-            DataTable sl = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            SQLiteDataAdapter ad = new SQLiteDataAdapter(sal);
             adapter.Fill(bc);
-            ad.Fill(sl);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10) 
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -78,8 +74,10 @@ namespace LloydsMinister
             }
             else
             {
-                MessageBox.Show("you dont have enough money to withdraw");
-                Application.Exit();
+                this.Hide();
+                nobal nobal = new nobal();
+                nobal.ShowDialog();
+                nobal.Closed += (s, args) => this.Close();
             }
             con.Close();
         }
@@ -88,18 +86,13 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
-            DataTable sl = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            SQLiteDataAdapter ad = new SQLiteDataAdapter(sal);
             adapter.Fill(bc);
-            ad.Fill(sl);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -126,8 +119,10 @@ namespace LloydsMinister
             }
             else
             {
-                MessageBox.Show("you dont have enough money to withdraw");
-                Application.Exit();
+                this.Hide();
+                nobal nobal = new nobal();
+                nobal.ShowDialog();
+                nobal.Closed += (s, args) => this.Close();
             }
             con.Close();
         }
@@ -136,18 +131,13 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
-            DataTable sl = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            SQLiteDataAdapter ad = new SQLiteDataAdapter(sal);
             adapter.Fill(bc);
-            ad.Fill(sl);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -174,8 +164,10 @@ namespace LloydsMinister
             }
             else
             {
-                MessageBox.Show("you dont have enough money to withdraw");
-                Application.Exit();
+                this.Hide();
+                nobal nobal = new nobal();
+                nobal.ShowDialog();
+                nobal.Closed += (s, args) => this.Close();
             }
             con.Close();
         }
@@ -184,18 +176,13 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
-            DataTable sl = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            SQLiteDataAdapter ad = new SQLiteDataAdapter(sal);
             adapter.Fill(bc);
-            ad.Fill(sl);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -222,8 +209,10 @@ namespace LloydsMinister
             }
             else
             {
-                MessageBox.Show("you dont have enough money to withdraw");
-                Application.Exit();
+                this.Hide();
+                nobal nobal = new nobal();
+                nobal.ShowDialog();
+                nobal.Closed += (s, args) => this.Close();
             }
             con.Close();
         }
@@ -232,18 +221,13 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
-            string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceCurrent,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
-            SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
-            DataTable sl = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
-            SQLiteDataAdapter ad = new SQLiteDataAdapter(sal);
             adapter.Fill(bc);
-            ad.Fill(sl);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            int saldata = Convert.ToInt32(sl.Rows[0]["salary"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -270,8 +254,10 @@ namespace LloydsMinister
             }
             else
             {
-                MessageBox.Show("you dont have enough money to withdraw");
-                Application.Exit();
+                this.Hide();
+                nobal nobal = new nobal();
+                nobal.ShowDialog();
+                nobal.Closed += (s, args) => this.Close();
             }
             con.Close();
         }

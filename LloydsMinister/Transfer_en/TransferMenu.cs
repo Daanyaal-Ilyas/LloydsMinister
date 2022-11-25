@@ -23,6 +23,8 @@ namespace LloydsMinister
             TransferLongTermbtn.Cursor = Cursors.Hand;
             btnTransferSimple.Cursor   = Cursors.Hand;
             btnTransferBack.Cursor     = Cursors.Hand;
+            BalanceExtra2btn.Cursor = Cursors.Hand;
+            BalanceExtrabtn.Cursor = Cursors.Hand;
         }
 
         private void btnTransferCurrent_Click(object sender, EventArgs e)
@@ -55,27 +57,6 @@ namespace LloydsMinister
             Menu_en menu = new Menu_en();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
-        }
-
-        //useless code
-        private void lbTranMenuCurrent_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbTranMenuLongTerm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbTranMenuSimple_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbTranMenuBack_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

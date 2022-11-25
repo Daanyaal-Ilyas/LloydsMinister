@@ -37,28 +37,46 @@
     <Compile Update="Pin_en.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\current\Transfercurrentlong_other.cs">
+    <Compile Update="Transfer_en\Current\Transfercurrentlong_other.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\current\Transfercurrentsimple_other.cs">
+    <Compile Update="Transfer_en\Current\Transfercurrentsimple_other.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\current\Transfer_Current.cs">
+    <Compile Update="Transfer_en\Current\Transfer_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\current\Transfercurrent_longterm.cs">
+    <Compile Update="Transfer_en\Current\Transfercurrent_longterm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\current\Transfercurrent_simple.cs">
+    <Compile Update="Transfer_en\Current\Transfercurrent_simple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\LongTerm\Transferlongcurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\LongTerm\Transferlongcurrentother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\LongTerm\Transferlongsimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\LongTerm\Transferlongsimpleother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transfer_en\nobal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Transfer_en\TransferMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\Transfer_LongTerm.cs">
+    <Compile Update="Transfer_en\LongTerm\Transfer_LongTerm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Transfer_en\Transfer_SimpleDeposit.cs">
+    <Compile Update="Transfer_en\Simple\Transfer_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewStatement_en\ViewStatementMenu.cs">
@@ -74,6 +92,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Withdraw_en\Final2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Withdraw_en\nobal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Withdraw_en\WithdrawMenu.cs">

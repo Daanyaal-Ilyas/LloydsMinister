@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LloydsMinister.Transfer_en;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,9 @@ namespace LloydsMinister
             btnTransferBack.Cursor = Cursors.Hand;
             btnlongterm.Cursor = Cursors.Hand;
             btnsimple.Cursor = Cursors.Hand;
+            btnextra1.Cursor = Cursors.Hand;
+            btnextra2.Cursor = Cursors.Hand;
+            btnextra3.Cursor = Cursors.Hand;
         }
 
         private void btnTransferBack_Click(object sender, EventArgs e)
@@ -35,7 +39,7 @@ namespace LloydsMinister
         private void btnlongterm_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Transfer_LongTerm menu = new Transfer_LongTerm();
+            Transfercurrent_longterm menu = new Transfercurrent_longterm();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }
@@ -43,7 +47,7 @@ namespace LloydsMinister
         private void btnsimple_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Transfer_SimpleDeposit menu = new Transfer_SimpleDeposit();
+            Transfercurrent_simple menu = new Transfercurrent_simple();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

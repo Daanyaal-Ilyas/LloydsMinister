@@ -265,3 +265,8 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Menu_en
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Pin_en.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Transfercurrent_longterm.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Transfercurrent_simple.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.current.Transfercurrentlong_other.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.current.Transfercurrentsimple_other.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw_en.nobal.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.final.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.nobal.resources

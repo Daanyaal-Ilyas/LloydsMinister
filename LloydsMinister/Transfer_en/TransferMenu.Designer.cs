@@ -58,7 +58,6 @@
             this.lbTranMenuBack.Size = new System.Drawing.Size(67, 32);
             this.lbTranMenuBack.TabIndex = 32;
             this.lbTranMenuBack.Text = "Back";
-            this.lbTranMenuBack.Click += new System.EventHandler(this.lbTranMenuBack_Click);
             // 
             // lbTranMenuLongTerm
             // 
@@ -69,7 +68,6 @@
             this.lbTranMenuLongTerm.Size = new System.Drawing.Size(135, 32);
             this.lbTranMenuLongTerm.TabIndex = 31;
             this.lbTranMenuLongTerm.Text = "Long Term";
-            this.lbTranMenuLongTerm.Click += new System.EventHandler(this.lbTranMenuLongTerm_Click);
             // 
             // lbTranMenuSimple
             // 
@@ -80,7 +78,6 @@
             this.lbTranMenuSimple.Size = new System.Drawing.Size(186, 32);
             this.lbTranMenuSimple.TabIndex = 30;
             this.lbTranMenuSimple.Text = "Simple Deposit";
-            this.lbTranMenuSimple.Click += new System.EventHandler(this.lbTranMenuSimple_Click);
             // 
             // lbTranMenuCurrent
             // 
@@ -91,7 +88,6 @@
             this.lbTranMenuCurrent.Size = new System.Drawing.Size(101, 32);
             this.lbTranMenuCurrent.TabIndex = 29;
             this.lbTranMenuCurrent.Text = "Current";
-            this.lbTranMenuCurrent.Click += new System.EventHandler(this.lbTranMenuCurrent_Click);
             // 
             // TransferLongTermbtn
             // 
@@ -155,10 +151,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(290, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 41);
+            this.label1.Size = new System.Drawing.Size(255, 39);
             this.label1.TabIndex = 39;
             this.label1.Text = "Transfer Menu";
             // 

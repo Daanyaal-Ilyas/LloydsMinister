@@ -52,6 +52,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(802, 92);
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
@@ -63,6 +64,7 @@
             this.label2.Size = new System.Drawing.Size(182, 39);
             this.label2.TabIndex = 48;
             this.label2.Text = "Deposited";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Final
             // 

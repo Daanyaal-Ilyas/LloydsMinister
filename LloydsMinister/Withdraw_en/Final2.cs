@@ -26,10 +26,5 @@ namespace LloydsMinister.Withdraw
 
             ControlBox = false;
         }
-
-        private void Final2_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

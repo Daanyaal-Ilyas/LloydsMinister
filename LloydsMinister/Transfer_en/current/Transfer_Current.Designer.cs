@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.btnTransferBack = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle5 = new System.Windows.Forms.PictureBox();
+            this.btnextra1 = new System.Windows.Forms.PictureBox();
             this.btnsimple = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle2 = new System.Windows.Forms.PictureBox();
-            this.pictureTriangle1 = new System.Windows.Forms.PictureBox();
+            this.btnextra3 = new System.Windows.Forms.PictureBox();
+            this.btnextra2 = new System.Windows.Forms.PictureBox();
             this.btnlongterm = new System.Windows.Forms.PictureBox();
             this.lbBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,10 +40,10 @@
             this.lbcurrentlong = new System.Windows.Forms.Label();
             this.lbcurrentsimple = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnTransferBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnsimple)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlongterm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,15 +59,15 @@
             this.btnTransferBack.TabStop = false;
             this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
             // 
-            // pictureTriangle5
+            // btnextra1
             // 
-            this.pictureTriangle5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.Location = new System.Drawing.Point(735, 235);
-            this.pictureTriangle5.Name = "pictureTriangle5";
-            this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle5.TabIndex = 23;
-            this.pictureTriangle5.TabStop = false;
+            this.btnextra1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnextra1.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnextra1.Location = new System.Drawing.Point(735, 235);
+            this.btnextra1.Name = "btnextra1";
+            this.btnextra1.Size = new System.Drawing.Size(65, 84);
+            this.btnextra1.TabIndex = 23;
+            this.btnextra1.TabStop = false;
             // 
             // btnsimple
             // 
@@ -80,25 +80,25 @@
             this.btnsimple.TabStop = false;
             this.btnsimple.Click += new System.EventHandler(this.btnsimple_Click);
             // 
-            // pictureTriangle2
+            // btnextra3
             // 
-            this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle2.Location = new System.Drawing.Point(0, 366);
-            this.pictureTriangle2.Name = "pictureTriangle2";
-            this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle2.TabIndex = 21;
-            this.pictureTriangle2.TabStop = false;
+            this.btnextra3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra3.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra3.Location = new System.Drawing.Point(0, 366);
+            this.btnextra3.Name = "btnextra3";
+            this.btnextra3.Size = new System.Drawing.Size(65, 84);
+            this.btnextra3.TabIndex = 21;
+            this.btnextra3.TabStop = false;
             // 
-            // pictureTriangle1
+            // btnextra2
             // 
-            this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.pictureTriangle1.Location = new System.Drawing.Point(0, 235);
-            this.pictureTriangle1.Name = "pictureTriangle1";
-            this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
-            this.pictureTriangle1.TabIndex = 20;
-            this.pictureTriangle1.TabStop = false;
+            this.btnextra2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra2.Location = new System.Drawing.Point(0, 235);
+            this.btnextra2.Name = "btnextra2";
+            this.btnextra2.Size = new System.Drawing.Size(65, 84);
+            this.btnextra2.TabIndex = 20;
+            this.btnextra2.TabStop = false;
             // 
             // btnlongterm
             // 
@@ -173,20 +173,20 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbBack);
             this.Controls.Add(this.btnTransferBack);
-            this.Controls.Add(this.pictureTriangle5);
+            this.Controls.Add(this.btnextra1);
             this.Controls.Add(this.btnsimple);
-            this.Controls.Add(this.pictureTriangle2);
-            this.Controls.Add(this.pictureTriangle1);
+            this.Controls.Add(this.btnextra3);
+            this.Controls.Add(this.btnextra2);
             this.Controls.Add(this.btnlongterm);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Transfer_Current";
             this.Text = "Transfer_Current";
             this.Load += new System.EventHandler(this.Transfer_Current_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnTransferBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnsimple)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnextra2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlongterm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -197,10 +197,10 @@
         #endregion
 
         private PictureBox btnTransferBack;
-        private PictureBox pictureTriangle5;
+        private PictureBox btnextra1;
         private PictureBox btnsimple;
-        private PictureBox pictureTriangle2;
-        private PictureBox pictureTriangle1;
+        private PictureBox btnextra3;
+        private PictureBox btnextra2;
         private PictureBox btnlongterm;
         private Label lbBack;
         private Label label1;
