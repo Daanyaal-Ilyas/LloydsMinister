@@ -20,7 +20,7 @@ namespace LloydsMinister
         private void WithdrawMenu_Load(object sender, EventArgs e)
         {
             btnWithdrawCurrent.Cursor  = Cursors.Hand;
-            btnWithdrawLongTerm.Cursor = Cursors.Hand;
+            btnWithdrawExtra.Cursor = Cursors.Hand;
             btnWithdrawSimple.Cursor   = Cursors.Hand;
             btnWithdrawBack.Cursor     = Cursors.Hand;
         }
@@ -33,13 +33,6 @@ namespace LloydsMinister
             current.Closed += (s, args) => this.Close();
         }
 
-        private void btnWithdrawLongTerm_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Withdraw_LongTerm longTerm = new Withdraw_LongTerm();
-            longTerm.ShowDialog();
-            longTerm.Closed += (s, args) => this.Close();
-        }
 
         private void btnWithdrawSimple_Click(object sender, EventArgs e)
         {

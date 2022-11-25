@@ -143,7 +143,6 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.ViewSta
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.ViewStatement_SimpleDeposit.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.WithdrawMenu.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw_Current.resources
-D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw_LongTerm.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw_SimpleDeposit.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.csproj.GenerateResource.cache
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.GeneratedMSBuildEditorConfig.editorconfig

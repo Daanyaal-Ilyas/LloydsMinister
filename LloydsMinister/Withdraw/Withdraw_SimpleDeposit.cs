@@ -80,8 +80,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -128,8 +128,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -175,8 +175,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -222,8 +222,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -269,8 +269,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }

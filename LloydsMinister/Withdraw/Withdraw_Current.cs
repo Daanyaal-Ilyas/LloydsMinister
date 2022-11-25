@@ -42,7 +42,6 @@ namespace LloydsMinister
             con.Open();
             string query = ("SELECT BalanceCurrent FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
             string salary = ("SELECT salary FROM customer WHERE Pin = '" + Pin.SetValuepin + "'");
-            //string query = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10 WHERE Pin = '" + Pin.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             SQLiteCommand sal = new SQLiteCommand(salary, con);
             DataTable bc = new DataTable();
@@ -79,8 +78,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -127,8 +126,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -175,8 +174,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -223,8 +222,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }
@@ -271,8 +270,8 @@ namespace LloydsMinister
             }
             else
             {
-                Application.Exit();
                 MessageBox.Show("you dont have enough money to withdraw");
+                Application.Exit();
             }
             con.Close();
         }

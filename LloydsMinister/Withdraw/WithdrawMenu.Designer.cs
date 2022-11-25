@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.lbWithMenuBack = new System.Windows.Forms.Label();
-            this.lbWithMenuLongTerm = new System.Windows.Forms.Label();
             this.lbWithMenuSimple = new System.Windows.Forms.Label();
             this.lbWithMenuCurrent = new System.Windows.Forms.Label();
-            this.btnWithdrawLongTerm = new System.Windows.Forms.PictureBox();
+            this.btnWithdrawExtra = new System.Windows.Forms.PictureBox();
             this.BalanceExtrabtn = new System.Windows.Forms.PictureBox();
             this.btnWithdrawCurrent = new System.Windows.Forms.PictureBox();
             this.btnWithdrawBack = new System.Windows.Forms.PictureBox();
@@ -40,7 +39,7 @@
             this.btnWithdrawSimple = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawLongTerm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawExtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawCurrent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
@@ -58,16 +57,6 @@
             this.lbWithMenuBack.Size = new System.Drawing.Size(67, 32);
             this.lbWithMenuBack.TabIndex = 40;
             this.lbWithMenuBack.Text = "Back";
-            // 
-            // lbWithMenuLongTerm
-            // 
-            this.lbWithMenuLongTerm.AutoSize = true;
-            this.lbWithMenuLongTerm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuLongTerm.Location = new System.Drawing.Point(70, 264);
-            this.lbWithMenuLongTerm.Name = "lbWithMenuLongTerm";
-            this.lbWithMenuLongTerm.Size = new System.Drawing.Size(135, 32);
-            this.lbWithMenuLongTerm.TabIndex = 39;
-            this.lbWithMenuLongTerm.Text = "Long Term";
             // 
             // lbWithMenuSimple
             // 
@@ -89,15 +78,14 @@
             this.lbWithMenuCurrent.TabIndex = 37;
             this.lbWithMenuCurrent.Text = "Current";
             // 
-            // btnWithdrawLongTerm
+            // btnWithdrawExtra
             // 
-            this.btnWithdrawLongTerm.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnWithdrawLongTerm.Location = new System.Drawing.Point(0, 239);
-            this.btnWithdrawLongTerm.Name = "btnWithdrawLongTerm";
-            this.btnWithdrawLongTerm.Size = new System.Drawing.Size(64, 83);
-            this.btnWithdrawLongTerm.TabIndex = 43;
-            this.btnWithdrawLongTerm.TabStop = false;
-            this.btnWithdrawLongTerm.Click += new System.EventHandler(this.btnWithdrawLongTerm_Click);
+            this.btnWithdrawExtra.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnWithdrawExtra.Location = new System.Drawing.Point(0, 239);
+            this.btnWithdrawExtra.Name = "btnWithdrawExtra";
+            this.btnWithdrawExtra.Size = new System.Drawing.Size(64, 83);
+            this.btnWithdrawExtra.TabIndex = 43;
+            this.btnWithdrawExtra.TabStop = false;
             // 
             // BalanceExtrabtn
             // 
@@ -151,10 +139,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(267, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 41);
+            this.label1.Size = new System.Drawing.Size(270, 39);
             this.label1.TabIndex = 47;
             this.label1.Text = "Withdraw Menu";
             // 
@@ -177,18 +165,17 @@
             this.Controls.Add(this.btnWithdrawBack);
             this.Controls.Add(this.BalanceExtra2btn);
             this.Controls.Add(this.btnWithdrawSimple);
-            this.Controls.Add(this.btnWithdrawLongTerm);
+            this.Controls.Add(this.btnWithdrawExtra);
             this.Controls.Add(this.BalanceExtrabtn);
             this.Controls.Add(this.btnWithdrawCurrent);
             this.Controls.Add(this.lbWithMenuBack);
-            this.Controls.Add(this.lbWithMenuLongTerm);
             this.Controls.Add(this.lbWithMenuSimple);
             this.Controls.Add(this.lbWithMenuCurrent);
             this.Controls.Add(this.pictureBox1);
             this.Name = "WithdrawMenu";
             this.Text = "WithdrawMenu";
             this.Load += new System.EventHandler(this.WithdrawMenu_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawLongTerm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawExtra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawCurrent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
@@ -202,10 +189,9 @@
 
         #endregion
         private Label lbWithMenuBack;
-        private Label lbWithMenuLongTerm;
         private Label lbWithMenuSimple;
         private Label lbWithMenuCurrent;
-        private PictureBox btnWithdrawLongTerm;
+        private PictureBox btnWithdrawExtra;
         private PictureBox BalanceExtrabtn;
         private PictureBox btnWithdrawCurrent;
         private PictureBox btnWithdrawBack;

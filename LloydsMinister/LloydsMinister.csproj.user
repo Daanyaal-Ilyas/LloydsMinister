@@ -70,9 +70,6 @@
     <Compile Update="Withdraw\Withdraw_Current.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Withdraw\Withdraw_LongTerm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Withdraw\Withdraw_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
