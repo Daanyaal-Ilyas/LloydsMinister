@@ -43,13 +43,14 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tbtntransfer2 = new System.Windows.Forms.PictureBox();
             this.btntransferextras2 = new System.Windows.Forms.PictureBox();
-            this.btntransferextras5 = new System.Windows.Forms.PictureBox();
+            this.btntransferesback = new System.Windows.Forms.PictureBox();
             this.btntransferextras3 = new System.Windows.Forms.PictureBox();
             this.btntransferextras1 = new System.Windows.Forms.PictureBox();
             this.lbtransername = new System.Windows.Forms.Label();
             this.txttransferamount = new System.Windows.Forms.TextBox();
             this.lbtransfername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.lbback = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).BeginInit();
@@ -61,7 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbtntransfer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btntransferextras5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btntransferesback)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras1)).BeginInit();
             this.SuspendLayout();
@@ -201,6 +202,7 @@
             this.tbtntransfer2.Size = new System.Drawing.Size(65, 84);
             this.tbtntransfer2.TabIndex = 82;
             this.tbtntransfer2.TabStop = false;
+            this.tbtntransfer2.Click += new System.EventHandler(this.tbtntransfer2_Click);
             // 
             // btntransferextras2
             // 
@@ -212,15 +214,16 @@
             this.btntransferextras2.TabIndex = 83;
             this.btntransferextras2.TabStop = false;
             // 
-            // btntransferextras5
+            // btntransferesback
             // 
-            this.btntransferextras5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextras5.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextras5.Location = new System.Drawing.Point(734, 365);
-            this.btntransferextras5.Name = "btntransferextras5";
-            this.btntransferextras5.Size = new System.Drawing.Size(65, 84);
-            this.btntransferextras5.TabIndex = 85;
-            this.btntransferextras5.TabStop = false;
+            this.btntransferesback.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransferesback.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransferesback.Location = new System.Drawing.Point(734, 365);
+            this.btntransferesback.Name = "btntransferesback";
+            this.btntransferesback.Size = new System.Drawing.Size(65, 84);
+            this.btntransferesback.TabIndex = 85;
+            this.btntransferesback.TabStop = false;
+            this.btntransferesback.Click += new System.EventHandler(this.btntransferesback_Click);
             // 
             // btntransferextras3
             // 
@@ -280,11 +283,22 @@
             this.label5.TabIndex = 91;
             this.label5.Text = "To Current ";
             // 
+            // lbback
+            // 
+            this.lbback.AutoSize = true;
+            this.lbback.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbback.Location = new System.Drawing.Point(661, 391);
+            this.lbback.Name = "lbback";
+            this.lbback.Size = new System.Drawing.Size(67, 32);
+            this.lbback.TabIndex = 92;
+            this.lbback.Text = "Back";
+            // 
             // transfersimplecurrentother
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbback);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbtransfername);
             this.Controls.Add(this.label1);
@@ -296,7 +310,7 @@
             this.Controls.Add(this.lbtransfer);
             this.Controls.Add(this.btntransferextras3);
             this.Controls.Add(this.btntransferextra1);
-            this.Controls.Add(this.btntransferextras5);
+            this.Controls.Add(this.btntransferesback);
             this.Controls.Add(this.btntransferextra4);
             this.Controls.Add(this.btntransferextras2);
             this.Controls.Add(this.btntransferback);
@@ -320,7 +334,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbtntransfer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btntransferextras5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btntransferesback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras1)).EndInit();
             this.ResumeLayout(false);
@@ -345,12 +359,13 @@
         private PictureBox pictureBox3;
         private PictureBox tbtntransfer2;
         private PictureBox btntransferextras2;
-        private PictureBox btntransferextras5;
+        private PictureBox btntransferesback;
         private PictureBox btntransferextras3;
         private PictureBox btntransferextras1;
         private Label lbtransername;
         private TextBox txttransferamount;
         private Label lbtransfername;
         private Label label5;
+        private Label lbback;
     }
 }

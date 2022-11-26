@@ -38,7 +38,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceLong"]);
-            if (baldata > 0)
+            if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 10, BalanceCurrent = BalanceCurrent + 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
@@ -70,7 +70,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceLong"]);
-            if (baldata > 0)
+            if (baldata >= 20)
             {
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 20, BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
@@ -102,7 +102,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceLong"]);
-            if (baldata > 0)
+            if (baldata >= 50)
             {
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 50, BalanceCurrent = BalanceCurrent + 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
@@ -134,7 +134,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceLong"]);
-            if (baldata > 0)
+            if (baldata >= 100)
             {
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 100, BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);

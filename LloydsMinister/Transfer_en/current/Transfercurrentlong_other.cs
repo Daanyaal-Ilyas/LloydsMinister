@@ -47,7 +47,8 @@ namespace LloydsMinister.Transfer_en.current
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            if (baldata > 0)
+            int data = Convert.ToInt32(txttransfercurrentlongammount.Text);
+            if (baldata >= data)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - '" + txttransfercurrentlongammount.Text + "', BalanceLong = BalanceLong + '" + txttransfercurrentlongammount.Text + "' WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
