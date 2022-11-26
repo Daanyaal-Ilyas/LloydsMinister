@@ -30,7 +30,7 @@ namespace LloydsMinister.urdu.Transfer.Current
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10,BalanceLong = BalanceLong + 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10,BalanceLong = BalanceLong + 10 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -62,7 +62,7 @@ namespace LloydsMinister.urdu.Transfer.Current
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 20,BalanceLong = BalanceLong + 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 20,BalanceLong = BalanceLong + 20 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -94,7 +94,7 @@ namespace LloydsMinister.urdu.Transfer.Current
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 50,BalanceLong = BalanceLong + 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 50,BalanceLong = BalanceLong + 50 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;
@@ -126,7 +126,7 @@ namespace LloydsMinister.urdu.Transfer.Current
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 100,BalanceLong = BalanceLong + 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 100,BalanceLong = BalanceLong + 100 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;

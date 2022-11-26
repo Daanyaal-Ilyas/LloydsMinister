@@ -125,6 +125,7 @@
             this.btntransferback.Size = new System.Drawing.Size(65, 84);
             this.btntransferback.TabIndex = 108;
             this.btntransferback.TabStop = false;
+            this.btntransferback.Click += new System.EventHandler(this.btntransferback_Click);
             // 
             // btntransferextra3
             // 
@@ -145,6 +146,7 @@
             this.btntransfer.Size = new System.Drawing.Size(65, 84);
             this.btntransfer.TabIndex = 105;
             this.btntransfer.TabStop = false;
+            this.btntransfer.Click += new System.EventHandler(this.btntransfer_Click);
             // 
             // btntransferextra5
             // 
@@ -175,6 +177,7 @@
             this.Controls.Add(this.btntransferextra5);
             this.Name = "TransferSimpleLongother";
             this.Text = "TransferSimpleLongother";
+            this.Load += new System.EventHandler(this.TransferSimpleLongother_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).EndInit();

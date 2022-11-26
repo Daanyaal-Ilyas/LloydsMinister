@@ -49,7 +49,7 @@ namespace LloydsMinister.urdu.Transfer.Current
             int data = Convert.ToInt32(txttransfercurrentlongammount.Text);
             if (baldata >= data)
             {
-                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - '" + txttransfercurrentlongammount.Text + "', BalanceLong = BalanceLong + '" + txttransfercurrentlongammount.Text + "' WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - '" + txttransfercurrentlongammount.Text + "', BalanceLong = BalanceLong + '" + txttransfercurrentlongammount.Text + "' WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;

@@ -30,7 +30,7 @@ namespace LloydsMinister.urdu.Transfer.LongTerm
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceLong"]);
             if (baldata >= 10)
             {
-                string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - '" + txttransferammount.Text + "',BalanceSimple = BalanceSimple + '" + txttransferammount.Text + "' WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - '" + txttransferammount.Text + "',BalanceSimple = BalanceSimple + '" + txttransferammount.Text + "' WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 com.CommandText = newquery;
                 com.CommandType = CommandType.Text;

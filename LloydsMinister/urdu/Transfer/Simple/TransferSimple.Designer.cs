@@ -95,6 +95,7 @@
             this.btnTransferBack.Size = new System.Drawing.Size(65, 84);
             this.btnTransferBack.TabIndex = 75;
             this.btnTransferBack.TabStop = false;
+            this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
             // 
             // btnextra1
             // 
@@ -113,6 +114,7 @@
             this.btnlongterm.Size = new System.Drawing.Size(65, 84);
             this.btnlongterm.TabIndex = 73;
             this.btnlongterm.TabStop = false;
+            this.btnlongterm.Click += new System.EventHandler(this.btnlongterm_Click);
             // 
             // btnextra3
             // 
@@ -141,6 +143,7 @@
             this.btncurrent.Size = new System.Drawing.Size(65, 84);
             this.btncurrent.TabIndex = 70;
             this.btncurrent.TabStop = false;
+            this.btncurrent.Click += new System.EventHandler(this.btncurrent_Click);
             // 
             // TransferSimple
             // 
@@ -160,6 +163,7 @@
             this.Controls.Add(this.btncurrent);
             this.Name = "TransferSimple";
             this.Text = "TransferSimple";
+            this.Load += new System.EventHandler(this.TransferSimple_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnTransferBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnextra1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlongterm)).EndInit();
