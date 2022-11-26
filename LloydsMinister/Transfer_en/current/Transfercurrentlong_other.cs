@@ -22,7 +22,7 @@ namespace LloydsMinister.Transfer_en.current
         private void btntransfercurrentlongback_Click(object sender, EventArgs e)
         {
             this.Hide();
-            TransferMenu menu = new TransferMenu();
+            Transfercurrent_longterm menu = new Transfercurrent_longterm();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

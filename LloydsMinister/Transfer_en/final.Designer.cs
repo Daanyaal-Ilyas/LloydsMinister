@@ -74,6 +74,7 @@
             this.Controls.Add(this.label1);
             this.Name = "final";
             this.Text = "final";
+            this.Load += new System.EventHandler(this.final_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

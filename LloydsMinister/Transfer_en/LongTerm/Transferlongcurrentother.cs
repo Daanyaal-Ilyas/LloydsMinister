@@ -54,7 +54,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
         private void btntransferback_Click(object sender, EventArgs e)
         {
             this.Hide();
-            TransferMenu menu = new TransferMenu();
+            Transferlongcurrent menu = new Transferlongcurrent();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

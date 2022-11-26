@@ -19,12 +19,17 @@ namespace LloydsMinister.Withdraw
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {
-                this.Hide();
+                Application.Exit();
             };
             tmr.Interval = (int)TimeSpan.FromSeconds(5).TotalMilliseconds;
             tmr.Start();
 
             ControlBox = false;
+        }
+
+        private void Final2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

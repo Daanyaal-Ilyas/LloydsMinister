@@ -12,18 +12,9 @@ namespace LloydsMinister.Withdraw_en
 {
     public partial class nobal : Form
     {
-        private System.Windows.Forms.Timer tmr;
         public nobal()
         {
             InitializeComponent();
-            tmr = new System.Windows.Forms.Timer();
-            tmr.Tick += delegate {
-                this.Hide();
-            };
-            tmr.Interval = (int)TimeSpan.FromSeconds(30).TotalMilliseconds;
-            tmr.Start();
-
-            ControlBox = false;
         }
 
         private void btnWithdrawnobal_Click(object sender, EventArgs e)

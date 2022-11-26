@@ -27,7 +27,7 @@ namespace LloydsMinister.Transfer_en.Simple
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
-            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
+            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
             if (baldata >= 10)
             {
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10,BalanceLong = BalanceLong + 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -59,7 +59,7 @@ namespace LloydsMinister.Transfer_en.Simple
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
-            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
+            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
             if (baldata >=20)
             {
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20,BalanceLong = BalanceLong + 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -91,7 +91,7 @@ namespace LloydsMinister.Transfer_en.Simple
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
-            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
+            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
             if (baldata >= 50)
             {
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50,BalanceLong = BalanceLong + 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
@@ -123,7 +123,7 @@ namespace LloydsMinister.Transfer_en.Simple
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
-            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
+            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
             if (baldata >= 100)
             {
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100,BalanceLong = BalanceLong + 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");

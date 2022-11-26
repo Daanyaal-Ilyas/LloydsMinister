@@ -270,3 +270,11 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfe
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Withdraw_en.nobal.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.final.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.nobal.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.LongTerm.Transferlongcurrent.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.LongTerm.Transferlongcurrentother.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.LongTerm.Transferlongsimple.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.LongTerm.Transferlongsimpleother.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Simple.Transfersimplecurrent.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Simple.transfersimplecurrentother.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Simple.transfersimplelongother.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.Transfer_en.Simple.transfersimplelongterm.resources

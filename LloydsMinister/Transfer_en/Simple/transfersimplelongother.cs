@@ -27,7 +27,7 @@ namespace LloydsMinister.Transfer_en.Simple
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
-            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
+            int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
             int data = Convert.ToInt32(txttransferammount.Text);
             if (baldata >= data)
             {
@@ -63,7 +63,7 @@ namespace LloydsMinister.Transfer_en.Simple
         private void btntransferback_Click(object sender, EventArgs e)
         {
             this.Hide();
-            TransferMenu menu = new TransferMenu();
+            transfersimplelongterm menu = new transfersimplelongterm();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

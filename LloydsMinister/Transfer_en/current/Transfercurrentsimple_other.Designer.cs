@@ -106,6 +106,7 @@
             this.btntransfercurrentsimpback.Size = new System.Drawing.Size(65, 84);
             this.btntransfercurrentsimpback.TabIndex = 62;
             this.btntransfercurrentsimpback.TabStop = false;
+            this.btntransfercurrentsimpback.Click += new System.EventHandler(this.btntransfercurrentsimpback_Click);
             // 
             // btntransfercurrentsimpextra4
             // 

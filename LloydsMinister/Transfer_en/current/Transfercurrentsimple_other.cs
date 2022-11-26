@@ -58,5 +58,13 @@ namespace LloydsMinister.Transfer_en.current
             }
             con.Close();
         }
+
+        private void btntransfercurrentsimpback_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Transfercurrent_simple nobal = new Transfercurrent_simple();
+            nobal.ShowDialog();
+            nobal.Closed += (s, args) => this.Close();
+        }
     }
 }

@@ -18,12 +18,17 @@ namespace LloydsMinister.Transfer_en
             InitializeComponent();
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {
-                this.Hide();
+                Application.Exit();
             };
             tmr.Interval = (int)TimeSpan.FromSeconds(5).TotalMilliseconds;
             tmr.Start();
 
             ControlBox = false;
+
+        }
+
+        private void final_Load(object sender, EventArgs e)
+        {
 
         }
     }
