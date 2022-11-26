@@ -24,6 +24,7 @@ namespace LloydsMinister
         private void pin_urdu_Load(object sender, EventArgs e)
         {
             pictureBox1.Cursor = Cursors.Hand;
+            
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
