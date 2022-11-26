@@ -57,6 +57,7 @@
             this.btncurrent.Size = new System.Drawing.Size(65, 84);
             this.btncurrent.TabIndex = 68;
             this.btncurrent.TabStop = false;
+            this.btncurrent.Click += new System.EventHandler(this.btncurrent_Click);
             // 
             // lbcurrentsimple
             // 
@@ -83,7 +84,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(336, 28);
+            this.label1.Location = new System.Drawing.Point(297, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(182, 37);
             this.label1.TabIndex = 64;
@@ -128,6 +129,7 @@
             this.btnsimple.Size = new System.Drawing.Size(65, 84);
             this.btnsimple.TabIndex = 60;
             this.btnsimple.TabStop = false;
+            this.btnsimple.Click += new System.EventHandler(this.btnsimple_Click);
             // 
             // btnextra3
             // 

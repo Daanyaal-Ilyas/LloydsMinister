@@ -1,6 +1,6 @@
-﻿namespace LloydsMinister.Transfer_en.LongTerm
+﻿namespace LloydsMinister.Transfer_en.Simple
 {
-    partial class Transferlongsimple
+    partial class Transfersimplecurrent
     {
         /// <summary>
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.lbtransfer50 = new System.Windows.Forms.Label();
             this.lbtransfer100 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbtransferother = new System.Windows.Forms.Label();
             this.lbtransfer20 = new System.Windows.Forms.Label();
             this.lbtransfer10 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.btntransfer10 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbtransferback = new System.Windows.Forms.Label();
             this.btntransferback = new System.Windows.Forms.PictureBox();
             this.btntransfer100 = new System.Windows.Forms.PictureBox();
             this.btntransfer20 = new System.Windows.Forms.PictureBox();
@@ -71,15 +71,15 @@
             this.lbtransfer100.TabIndex = 75;
             this.lbtransfer100.Text = "£100";
             // 
-            // label5
+            // lbtransferother
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(70, 392);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 32);
-            this.label5.TabIndex = 74;
-            this.label5.Text = "Other";
+            this.lbtransferother.AutoSize = true;
+            this.lbtransferother.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbtransferother.Location = new System.Drawing.Point(70, 392);
+            this.lbtransferother.Name = "lbtransferother";
+            this.lbtransferother.Size = new System.Drawing.Size(78, 32);
+            this.lbtransferother.TabIndex = 74;
+            this.lbtransferother.Text = "Other";
             // 
             // lbtransfer20
             // 
@@ -101,17 +101,6 @@
             this.lbtransfer10.TabIndex = 72;
             this.lbtransfer10.Text = "£10";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(251, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(295, 37);
-            this.label3.TabIndex = 69;
-            this.label3.Text = "To Simple Deposit";
-            // 
             // btntransfer10
             // 
             this.btntransfer10.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
@@ -122,15 +111,26 @@
             this.btntransfer10.TabIndex = 71;
             this.btntransfer10.TabStop = false;
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(661, 392);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 32);
-            this.label2.TabIndex = 68;
-            this.label2.Text = "Back";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(287, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(181, 37);
+            this.label3.TabIndex = 69;
+            this.label3.Text = "To Current";
+            // 
+            // lbtransferback
+            // 
+            this.lbtransferback.AutoSize = true;
+            this.lbtransferback.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbtransferback.Location = new System.Drawing.Point(661, 392);
+            this.lbtransferback.Name = "lbtransferback";
+            this.lbtransferback.Size = new System.Drawing.Size(67, 32);
+            this.lbtransferback.TabIndex = 68;
+            this.lbtransferback.Text = "Back";
             // 
             // btntransferback
             // 
@@ -151,6 +151,7 @@
             this.btntransfer100.Size = new System.Drawing.Size(65, 84);
             this.btntransfer100.TabIndex = 66;
             this.btntransfer100.TabStop = false;
+            this.btntransfer100.Click += new System.EventHandler(this.btntransfer100_Click);
             // 
             // btntransfer20
             // 
@@ -191,27 +192,28 @@
             this.btntransfer50.TabIndex = 63;
             this.btntransfer50.TabStop = false;
             // 
-            // Transferlongsimple
+            // Transfersimplecurrent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbtransfer50);
             this.Controls.Add(this.lbtransfer100);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbtransferother);
             this.Controls.Add(this.lbtransfer20);
             this.Controls.Add(this.lbtransfer10);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.btntransfer10);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbtransferback);
             this.Controls.Add(this.btntransferback);
             this.Controls.Add(this.btntransfer100);
             this.Controls.Add(this.btntransfer20);
             this.Controls.Add(this.btntransferother);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btntransfer50);
-            this.Name = "Transferlongsimple";
-            this.Text = "Transferlongsimple";
+            this.Name = "Transfersimplecurrent";
+            this.Text = "Transfersimplecurrent";
+            this.Load += new System.EventHandler(this.Transfersimplecurrent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer100)).EndInit();
@@ -228,12 +230,12 @@
 
         private Label lbtransfer50;
         private Label lbtransfer100;
-        private Label label5;
+        private Label lbtransferother;
         private Label lbtransfer20;
         private Label lbtransfer10;
-        private Label label3;
         private PictureBox btntransfer10;
-        private Label label2;
+        private Label label3;
+        private Label lbtransferback;
         private PictureBox btntransferback;
         private PictureBox btntransfer100;
         private PictureBox btntransfer20;

@@ -70,6 +70,9 @@
     <Compile Update="Transfer_en\nobal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Transfer_en\Simple\Transfersimplecurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Transfer_en\TransferMenu.cs">
       <SubType>Form</SubType>
     </Compile>
