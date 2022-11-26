@@ -16,5 +16,40 @@ namespace LloydsMinister.Transfer_en.Simple
         {
             InitializeComponent();
         }
+
+        private void btntransfer10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntransfer20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntransfer50_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntransfer100_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntransferback_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntransferother_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void transfersimplelongterm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

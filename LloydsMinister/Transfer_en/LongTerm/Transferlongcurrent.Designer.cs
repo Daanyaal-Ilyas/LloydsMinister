@@ -46,7 +46,7 @@
             this.btntransferlother = new System.Windows.Forms.PictureBox();
             this.btntransferl20 = new System.Windows.Forms.PictureBox();
             this.btntransferl100 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnTransferlBack = new System.Windows.Forms.PictureBox();
             this.lbtransferlback = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbtransferl20 = new System.Windows.Forms.Label();
@@ -64,7 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btntransferlother)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferl20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferl100)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTransferlBack)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -137,6 +137,7 @@
             this.btntransfer50.Size = new System.Drawing.Size(65, 84);
             this.btntransfer50.TabIndex = 47;
             this.btntransfer50.TabStop = false;
+            this.btntransfer50.Click += new System.EventHandler(this.btntransfer50_Click);
             // 
             // pictureBox1
             // 
@@ -156,6 +157,7 @@
             this.btntransfer10.Size = new System.Drawing.Size(65, 84);
             this.btntransfer10.TabIndex = 57;
             this.btntransfer10.TabStop = false;
+            this.btntransfer10.Click += new System.EventHandler(this.btntransfer10_Click);
             // 
             // lbtransfer10
             // 
@@ -225,6 +227,7 @@
             this.btntransferlother.Size = new System.Drawing.Size(65, 84);
             this.btntransferlother.TabIndex = 48;
             this.btntransferlother.TabStop = false;
+            this.btntransferlother.Click += new System.EventHandler(this.btntransferlother_Click);
             // 
             // btntransferl20
             // 
@@ -235,6 +238,7 @@
             this.btntransferl20.Size = new System.Drawing.Size(65, 84);
             this.btntransferl20.TabIndex = 49;
             this.btntransferl20.TabStop = false;
+            this.btntransferl20.Click += new System.EventHandler(this.btntransferl20_Click);
             // 
             // btntransferl100
             // 
@@ -245,16 +249,18 @@
             this.btntransferl100.Size = new System.Drawing.Size(65, 84);
             this.btntransferl100.TabIndex = 50;
             this.btntransferl100.TabStop = false;
+            this.btntransferl100.Click += new System.EventHandler(this.btntransferl100_Click);
             // 
-            // pictureBox6
+            // btnTransferlBack
             // 
-            this.pictureBox6.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureBox6.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureBox6.Location = new System.Drawing.Point(734, 366);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(65, 84);
-            this.pictureBox6.TabIndex = 51;
-            this.pictureBox6.TabStop = false;
+            this.btnTransferlBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnTransferlBack.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnTransferlBack.Location = new System.Drawing.Point(734, 366);
+            this.btnTransferlBack.Name = "btnTransferlBack";
+            this.btnTransferlBack.Size = new System.Drawing.Size(65, 84);
+            this.btnTransferlBack.TabIndex = 51;
+            this.btnTransferlBack.TabStop = false;
+            this.btnTransferlBack.Click += new System.EventHandler(this.btnTransferlBack_Click);
             // 
             // lbtransferlback
             // 
@@ -335,7 +341,7 @@
             this.Controls.Add(this.btntransfer10);
             this.Controls.Add(this.lbtransferlback);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.btnTransferlBack);
             this.Controls.Add(this.lbBack);
             this.Controls.Add(this.btntransferl100);
             this.Controls.Add(this.btnTransferBack);
@@ -349,6 +355,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Transferlongcurrent";
             this.Text = "Transferlongcurrent";
+            this.Load += new System.EventHandler(this.Transferlongcurrent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnTransferBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer100)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer20)).EndInit();
@@ -360,7 +367,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btntransferlother)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferl20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferl100)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTransferlBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -385,7 +392,7 @@
         private PictureBox btntransferlother;
         private PictureBox btntransferl20;
         private PictureBox btntransferl100;
-        private PictureBox pictureBox6;
+        private PictureBox btnTransferlBack;
         private Label lbtransferlback;
         private Label label3;
         private Label lbtransferl20;

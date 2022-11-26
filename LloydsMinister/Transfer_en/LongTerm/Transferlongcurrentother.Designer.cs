@@ -124,6 +124,7 @@
             this.btntransferback.Size = new System.Drawing.Size(65, 84);
             this.btntransferback.TabIndex = 62;
             this.btntransferback.TabStop = false;
+            this.btntransferback.Click += new System.EventHandler(this.btntransferback_Click);
             // 
             // btntransferextra4
             // 
@@ -154,6 +155,7 @@
             this.btntransfer.Size = new System.Drawing.Size(65, 84);
             this.btntransfer.TabIndex = 59;
             this.btntransfer.TabStop = false;
+            this.btntransfer.Click += new System.EventHandler(this.btntransfer_Click);
             // 
             // btntransferextra3
             // 
@@ -248,6 +250,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Transferlongcurrentother";
             this.Text = "Transferlongcurrentother";
+            this.Load += new System.EventHandler(this.Transferlongcurrentother_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra4)).EndInit();

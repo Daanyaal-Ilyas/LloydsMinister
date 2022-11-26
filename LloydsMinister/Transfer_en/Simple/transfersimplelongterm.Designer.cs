@@ -110,6 +110,7 @@
             this.btntransfer10.Size = new System.Drawing.Size(65, 84);
             this.btntransfer10.TabIndex = 85;
             this.btntransfer10.TabStop = false;
+            this.btntransfer10.Click += new System.EventHandler(this.btntransfer10_Click);
             // 
             // label3
             // 
@@ -141,6 +142,7 @@
             this.btntransferback.Size = new System.Drawing.Size(65, 84);
             this.btntransferback.TabIndex = 81;
             this.btntransferback.TabStop = false;
+            this.btntransferback.Click += new System.EventHandler(this.btntransferback_Click);
             // 
             // btntransfer100
             // 
@@ -151,6 +153,7 @@
             this.btntransfer100.Size = new System.Drawing.Size(65, 84);
             this.btntransfer100.TabIndex = 80;
             this.btntransfer100.TabStop = false;
+            this.btntransfer100.Click += new System.EventHandler(this.btntransfer100_Click);
             // 
             // btntransfer20
             // 
@@ -161,6 +164,7 @@
             this.btntransfer20.Size = new System.Drawing.Size(65, 84);
             this.btntransfer20.TabIndex = 79;
             this.btntransfer20.TabStop = false;
+            this.btntransfer20.Click += new System.EventHandler(this.btntransfer20_Click);
             // 
             // btntransferother
             // 
@@ -171,6 +175,7 @@
             this.btntransferother.Size = new System.Drawing.Size(65, 84);
             this.btntransferother.TabIndex = 78;
             this.btntransferother.TabStop = false;
+            this.btntransferother.Click += new System.EventHandler(this.btntransferother_Click);
             // 
             // pictureBox2
             // 
@@ -190,6 +195,7 @@
             this.btntransfer50.Size = new System.Drawing.Size(65, 84);
             this.btntransfer50.TabIndex = 77;
             this.btntransfer50.TabStop = false;
+            this.btntransfer50.Click += new System.EventHandler(this.btntransfer50_Click);
             // 
             // transfersimplelongterm
             // 
@@ -212,6 +218,7 @@
             this.Controls.Add(this.btntransfer50);
             this.Name = "transfersimplelongterm";
             this.Text = "transfersimplelongterm";
+            this.Load += new System.EventHandler(this.transfersimplelongterm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransfer100)).EndInit();

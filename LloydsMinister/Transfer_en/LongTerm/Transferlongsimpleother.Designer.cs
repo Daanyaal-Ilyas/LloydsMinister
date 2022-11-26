@@ -39,6 +39,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btntransferextra3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbtransferback = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).BeginInit();
@@ -104,6 +105,7 @@
             this.btntransferback.Size = new System.Drawing.Size(65, 84);
             this.btntransferback.TabIndex = 74;
             this.btntransferback.TabStop = false;
+            this.btntransferback.Click += new System.EventHandler(this.btntransferback_Click);
             // 
             // btntransferextra2
             // 
@@ -124,6 +126,7 @@
             this.btntransfer.Size = new System.Drawing.Size(65, 84);
             this.btntransfer.TabIndex = 71;
             this.btntransfer.TabStop = false;
+            this.btntransfer.Click += new System.EventHandler(this.btntransfer_Click);
             // 
             // pictureBox2
             // 
@@ -155,11 +158,22 @@
             this.label1.TabIndex = 80;
             this.label1.Text = "To Simple Deposit";
             // 
+            // lbtransferback
+            // 
+            this.lbtransferback.AutoSize = true;
+            this.lbtransferback.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbtransferback.Location = new System.Drawing.Point(661, 391);
+            this.lbtransferback.Name = "lbtransferback";
+            this.lbtransferback.Size = new System.Drawing.Size(67, 32);
+            this.lbtransferback.TabIndex = 81;
+            this.lbtransferback.Text = "Back";
+            // 
             // Transferlongsimpleother
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbtransferback);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txttransferammount);
@@ -173,6 +187,7 @@
             this.Controls.Add(this.btntransferextra3);
             this.Name = "Transferlongsimpleother";
             this.Text = "Transferlongsimpleother";
+            this.Load += new System.EventHandler(this.Transferlongsimpleother_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextra4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferback)).EndInit();
@@ -198,5 +213,6 @@
         private PictureBox pictureBox2;
         private PictureBox btntransferextra3;
         private Label label1;
+        private Label lbtransferback;
     }
 }
