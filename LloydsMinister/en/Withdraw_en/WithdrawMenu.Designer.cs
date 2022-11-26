@@ -38,14 +38,12 @@
             this.BalanceExtra2btn = new System.Windows.Forms.PictureBox();
             this.btnWithdrawSimple = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawExtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtrabtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawCurrent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawSimple)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbWithMenuBack
@@ -146,15 +144,6 @@
             this.label1.TabIndex = 47;
             this.label1.Text = "Withdraw Menu";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
-            this.pictureBox1.TabIndex = 48;
-            this.pictureBox1.TabStop = false;
-            // 
             // WithdrawMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -171,7 +160,6 @@
             this.Controls.Add(this.lbWithMenuBack);
             this.Controls.Add(this.lbWithMenuSimple);
             this.Controls.Add(this.lbWithMenuCurrent);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "WithdrawMenu";
             this.Text = "WithdrawMenu";
             this.Load += new System.EventHandler(this.WithdrawMenu_Load);
@@ -181,7 +169,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BalanceExtra2btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnWithdrawSimple)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,6 +185,5 @@
         private PictureBox BalanceExtra2btn;
         private PictureBox btnWithdrawSimple;
         private Label label1;
-        private PictureBox pictureBox1;
     }
 }

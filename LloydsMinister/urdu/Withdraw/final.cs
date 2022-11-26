@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister.Withdraw
+namespace LloydsMinister.urdu.Withdraw
 {
-    public partial class Final2 : Form
+    public partial class final : Form
     {
         private System.Windows.Forms.Timer tmr;
-        public Final2()
+        public final()
         {
             InitializeComponent();
 
