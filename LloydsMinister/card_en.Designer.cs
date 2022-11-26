@@ -38,7 +38,7 @@
             // Text1
             // 
             this.Text1.AutoSize = true;
-            this.Text1.Font = new System.Drawing.Font("Segoe UI", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.Text1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Text1.Location = new System.Drawing.Point(178, 56);
             this.Text1.Name = "Text1";
             this.Text1.Size = new System.Drawing.Size(336, 40);
@@ -48,7 +48,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Card;
-            this.pictureBox1.Location = new System.Drawing.Point(198, 122);
+            this.pictureBox1.Location = new System.Drawing.Point(206, 122);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(281, 306);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -70,7 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(670, 593);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

@@ -47,6 +47,7 @@
             // 
             // enterPin1
             // 
+            this.enterPin1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.enterPin1.Location = new System.Drawing.Point(268, 218);
             this.enterPin1.Name = "enterPin1";
             this.enterPin1.Size = new System.Drawing.Size(200, 23);
@@ -73,17 +74,17 @@
             this.textEnter1.TabIndex = 4;
             this.textEnter1.Text = "Enter ";
             // 
-            // Pin
+            // Pin_en
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(735, 450);
             this.Controls.Add(this.textEnter1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.enterPin1);
             this.Controls.Add(this.Text2);
-            this.Name = "Pin";
+            this.Name = "Pin_en";
             this.Text = "Pin";
             this.Load += new System.EventHandler(this.Pin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

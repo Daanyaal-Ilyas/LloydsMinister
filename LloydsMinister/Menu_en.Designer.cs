@@ -120,11 +120,11 @@
             // menuLabel1
             // 
             this.menuLabel1.AutoSize = true;
-            this.menuLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.menuLabel1.Font = new System.Drawing.Font("Poor Richard", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.menuLabel1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.menuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.menuLabel1.Location = new System.Drawing.Point(345, 29);
             this.menuLabel1.Name = "menuLabel1";
-            this.menuLabel1.Size = new System.Drawing.Size(97, 41);
+            this.menuLabel1.Size = new System.Drawing.Size(107, 39);
             this.menuLabel1.TabIndex = 18;
             this.menuLabel1.Text = "Menu";
             this.menuLabel1.Click += new System.EventHandler(this.menuLabel1_Click);
@@ -191,18 +191,18 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(802, 92);
             this.pictureBox1.TabIndex = 42;
             this.pictureBox1.TabStop = false;
             // 
-            // Menu
+            // Menu_en
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnMenuExit);
             this.Controls.Add(this.btnMenuTransfer);
@@ -218,7 +218,7 @@
             this.Controls.Add(this.lbMenuBalance);
             this.Controls.Add(this.lbMenuExit);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Menu";
+            this.Name = "Menu_en";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuWithdraw)).EndInit();
