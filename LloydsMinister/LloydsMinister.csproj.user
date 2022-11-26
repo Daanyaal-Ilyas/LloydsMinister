@@ -40,7 +40,22 @@
     <Compile Update="en\Pin_en.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="urdu\Balance\Balancemenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Balance\Balance_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Balance\Balance_Longterm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Balance\Balance_Simple.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="urdu\card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Deposit\Depositmenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="urdu\menu.cs">
@@ -128,6 +143,15 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="en\Withdraw_en\Withdraw_SimpleDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Transfermenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\ViewStatement\viewstatmentmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Withdraw\Withdrawmenu.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

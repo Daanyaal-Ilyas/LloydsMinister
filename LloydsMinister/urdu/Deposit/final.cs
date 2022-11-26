@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister.Deposit
+namespace LloydsMinister.urdu.Deposit
 {
-    public partial class Final : Form
+    public partial class final : Form
     {
         private System.Windows.Forms.Timer tmr;
-        public Final()
+        public final()
         {
             InitializeComponent();
 
@@ -23,8 +23,8 @@ namespace LloydsMinister.Deposit
             };
             tmr.Interval = (int)TimeSpan.FromSeconds(5).TotalMilliseconds;
             tmr.Start();
-            
-            ControlBox  = false;
+
+            ControlBox = false;
         }
     }
 }

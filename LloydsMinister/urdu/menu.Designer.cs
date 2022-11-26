@@ -57,6 +57,7 @@
             this.btnMenuExit.Size = new System.Drawing.Size(67, 85);
             this.btnMenuExit.TabIndex = 48;
             this.btnMenuExit.TabStop = false;
+            this.btnMenuExit.Click += new System.EventHandler(this.btnMenuExit_Click);
             // 
             // btnMenuTransfer
             // 
@@ -66,6 +67,7 @@
             this.btnMenuTransfer.Size = new System.Drawing.Size(67, 85);
             this.btnMenuTransfer.TabIndex = 47;
             this.btnMenuTransfer.TabStop = false;
+            this.btnMenuTransfer.Click += new System.EventHandler(this.btnMenuTransfer_Click);
             // 
             // btnMenuDeposit
             // 
@@ -75,6 +77,7 @@
             this.btnMenuDeposit.Size = new System.Drawing.Size(67, 85);
             this.btnMenuDeposit.TabIndex = 46;
             this.btnMenuDeposit.TabStop = false;
+            this.btnMenuDeposit.Click += new System.EventHandler(this.btnMenuDeposit_Click);
             // 
             // btnMenuWithdraw
             // 
@@ -84,6 +87,7 @@
             this.btnMenuWithdraw.Size = new System.Drawing.Size(64, 83);
             this.btnMenuWithdraw.TabIndex = 45;
             this.btnMenuWithdraw.TabStop = false;
+            this.btnMenuWithdraw.Click += new System.EventHandler(this.btnMenuWithdraw_Click);
             // 
             // btnMenuStatement
             // 
@@ -93,6 +97,7 @@
             this.btnMenuStatement.Size = new System.Drawing.Size(64, 83);
             this.btnMenuStatement.TabIndex = 44;
             this.btnMenuStatement.TabStop = false;
+            this.btnMenuStatement.Click += new System.EventHandler(this.btnMenuStatement_Click);
             // 
             // btnMenuBalance
             // 
@@ -102,6 +107,7 @@
             this.btnMenuBalance.Size = new System.Drawing.Size(64, 83);
             this.btnMenuBalance.TabIndex = 43;
             this.btnMenuBalance.TabStop = false;
+            this.btnMenuBalance.Click += new System.EventHandler(this.btnMenuBalance_Click);
             // 
             // menuLabel1
             // 
@@ -195,6 +201,7 @@
             this.Controls.Add(this.menuLabel1);
             this.Name = "menu";
             this.Text = "menu";
+            this.Load += new System.EventHandler(this.menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuTransfer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuDeposit)).EndInit();
