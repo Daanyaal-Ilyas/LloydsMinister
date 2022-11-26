@@ -157,13 +157,76 @@
     <Compile Update="en\Withdraw_en\Withdraw_SimpleDeposit.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="urdu\Transfer\Current\TransferCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Current\TransferCurrentLong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Current\TransferCurrentLongother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Current\TransferCurrentSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Current\TransferCurrentSimpleother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\LongTerm\TransferLong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\LongTerm\TransferLongCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\LongTerm\TransferLongCurrentother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\LongTerm\TransferLongSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\LongTerm\TransferLongSimpleother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Nobal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Simple\TransferSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Simple\TransferSimpleCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Simple\TransferSimpleCurrentother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Simple\TransferSimpleLong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Transfer\Simple\TransferSimpleLongother.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="urdu\Transfer\Transfermenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="urdu\ViewStatement\viewstatmentmenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="urdu\Withdraw\final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Withdraw\Nobal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Withdraw\WithdrawCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="urdu\Withdraw\Withdrawmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Withdraw\WithdrawSimple.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

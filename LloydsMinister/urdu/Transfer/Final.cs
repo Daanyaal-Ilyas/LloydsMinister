@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister.Transfer_en
+namespace LloydsMinister.urdu.Transfer
 {
-    public partial class final : Form
+    public partial class Final : Form
     {
         private System.Windows.Forms.Timer tmr;
-        public final()
+        public Final()
         {
             InitializeComponent();
             tmr = new System.Windows.Forms.Timer();
@@ -24,7 +24,6 @@ namespace LloydsMinister.Transfer_en
             tmr.Start();
 
             ControlBox = false;
-
         }
     }
 }
