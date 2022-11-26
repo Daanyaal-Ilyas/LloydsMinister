@@ -16,4 +16,12 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="urdu\Balance\" />
+    <Folder Include="urdu\Deposit\" />
+    <Folder Include="urdu\ViewStatement\" />
+    <Folder Include="urdu\Withdraw\" />
+    <Folder Include="urdu\Transfer\" />
+  </ItemGroup>
+
 </Project>
