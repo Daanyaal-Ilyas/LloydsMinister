@@ -290,3 +290,7 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.De
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Transfer.Transfermenu.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.ViewStatement.viewstatmentmenu.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.ViewStatement.Withdrawmenu.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Deposit.DepositCurrent.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Deposit.DepositLongTerm.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Deposit.DepositSimple.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Deposit.final.resources

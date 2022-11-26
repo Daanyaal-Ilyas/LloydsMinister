@@ -55,7 +55,19 @@
     <Compile Update="urdu\card.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="urdu\Deposit\DepositCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Deposit\DepositLongTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="urdu\Deposit\Depositmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Deposit\DepositSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="urdu\Deposit\final.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="urdu\menu.cs">

@@ -64,11 +64,11 @@
             // 
             this.lbDep_SimpleBack.AutoSize = true;
             this.lbDep_SimpleBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_SimpleBack.Location = new System.Drawing.Point(652, 379);
+            this.lbDep_SimpleBack.Location = new System.Drawing.Point(641, 379);
             this.lbDep_SimpleBack.Name = "lbDep_SimpleBack";
-            this.lbDep_SimpleBack.Size = new System.Drawing.Size(77, 37);
+            this.lbDep_SimpleBack.Size = new System.Drawing.Size(88, 37);
             this.lbDep_SimpleBack.TabIndex = 57;
-            this.lbDep_SimpleBack.Text = "Back";
+            this.lbDep_SimpleBack.Text = "پیچھے";
             // 
             // lbDep_Simple150
             // 
@@ -128,6 +128,7 @@
             this.btnDepositBack.Size = new System.Drawing.Size(65, 84);
             this.btnDepositBack.TabIndex = 51;
             this.btnDepositBack.TabStop = false;
+            this.btnDepositBack.Click += new System.EventHandler(this.btnDepositBack_Click);
             // 
             // btn100SimpleDeposit
             // 
@@ -137,6 +138,7 @@
             this.btn100SimpleDeposit.Size = new System.Drawing.Size(65, 84);
             this.btn100SimpleDeposit.TabIndex = 50;
             this.btn100SimpleDeposit.TabStop = false;
+            this.btn100SimpleDeposit.Click += new System.EventHandler(this.btn100SimpleDeposit_Click);
             // 
             // btn20SimpleDeposit
             // 
@@ -146,6 +148,7 @@
             this.btn20SimpleDeposit.Size = new System.Drawing.Size(65, 84);
             this.btn20SimpleDeposit.TabIndex = 49;
             this.btn20SimpleDeposit.TabStop = false;
+            this.btn20SimpleDeposit.Click += new System.EventHandler(this.btn20SimpleDeposit_Click);
             // 
             // btn150SimpleDeposit
             // 
@@ -155,6 +158,7 @@
             this.btn150SimpleDeposit.Size = new System.Drawing.Size(65, 84);
             this.btn150SimpleDeposit.TabIndex = 48;
             this.btn150SimpleDeposit.TabStop = false;
+            this.btn150SimpleDeposit.Click += new System.EventHandler(this.btn150SimpleDeposit_Click);
             // 
             // btn50SimpleDeposit
             // 
@@ -164,6 +168,7 @@
             this.btn50SimpleDeposit.Size = new System.Drawing.Size(65, 84);
             this.btn50SimpleDeposit.TabIndex = 47;
             this.btn50SimpleDeposit.TabStop = false;
+            this.btn50SimpleDeposit.Click += new System.EventHandler(this.btn50SimpleDeposit_Click);
             // 
             // btn10SimpleDeposit
             // 
@@ -197,6 +202,7 @@
             this.Controls.Add(this.btn10SimpleDeposit);
             this.Name = "DepositSimple";
             this.Text = "DepositSimple";
+            this.Load += new System.EventHandler(this.DepositSimple_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnDepositBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn100SimpleDeposit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn20SimpleDeposit)).EndInit();
