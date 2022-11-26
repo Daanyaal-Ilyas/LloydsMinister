@@ -23,18 +23,6 @@ namespace LloydsMinister
         private void CardInsert_Load(object sender, EventArgs e)
         {
             pictureBox2.Cursor = Cursors.Hand;
-            if (System.IO.File.Exists(path.path2))
-            {
-                // nothing happens because you got the db already
-            }
-
-            else
-            {
-                var db = new SQLiteConnection(path.path2);
-
-                db.CreateTable<DB>();
-                db.Close();
-            }
         }
     }
 }

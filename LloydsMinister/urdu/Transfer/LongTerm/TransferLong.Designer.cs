@@ -55,6 +55,7 @@
             this.btncurrent.Size = new System.Drawing.Size(65, 84);
             this.btncurrent.TabIndex = 78;
             this.btncurrent.TabStop = false;
+            this.btncurrent.Click += new System.EventHandler(this.btncurrent_Click);
             // 
             // lbcurrentsimple
             // 
@@ -106,6 +107,7 @@
             this.btnTransferBack.Size = new System.Drawing.Size(65, 84);
             this.btnTransferBack.TabIndex = 73;
             this.btnTransferBack.TabStop = false;
+            this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
             // 
             // btnextra1
             // 
@@ -126,6 +128,7 @@
             this.btnsimple.Size = new System.Drawing.Size(65, 84);
             this.btnsimple.TabIndex = 71;
             this.btnsimple.TabStop = false;
+            this.btnsimple.Click += new System.EventHandler(this.btnsimple_Click);
             // 
             // btnextra3
             // 
@@ -165,6 +168,7 @@
             this.Controls.Add(this.btnextra2);
             this.Name = "TransferLong";
             this.Text = "TransferLong";
+            this.Load += new System.EventHandler(this.TransferLong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btncurrent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTransferBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnextra1)).EndInit();
