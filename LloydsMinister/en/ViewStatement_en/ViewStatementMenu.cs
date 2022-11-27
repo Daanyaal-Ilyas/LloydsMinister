@@ -23,6 +23,8 @@ namespace LloydsMinister
             btnViewStatLongTerm.Cursor = Cursors.Hand;
             btnViewStatSimple.Cursor   = Cursors.Hand;
             btnViewStatBack.Cursor     = Cursors.Hand;
+            BalanceExtra2btn.Cursor = Cursors.Hand;
+            BalanceExtrabtn.Cursor = Cursors.Hand;
         }
 
         private void btnViewStatCurrent_Click(object sender, EventArgs e)
@@ -55,27 +57,6 @@ namespace LloydsMinister
             Menu_en menu = new Menu_en();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
-        }
-
-        //useless code
-        private void lbStatMenuCurrent_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbStatMenuLongTerm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbStatMenuSimple_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbStatMenuBack_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

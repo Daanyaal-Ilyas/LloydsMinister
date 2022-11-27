@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,16 @@ namespace LloydsMinister
         private void ViewStatement_LongTerm_Load(object sender, EventArgs e)
         {
             btnStatBack.Cursor = Cursors.Hand;
+            SQLiteConnection con = new SQLiteConnection(path.path1);
+            con.Open();
+            string query = ("SELECT date,time,description,amount  FROM longterm_historyen WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            SQLiteCommand com = new SQLiteCommand(query, con);
+            DataTable bc = new DataTable();
+            SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
+            adapter.Fill(bc);
+
+            dataGridView1.DataSource = bc;
+
         }
 
         private void btnStatBack_Click(object sender, EventArgs e)

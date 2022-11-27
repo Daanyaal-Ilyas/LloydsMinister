@@ -9,34 +9,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister
+namespace LloydsMinister.urdu.ViewStatement
 {
-    public partial class ViewStatement_Current : Form
+    public partial class viewstatmentcurrent : Form
     {
-        public ViewStatement_Current()
+        public viewstatmentcurrent()
         {
             InitializeComponent();
         }
 
-        private void ViewStatement_Current_Load(object sender, EventArgs e)
+        private void viewstatmentcurrent_Load(object sender, EventArgs e)
         {
             btnStatBack.Cursor = Cursors.Hand;
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT date,time,description,amount  FROM current_historyen WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT date,time,description,amount  FROM current_historyurdu WHERE Pin = '" + pin_urdu.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
 
             dataGridView1.DataSource = bc;
-
         }
 
         private void btnStatBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ViewStatementMenu menu = new ViewStatementMenu();
+            viewstatmentmenu menu = new viewstatmentmenu();
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }

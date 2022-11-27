@@ -36,14 +36,14 @@
             this.pictureTriangle3 = new System.Windows.Forms.PictureBox();
             this.lbBack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.btnStatBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStatBack
@@ -94,7 +94,7 @@
             // 
             // pictureTriangle3
             // 
-            this.pictureTriangle3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.pictureTriangle3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.pictureTriangle3.Location = new System.Drawing.Point(0, 99);
             this.pictureTriangle3.Name = "pictureTriangle3";
@@ -115,29 +115,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(284, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 36);
+            this.label1.Size = new System.Drawing.Size(245, 37);
             this.label1.TabIndex = 27;
             this.label1.Text = "Simple Deposit";
             // 
-            // pictureBox1
+            // dataGridView1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
-            this.pictureBox1.TabIndex = 43;
-            this.pictureBox1.TabStop = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(186, 67);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(444, 341);
+            this.dataGridView1.TabIndex = 30;
             // 
             // ViewStatement_SimpleDeposit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbBack);
             this.Controls.Add(this.btnStatBack);
@@ -146,7 +147,6 @@
             this.Controls.Add(this.pictureTriangle2);
             this.Controls.Add(this.pictureTriangle1);
             this.Controls.Add(this.pictureTriangle3);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "ViewStatement_SimpleDeposit";
             this.Text = "ViewStatement_SimpleDeposit";
             this.Load += new System.EventHandler(this.ViewStatement_SimpleDeposit_Load);
@@ -156,7 +156,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,6 +172,6 @@
         private PictureBox pictureTriangle3;
         private Label lbBack;
         private Label label1;
-        private PictureBox pictureBox1;
+        private DataGridView dataGridView1;
     }
 }
