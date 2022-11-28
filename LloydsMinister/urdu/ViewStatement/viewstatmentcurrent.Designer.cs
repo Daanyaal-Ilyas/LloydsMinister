@@ -60,21 +60,21 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(332, 14);
+            this.label1.Location = new System.Drawing.Point(338, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 37);
+            this.label1.Size = new System.Drawing.Size(81, 37);
             this.label1.TabIndex = 37;
-            this.label1.Text = "Current";
+            this.label1.Text = "کرنٹ";
             // 
             // lbBack
             // 
             this.lbBack.AutoSize = true;
             this.lbBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBack.Location = new System.Drawing.Point(662, 378);
+            this.lbBack.Location = new System.Drawing.Point(653, 378);
             this.lbBack.Name = "lbBack";
-            this.lbBack.Size = new System.Drawing.Size(67, 32);
+            this.lbBack.Size = new System.Drawing.Size(76, 32);
             this.lbBack.TabIndex = 36;
-            this.lbBack.Text = "Back";
+            this.lbBack.Text = "پیچھے";
             // 
             // btnStatBack
             // 

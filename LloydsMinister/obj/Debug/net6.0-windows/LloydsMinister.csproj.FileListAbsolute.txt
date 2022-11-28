@@ -315,3 +315,6 @@ D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Wi
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Withdraw.Nobal.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Withdraw.WithdrawCurrent.resources
 D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.Withdraw.WithdrawSimple.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.ViewStatement.viewstatmentcurrent.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.ViewStatement.viewstatmentlong.resources
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.urdu.ViewStatement.viewstatmentsimple.resources

@@ -60,21 +60,21 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(284, 14);
+            this.label1.Location = new System.Drawing.Point(329, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 37);
+            this.label1.Size = new System.Drawing.Size(122, 37);
             this.label1.TabIndex = 38;
-            this.label1.Text = "Simple Deposit";
+            this.label1.Text = "سادہ جمع";
             // 
             // lbBack
             // 
             this.lbBack.AutoSize = true;
             this.lbBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBack.Location = new System.Drawing.Point(662, 379);
+            this.lbBack.Location = new System.Drawing.Point(653, 379);
             this.lbBack.Name = "lbBack";
-            this.lbBack.Size = new System.Drawing.Size(67, 32);
+            this.lbBack.Size = new System.Drawing.Size(76, 32);
             this.lbBack.TabIndex = 37;
-            this.lbBack.Text = "Back";
+            this.lbBack.Text = "پیچھے";
             // 
             // btnStatBack
             // 

@@ -19,7 +19,10 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-
+        string texten = "withdrawn";
+        string texturdu = "واپس لے لیا";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void Withdraw_SimpleDeposit_Load(object sender, EventArgs e)
         {
             btnWithdrawBack.Cursor = Cursors.Hand;
@@ -43,23 +46,38 @@ namespace LloydsMinister
 
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceSimple,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',10)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',10)");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
                 current.Closed += (s, args) => this.Close();
+            }
+            else if (saldata >= 30000)
+            {
+
             }
             else
             {
@@ -75,23 +93,38 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceSimple,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
-            if (baldata >= 10)
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
+            if (baldata >= 20)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',20)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',20)");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
                 current.Closed += (s, args) => this.Close();
+            }
+            else if (saldata >= 30000)
+            {
+
             }
             else
             {
@@ -106,19 +139,52 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceSimple,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
-            if (baldata >= 10)
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
+            if (baldata >= 50)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',50)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',50)");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
+                this.Hide();
+                Final2 current = new Final2();
+                current.ShowDialog();
+                current.Closed += (s, args) => this.Close();
+            }
+            else if (saldata >= 30000)
+            {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',50)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',50)");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                SQLiteCommand cmd = new SQLiteCommand(newquery, con);
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
@@ -137,19 +203,52 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceSimple,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
-            if (baldata >= 10)
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
+            if (baldata >= 100)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',100)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',100)");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
+                this.Hide();
+                Final2 current = new Final2();
+                current.ShowDialog();
+                current.Closed += (s, args) => this.Close();
+            }
+            else if (saldata >= 30000)
+            {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',100)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',100)");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                SQLiteCommand cmd = new SQLiteCommand(newquery, con);
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
@@ -168,19 +267,52 @@ namespace LloydsMinister
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT BalanceSimple FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT BalanceSimple,salary FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand com = new SQLiteCommand(query, con);
             DataTable bc = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceSimple"]);
-            if (baldata >= 10)
+            int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
+            if (baldata >= 150)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',150)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',150)");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
+                this.Hide();
+                Final2 current = new Final2();
+                current.ShowDialog();
+                current.Closed += (s, args) => this.Close();
+            }
+            else if (saldata >= 30000)
+            {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',150)");
+                string storeurdu = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',150)");
+                string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - 150 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                SQLiteCommand cmd = new SQLiteCommand(newquery, con);
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();

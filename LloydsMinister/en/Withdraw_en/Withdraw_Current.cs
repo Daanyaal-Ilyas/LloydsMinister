@@ -19,6 +19,10 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
+        string texten = "withdrawn";
+        string texturdu = "واپس لے لیا";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void Withdraw_Current_Load(object sender, EventArgs e)
         {
             btnWithdrawBack.Cursor = Cursors.Hand;
@@ -50,11 +54,21 @@ namespace LloydsMinister
             int saldata = Convert.ToInt32(bc.Rows[0]["salary"]);
             if (baldata >= 10) 
             {
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',10)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',10)");
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType= CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
@@ -63,10 +77,20 @@ namespace LloydsMinister
             else if(saldata >= 30000)
             {
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10 WHERE Pin = '" + Pin_en.SetValuepin + "'");
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',10)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',10)");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final2 current = new Final2();
                 current.ShowDialog();
