@@ -17,6 +17,10 @@ namespace LloydsMinister.Transfer_en.current
         {
             InitializeComponent();
         }
+        string texten = "transferred";
+        string texturdu = "منتقل";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void Transfercurrentsimple_other_Load(object sender, EventArgs e)
         {
             btntransfercurrentsimpback.Cursor = Cursors.Hand;
