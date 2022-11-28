@@ -54,9 +54,10 @@
             // btnWithdrawBack
             // 
             this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawBack.Location = new System.Drawing.Point(735, 366);
+            this.btnWithdrawBack.Location = new System.Drawing.Point(1077, 612);
+            this.btnWithdrawBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnWithdrawBack.Name = "btnWithdrawBack";
-            this.btnWithdrawBack.Size = new System.Drawing.Size(65, 84);
+            this.btnWithdrawBack.Size = new System.Drawing.Size(65, 85);
             this.btnWithdrawBack.TabIndex = 24;
             this.btnWithdrawBack.TabStop = false;
             this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
@@ -64,9 +65,10 @@
             // btn100SimpleWithdraw
             // 
             this.btn100SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btn100SimpleWithdraw.Location = new System.Drawing.Point(735, 235);
+            this.btn100SimpleWithdraw.Location = new System.Drawing.Point(1078, 406);
+            this.btn100SimpleWithdraw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn100SimpleWithdraw.Name = "btn100SimpleWithdraw";
-            this.btn100SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn100SimpleWithdraw.Size = new System.Drawing.Size(65, 85);
             this.btn100SimpleWithdraw.TabIndex = 23;
             this.btn100SimpleWithdraw.TabStop = false;
             this.btn100SimpleWithdraw.Click += new System.EventHandler(this.btn100SimpleWithdraw_Click);
@@ -74,9 +76,10 @@
             // btn20SimpleWithdraw
             // 
             this.btn20SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btn20SimpleWithdraw.Location = new System.Drawing.Point(735, 99);
+            this.btn20SimpleWithdraw.Location = new System.Drawing.Point(1078, 189);
+            this.btn20SimpleWithdraw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn20SimpleWithdraw.Name = "btn20SimpleWithdraw";
-            this.btn20SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn20SimpleWithdraw.Size = new System.Drawing.Size(65, 85);
             this.btn20SimpleWithdraw.TabIndex = 22;
             this.btn20SimpleWithdraw.TabStop = false;
             this.btn20SimpleWithdraw.Click += new System.EventHandler(this.btn20SimpleWithdraw_Click);
@@ -84,9 +87,10 @@
             // btn150SimpleWithdraw
             // 
             this.btn150SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btn150SimpleWithdraw.Location = new System.Drawing.Point(0, 367);
+            this.btn150SimpleWithdraw.Location = new System.Drawing.Point(0, 612);
+            this.btn150SimpleWithdraw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn150SimpleWithdraw.Name = "btn150SimpleWithdraw";
-            this.btn150SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn150SimpleWithdraw.Size = new System.Drawing.Size(65, 85);
             this.btn150SimpleWithdraw.TabIndex = 21;
             this.btn150SimpleWithdraw.TabStop = false;
             this.btn150SimpleWithdraw.Click += new System.EventHandler(this.btn150SimpleWithdraw_Click);
@@ -94,9 +98,10 @@
             // btn50SimpleWithdraw
             // 
             this.btn50SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btn50SimpleWithdraw.Location = new System.Drawing.Point(0, 236);
+            this.btn50SimpleWithdraw.Location = new System.Drawing.Point(0, 393);
+            this.btn50SimpleWithdraw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn50SimpleWithdraw.Name = "btn50SimpleWithdraw";
-            this.btn50SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn50SimpleWithdraw.Size = new System.Drawing.Size(65, 85);
             this.btn50SimpleWithdraw.TabIndex = 20;
             this.btn50SimpleWithdraw.TabStop = false;
             this.btn50SimpleWithdraw.Click += new System.EventHandler(this.btn50SimpleWithdraw_Click);
@@ -105,9 +110,10 @@
             // 
             this.btn10SimpleWithdraw.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn10SimpleWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btn10SimpleWithdraw.Location = new System.Drawing.Point(0, 100);
+            this.btn10SimpleWithdraw.Location = new System.Drawing.Point(0, 189);
+            this.btn10SimpleWithdraw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn10SimpleWithdraw.Name = "btn10SimpleWithdraw";
-            this.btn10SimpleWithdraw.Size = new System.Drawing.Size(65, 84);
+            this.btn10SimpleWithdraw.Size = new System.Drawing.Size(65, 85);
             this.btn10SimpleWithdraw.TabIndex = 19;
             this.btn10SimpleWithdraw.TabStop = false;
             this.btn10SimpleWithdraw.Click += new System.EventHandler(this.btn10SimpleWithdraw_Click);
@@ -116,9 +122,10 @@
             // 
             this.lbWith_Simple10.AutoSize = true;
             this.lbWith_Simple10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple10.Location = new System.Drawing.Point(71, 124);
+            this.lbWith_Simple10.Location = new System.Drawing.Point(73, 205);
+            this.lbWith_Simple10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_Simple10.Name = "lbWith_Simple10";
-            this.lbWith_Simple10.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple10.Size = new System.Drawing.Size(96, 55);
             this.lbWith_Simple10.TabIndex = 25;
             this.lbWith_Simple10.Text = "£10";
             // 
@@ -126,9 +133,10 @@
             // 
             this.lbWith_Simple20.AutoSize = true;
             this.lbWith_Simple20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple20.Location = new System.Drawing.Point(664, 123);
+            this.lbWith_Simple20.Location = new System.Drawing.Point(974, 205);
+            this.lbWith_Simple20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_Simple20.Name = "lbWith_Simple20";
-            this.lbWith_Simple20.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple20.Size = new System.Drawing.Size(96, 55);
             this.lbWith_Simple20.TabIndex = 26;
             this.lbWith_Simple20.Text = "£20";
             // 
@@ -136,9 +144,10 @@
             // 
             this.lbWith_Simple50.AutoSize = true;
             this.lbWith_Simple50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple50.Location = new System.Drawing.Point(71, 260);
+            this.lbWith_Simple50.Location = new System.Drawing.Point(73, 406);
+            this.lbWith_Simple50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_Simple50.Name = "lbWith_Simple50";
-            this.lbWith_Simple50.Size = new System.Drawing.Size(65, 37);
+            this.lbWith_Simple50.Size = new System.Drawing.Size(96, 55);
             this.lbWith_Simple50.TabIndex = 27;
             this.lbWith_Simple50.Text = "£50";
             // 
@@ -146,9 +155,10 @@
             // 
             this.lbWith_Simple100.AutoSize = true;
             this.lbWith_Simple100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple100.Location = new System.Drawing.Point(648, 259);
+            this.lbWith_Simple100.Location = new System.Drawing.Point(950, 423);
+            this.lbWith_Simple100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_Simple100.Name = "lbWith_Simple100";
-            this.lbWith_Simple100.Size = new System.Drawing.Size(81, 37);
+            this.lbWith_Simple100.Size = new System.Drawing.Size(120, 55);
             this.lbWith_Simple100.TabIndex = 28;
             this.lbWith_Simple100.Text = "£100";
             // 
@@ -156,9 +166,10 @@
             // 
             this.lbWith_Simple150.AutoSize = true;
             this.lbWith_Simple150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_Simple150.Location = new System.Drawing.Point(71, 391);
+            this.lbWith_Simple150.Location = new System.Drawing.Point(73, 627);
+            this.lbWith_Simple150.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_Simple150.Name = "lbWith_Simple150";
-            this.lbWith_Simple150.Size = new System.Drawing.Size(81, 37);
+            this.lbWith_Simple150.Size = new System.Drawing.Size(120, 55);
             this.lbWith_Simple150.TabIndex = 29;
             this.lbWith_Simple150.Text = "£150";
             // 
@@ -166,9 +177,10 @@
             // 
             this.lbWith_SimpleBack.AutoSize = true;
             this.lbWith_SimpleBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWith_SimpleBack.Location = new System.Drawing.Point(652, 390);
+            this.lbWith_SimpleBack.Location = new System.Drawing.Point(955, 627);
+            this.lbWith_SimpleBack.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWith_SimpleBack.Name = "lbWith_SimpleBack";
-            this.lbWith_SimpleBack.Size = new System.Drawing.Size(77, 37);
+            this.lbWith_SimpleBack.Size = new System.Drawing.Size(115, 55);
             this.lbWith_SimpleBack.TabIndex = 30;
             this.lbWith_SimpleBack.Text = "Back";
             // 
@@ -177,9 +189,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(275, 21);
+            this.label1.Location = new System.Drawing.Point(393, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 39);
+            this.label1.Size = new System.Drawing.Size(392, 61);
             this.label1.TabIndex = 44;
             this.label1.Text = "Simple Deposit";
             // 
@@ -187,17 +200,18 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(1146, 153);
             this.pictureBox1.TabIndex = 45;
             this.pictureBox1.TabStop = false;
             // 
             // Withdraw_SimpleDeposit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbWith_SimpleBack);
             this.Controls.Add(this.lbWith_Simple150);
@@ -212,6 +226,7 @@
             this.Controls.Add(this.btn50SimpleWithdraw);
             this.Controls.Add(this.btn10SimpleWithdraw);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Withdraw_SimpleDeposit";
             this.Text = "Withdraw_SimpleDeposit";
             this.Load += new System.EventHandler(this.Withdraw_SimpleDeposit_Load);

@@ -39,26 +39,29 @@
             // 
             this.Text2.AutoSize = true;
             this.Text2.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Text2.Location = new System.Drawing.Point(219, 139);
+            this.Text2.Location = new System.Drawing.Point(313, 232);
+            this.Text2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Text2.Name = "Text2";
-            this.Text2.Size = new System.Drawing.Size(307, 40);
+            this.Text2.Size = new System.Drawing.Size(463, 60);
             this.Text2.TabIndex = 1;
             this.Text2.Text = "Please Enter Your Pin";
             // 
             // enterPin1
             // 
             this.enterPin1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.enterPin1.Location = new System.Drawing.Point(268, 218);
+            this.enterPin1.Location = new System.Drawing.Point(383, 363);
+            this.enterPin1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.enterPin1.Name = "enterPin1";
-            this.enterPin1.Size = new System.Drawing.Size(200, 23);
+            this.enterPin1.Size = new System.Drawing.Size(284, 31);
             this.enterPin1.TabIndex = 2;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureBox1.Location = new System.Drawing.Point(671, 366);
+            this.pictureBox1.Location = new System.Drawing.Point(983, 630);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 84);
+            this.pictureBox1.Size = new System.Drawing.Size(65, 85);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -67,23 +70,23 @@
             // 
             this.textEnter1.AutoSize = true;
             this.textEnter1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textEnter1.Location = new System.Drawing.Point(582, 393);
-            this.textEnter1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.textEnter1.Location = new System.Drawing.Point(869, 650);
             this.textEnter1.Name = "textEnter1";
-            this.textEnter1.Size = new System.Drawing.Size(74, 30);
+            this.textEnter1.Size = new System.Drawing.Size(107, 45);
             this.textEnter1.TabIndex = 4;
             this.textEnter1.Text = "Enter ";
             // 
             // Pin_en
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(735, 450);
+            this.ClientSize = new System.Drawing.Size(1050, 750);
             this.Controls.Add(this.textEnter1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.enterPin1);
             this.Controls.Add(this.Text2);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Pin_en";
             this.Text = "Pin";
             this.Load += new System.EventHandler(this.Pin_Load);

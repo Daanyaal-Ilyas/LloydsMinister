@@ -4059,19 +4059,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rajad\\.nuget\\packages\\": {}
+    "C:\\Users\\danis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
+      "projectUniqueName": "C:\\Users\\danis\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
       "projectName": "LloydsMinister",
-      "projectPath": "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
-      "packagesPath": "C:\\Users\\rajad\\.nuget\\packages\\",
-      "outputPath": "D:\\LloydsMinister\\LloydsMinister\\obj\\",
+      "projectPath": "C:\\Users\\danis\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
+      "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danis\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\rajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4137,7 +4142,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -55,9 +55,10 @@
             // 
             this.lbtranscurrentlsimpleother.AutoSize = true;
             this.lbtranscurrentlsimpleother.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlsimpleother.Location = new System.Drawing.Point(70, 391);
+            this.lbtranscurrentlsimpleother.Location = new System.Drawing.Point(72, 652);
+            this.lbtranscurrentlsimpleother.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtranscurrentlsimpleother.Name = "lbtranscurrentlsimpleother";
-            this.lbtranscurrentlsimpleother.Size = new System.Drawing.Size(78, 32);
+            this.lbtranscurrentlsimpleother.Size = new System.Drawing.Size(116, 48);
             this.lbtranscurrentlsimpleother.TabIndex = 74;
             this.lbtranscurrentlsimpleother.Text = "Other";
             // 
@@ -65,9 +66,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(658, 391);
+            this.label4.Location = new System.Drawing.Point(974, 639);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 32);
+            this.label4.Size = new System.Drawing.Size(99, 48);
             this.label4.TabIndex = 73;
             this.label4.Text = "Back";
             // 
@@ -75,9 +77,10 @@
             // 
             this.lbtranscurrentlong100.AutoSize = true;
             this.lbtranscurrentlong100.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlong100.Location = new System.Drawing.Point(658, 262);
+            this.lbtranscurrentlong100.Location = new System.Drawing.Point(969, 409);
+            this.lbtranscurrentlong100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtranscurrentlong100.Name = "lbtranscurrentlong100";
-            this.lbtranscurrentlong100.Size = new System.Drawing.Size(70, 32);
+            this.lbtranscurrentlong100.Size = new System.Drawing.Size(104, 48);
             this.lbtranscurrentlong100.TabIndex = 72;
             this.lbtranscurrentlong100.Text = "£100";
             // 
@@ -85,9 +88,10 @@
             // 
             this.lbtranscurrentsimple50.AutoSize = true;
             this.lbtranscurrentsimple50.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentsimple50.Location = new System.Drawing.Point(70, 262);
+            this.lbtranscurrentsimple50.Location = new System.Drawing.Point(72, 409);
+            this.lbtranscurrentsimple50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtranscurrentsimple50.Name = "lbtranscurrentsimple50";
-            this.lbtranscurrentsimple50.Size = new System.Drawing.Size(56, 32);
+            this.lbtranscurrentsimple50.Size = new System.Drawing.Size(83, 48);
             this.lbtranscurrentsimple50.TabIndex = 71;
             this.lbtranscurrentsimple50.Text = "£50";
             // 
@@ -95,9 +99,10 @@
             // 
             this.lbtranscurrentsimple20.AutoSize = true;
             this.lbtranscurrentsimple20.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentsimple20.Location = new System.Drawing.Point(672, 124);
+            this.lbtranscurrentsimple20.Location = new System.Drawing.Point(987, 183);
+            this.lbtranscurrentsimple20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtranscurrentsimple20.Name = "lbtranscurrentsimple20";
-            this.lbtranscurrentsimple20.Size = new System.Drawing.Size(56, 32);
+            this.lbtranscurrentsimple20.Size = new System.Drawing.Size(83, 48);
             this.lbtranscurrentsimple20.TabIndex = 70;
             this.lbtranscurrentsimple20.Text = "£20";
             // 
@@ -105,9 +110,10 @@
             // 
             this.lbtranscurrentsimple10.AutoSize = true;
             this.lbtranscurrentsimple10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentsimple10.Location = new System.Drawing.Point(70, 124);
+            this.lbtranscurrentsimple10.Location = new System.Drawing.Point(72, 183);
+            this.lbtranscurrentsimple10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtranscurrentsimple10.Name = "lbtranscurrentsimple10";
-            this.lbtranscurrentsimple10.Size = new System.Drawing.Size(56, 32);
+            this.lbtranscurrentsimple10.Size = new System.Drawing.Size(83, 48);
             this.lbtranscurrentsimple10.TabIndex = 69;
             this.lbtranscurrentsimple10.Text = "£10";
             // 
@@ -115,9 +121,10 @@
             // 
             this.btntranscurrentsimple10.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentsimple10.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btntranscurrentsimple10.Location = new System.Drawing.Point(-1, 99);
+            this.btntranscurrentsimple10.Location = new System.Drawing.Point(-1, 165);
+            this.btntranscurrentsimple10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btntranscurrentsimple10.Name = "btntranscurrentsimple10";
-            this.btntranscurrentsimple10.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentsimple10.Size = new System.Drawing.Size(65, 80);
             this.btntranscurrentsimple10.TabIndex = 68;
             this.btntranscurrentsimple10.TabStop = false;
             this.btntranscurrentsimple10.Click += new System.EventHandler(this.btntranscurrentsimple10_Click);
@@ -127,9 +134,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(270, 28);
+            this.label1.Location = new System.Drawing.Point(386, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(295, 37);
+            this.label1.Size = new System.Drawing.Size(432, 55);
             this.label1.TabIndex = 66;
             this.label1.Text = "To Simple Deposit";
             // 
@@ -137,9 +145,10 @@
             // 
             this.btnTransferBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnTransferBack.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnTransferBack.Location = new System.Drawing.Point(734, 366);
+            this.btnTransferBack.Location = new System.Drawing.Point(1078, 622);
+            this.btnTransferBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTransferBack.Name = "btnTransferBack";
-            this.btnTransferBack.Size = new System.Drawing.Size(65, 84);
+            this.btnTransferBack.Size = new System.Drawing.Size(64, 78);
             this.btnTransferBack.TabIndex = 65;
             this.btnTransferBack.TabStop = false;
             this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
@@ -148,9 +157,10 @@
             // 
             this.btntranscurrentsimple100.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple100.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntranscurrentsimple100.Location = new System.Drawing.Point(734, 235);
+            this.btntranscurrentsimple100.Location = new System.Drawing.Point(1081, 392);
+            this.btntranscurrentsimple100.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btntranscurrentsimple100.Name = "btntranscurrentsimple100";
-            this.btntranscurrentsimple100.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentsimple100.Size = new System.Drawing.Size(64, 81);
             this.btntranscurrentsimple100.TabIndex = 64;
             this.btntranscurrentsimple100.TabStop = false;
             this.btntranscurrentsimple100.Click += new System.EventHandler(this.btntranscurrentsimple100_Click);
@@ -159,9 +169,10 @@
             // 
             this.btntranscurrentsimple20.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple20.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntranscurrentsimple20.Location = new System.Drawing.Point(734, 99);
+            this.btntranscurrentsimple20.Location = new System.Drawing.Point(1078, 165);
+            this.btntranscurrentsimple20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btntranscurrentsimple20.Name = "btntranscurrentsimple20";
-            this.btntranscurrentsimple20.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentsimple20.Size = new System.Drawing.Size(67, 80);
             this.btntranscurrentsimple20.TabIndex = 63;
             this.btntranscurrentsimple20.TabStop = false;
             this.btntranscurrentsimple20.Click += new System.EventHandler(this.btntranscurrentsimple20_Click);
@@ -170,9 +181,10 @@
             // 
             this.btntranscurrentsimpleother.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentsimpleother.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btntranscurrentsimpleother.Location = new System.Drawing.Point(-1, 366);
+            this.btntranscurrentsimpleother.Location = new System.Drawing.Point(-1, 630);
+            this.btntranscurrentsimpleother.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btntranscurrentsimpleother.Name = "btntranscurrentsimpleother";
-            this.btntranscurrentsimpleother.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentsimpleother.Size = new System.Drawing.Size(65, 79);
             this.btntranscurrentsimpleother.TabIndex = 62;
             this.btntranscurrentsimpleother.TabStop = false;
             this.btntranscurrentsimpleother.Click += new System.EventHandler(this.btntranscurrentsimpleother_Click);
@@ -181,9 +193,10 @@
             // 
             this.btntranscurrentsimple50.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentsimple50.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btntranscurrentsimple50.Location = new System.Drawing.Point(-1, 235);
+            this.btntranscurrentsimple50.Location = new System.Drawing.Point(-1, 392);
+            this.btntranscurrentsimple50.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btntranscurrentsimple50.Name = "btntranscurrentsimple50";
-            this.btntranscurrentsimple50.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentsimple50.Size = new System.Drawing.Size(65, 81);
             this.btntranscurrentsimple50.TabIndex = 61;
             this.btntranscurrentsimple50.TabStop = false;
             this.btntranscurrentsimple50.Click += new System.EventHandler(this.btntranscurrentsimple50_Click);
@@ -192,17 +205,18 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(1146, 153);
             this.pictureBox1.TabIndex = 67;
             this.pictureBox1.TabStop = false;
             // 
             // Transfercurrent_simple
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.lbtranscurrentlsimpleother);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lbtranscurrentlong100);
@@ -217,6 +231,7 @@
             this.Controls.Add(this.btntranscurrentsimpleother);
             this.Controls.Add(this.btntranscurrentsimple50);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Transfercurrent_simple";
             this.Text = "Transfercurrent_simple";
             this.Load += new System.EventHandler(this.Transfercurrent_simple_Load);
