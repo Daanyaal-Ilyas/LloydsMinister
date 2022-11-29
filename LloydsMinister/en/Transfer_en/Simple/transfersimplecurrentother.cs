@@ -17,7 +17,10 @@ namespace LloydsMinister.Transfer_en.Simple
         {
             InitializeComponent();
         }
-
+        string texten = "transferred";
+        string texturdu = "منتقل";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void tbtntransfer2_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
@@ -31,11 +34,21 @@ namespace LloydsMinister.Transfer_en.Simple
             int data =Convert.ToInt32(txttransferamount.Text);
             if (baldata >= data)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "','" + txttransferammount.Text + "')");
+                string storeurdu = ("INSERT INTO simple_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "','" + txttransferammount.Text + "'))");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - '" + txttransferamount.Text + "',BalanceCurrent = BalanceCurrent + '" + txttransferamount.Text + "' WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 final current = new final();
                 current.ShowDialog();

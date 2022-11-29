@@ -54,10 +54,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(436, 52);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(305, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(278, 55);
+            this.label1.Size = new System.Drawing.Size(191, 37);
             this.label1.TabIndex = 91;
             this.label1.Text = "To Current ";
             // 
@@ -65,29 +64,26 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(507, 365);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(355, 219);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(158, 48);
+            this.label3.Size = new System.Drawing.Size(107, 32);
             this.label3.TabIndex = 90;
             this.label3.Text = "Amount";
             // 
             // txttransferammount
             // 
-            this.txttransferammount.Location = new System.Drawing.Point(396, 423);
-            this.txttransferammount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txttransferammount.Location = new System.Drawing.Point(277, 254);
             this.txttransferammount.Name = "txttransferammount";
-            this.txttransferammount.Size = new System.Drawing.Size(370, 31);
+            this.txttransferammount.Size = new System.Drawing.Size(260, 23);
             this.txttransferammount.TabIndex = 89;
             // 
             // btntransferextras4
             // 
             this.btntransferextras4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextras4.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btntransferextras4.Location = new System.Drawing.Point(-1, 390);
-            this.btntransferextras4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btntransferextras4.Location = new System.Drawing.Point(-1, 234);
             this.btntransferextras4.Name = "btntransferextras4";
-            this.btntransferextras4.Size = new System.Drawing.Size(65, 85);
+            this.btntransferextras4.Size = new System.Drawing.Size(46, 51);
             this.btntransferextras4.TabIndex = 81;
             this.btntransferextras4.TabStop = false;
             // 
@@ -95,10 +91,9 @@
             // 
             this.tbtntransfer2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.tbtntransfer2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.tbtntransfer2.Location = new System.Drawing.Point(-1, 640);
-            this.tbtntransfer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbtntransfer2.Location = new System.Drawing.Point(-1, 384);
             this.tbtntransfer2.Name = "tbtntransfer2";
-            this.tbtntransfer2.Size = new System.Drawing.Size(65, 84);
+            this.tbtntransfer2.Size = new System.Drawing.Size(46, 50);
             this.tbtntransfer2.TabIndex = 82;
             this.tbtntransfer2.TabStop = false;
             this.tbtntransfer2.Click += new System.EventHandler(this.tbtntransfer2_Click);
@@ -107,10 +102,9 @@
             // 
             this.btntransferextras2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferextras2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextras2.Location = new System.Drawing.Point(1078, 167);
-            this.btntransferextras2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btntransferextras2.Location = new System.Drawing.Point(755, 100);
             this.btntransferextras2.Name = "btntransferextras2";
-            this.btntransferextras2.Size = new System.Drawing.Size(64, 82);
+            this.btntransferextras2.Size = new System.Drawing.Size(45, 49);
             this.btntransferextras2.TabIndex = 83;
             this.btntransferextras2.TabStop = false;
             // 
@@ -118,10 +112,9 @@
             // 
             this.btntransferesback.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferesback.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferesback.Location = new System.Drawing.Point(1078, 640);
-            this.btntransferesback.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btntransferesback.Location = new System.Drawing.Point(755, 384);
             this.btntransferesback.Name = "btntransferesback";
-            this.btntransferesback.Size = new System.Drawing.Size(64, 84);
+            this.btntransferesback.Size = new System.Drawing.Size(45, 50);
             this.btntransferesback.TabIndex = 85;
             this.btntransferesback.TabStop = false;
             this.btntransferesback.Click += new System.EventHandler(this.btntransferesback_Click);
@@ -130,10 +123,9 @@
             // 
             this.btntransferextras3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferextras3.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextras3.Location = new System.Drawing.Point(1078, 395);
-            this.btntransferextras3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btntransferextras3.Location = new System.Drawing.Point(755, 237);
             this.btntransferextras3.Name = "btntransferextras3";
-            this.btntransferextras3.Size = new System.Drawing.Size(64, 80);
+            this.btntransferextras3.Size = new System.Drawing.Size(45, 48);
             this.btntransferextras3.TabIndex = 84;
             this.btntransferextras3.TabStop = false;
             // 
@@ -141,10 +133,9 @@
             // 
             this.btntransferextras1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextras1.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btntransferextras1.Location = new System.Drawing.Point(-1, 167);
-            this.btntransferextras1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btntransferextras1.Location = new System.Drawing.Point(-1, 100);
             this.btntransferextras1.Name = "btntransferextras1";
-            this.btntransferextras1.Size = new System.Drawing.Size(65, 82);
+            this.btntransferextras1.Size = new System.Drawing.Size(46, 49);
             this.btntransferextras1.TabIndex = 87;
             this.btntransferextras1.TabStop = false;
             // 
@@ -152,30 +143,27 @@
             // 
             this.lbtransername.AutoSize = true;
             this.lbtransername.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtransername.Location = new System.Drawing.Point(72, 664);
-            this.lbtransername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbtransername.Location = new System.Drawing.Point(50, 398);
             this.lbtransername.Name = "lbtransername";
-            this.lbtransername.Size = new System.Drawing.Size(156, 48);
+            this.lbtransername.Size = new System.Drawing.Size(107, 32);
             this.lbtransername.TabIndex = 88;
             this.lbtransername.Text = "Transfer";
             // 
             // txttransferamount
             // 
             this.txttransferamount.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.txttransferamount.Location = new System.Drawing.Point(396, 423);
-            this.txttransferamount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txttransferamount.Location = new System.Drawing.Point(277, 254);
             this.txttransferamount.Name = "txttransferamount";
-            this.txttransferamount.Size = new System.Drawing.Size(370, 31);
+            this.txttransferamount.Size = new System.Drawing.Size(260, 23);
             this.txttransferamount.TabIndex = 89;
             // 
             // lbtransfername
             // 
             this.lbtransfername.AutoSize = true;
             this.lbtransfername.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtransfername.Location = new System.Drawing.Point(507, 365);
-            this.lbtransfername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbtransfername.Location = new System.Drawing.Point(355, 219);
             this.lbtransfername.Name = "lbtransfername";
-            this.lbtransfername.Size = new System.Drawing.Size(158, 48);
+            this.lbtransfername.Size = new System.Drawing.Size(107, 32);
             this.lbtransfername.TabIndex = 90;
             this.lbtransfername.Text = "Amount";
             // 
@@ -184,19 +172,18 @@
             this.lbback.AutoSize = true;
             this.lbback.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbback.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbback.Location = new System.Drawing.Point(971, 652);
-            this.lbback.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbback.Location = new System.Drawing.Point(680, 391);
             this.lbback.Name = "lbback";
-            this.lbback.Size = new System.Drawing.Size(99, 48);
+            this.lbback.Size = new System.Drawing.Size(67, 32);
             this.lbback.TabIndex = 92;
             this.lbback.Text = "Back";
             // 
             // transfersimplecurrentother
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1143, 750);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbback);
             this.Controls.Add(this.lbtransfername);
             this.Controls.Add(this.label1);
@@ -210,7 +197,6 @@
             this.Controls.Add(this.btntransferextras2);
             this.Controls.Add(this.tbtntransfer2);
             this.Controls.Add(this.btntransferextras4);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "transfersimplecurrentother";
             this.Text = "transfersimplecurrentother";
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras4)).EndInit();

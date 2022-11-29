@@ -86,7 +86,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             if (baldata >= 20)
             {
                 string store = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',20)");
-                string storeurdu = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',20)");
+                string storeurdu = ("INSERT INTO longterm_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',20)");
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 20, BalanceCurrent = BalanceCurrent + 20 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 SQLiteCommand cd = new SQLiteCommand(store, con);
@@ -128,7 +128,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             if (baldata >= 50)
             {
                 string store = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',50)");
-                string storeurdu = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',50)");
+                string storeurdu = ("INSERT INTO longterm_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',50)");
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 50, BalanceCurrent = BalanceCurrent + 50 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 SQLiteCommand cd = new SQLiteCommand(store, con);
@@ -170,7 +170,7 @@ namespace LloydsMinister.Transfer_en.LongTerm
             if (baldata >= 100)
             {
                 string store = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + Pin_en.SetValuepin + "',100)");
-                string storeurdu = ("INSERT INTO longterm_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',100)");
+                string storeurdu = ("INSERT INTO longterm_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + Pin_en.SetValuepin + "',100)");
                 string newquery = ("UPDATE customer SET  BalanceLong = BalanceLong - 100, BalanceCurrent = BalanceCurrent + 100 WHERE Pin = '" + Pin_en.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
                 SQLiteCommand cd = new SQLiteCommand(store, con);
