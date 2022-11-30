@@ -34,11 +34,21 @@ namespace LloydsMinister.urdu.Transfer.Simple
             int data = Convert.ToInt32(txttransferamount.Text);
             if (baldata >= data)
             {
+                string store = ("INSERT INTO simple_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + pin_urdu.SetValuepin + "','" + txttransferamount.Text + "')");
+                string storeurdu = ("INSERT INTO simple_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + pin_urdu.SetValuepin + "','" + txttransferamount.Text + "')");
                 string newquery = ("UPDATE customer SET  BalanceSimple = BalanceSimple - '" + txttransferamount.Text + "', BalanceCurrent = BalanceCurrent + '" + txttransferamount.Text + "' WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final current = new Final();
                 current.ShowDialog();
