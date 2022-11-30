@@ -38,9 +38,9 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::LloydsMinister.Properties.Resources.up2;
-            this.pictureBox2.Location = new System.Drawing.Point(211, 414);
+            this.pictureBox2.Location = new System.Drawing.Point(207, 358);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(96, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(71, 61);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -51,7 +51,7 @@
             this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Card;
             this.pictureBox1.Location = new System.Drawing.Point(122, 102);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(281, 306);
+            this.pictureBox1.Size = new System.Drawing.Size(223, 212);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -71,7 +71,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(524, 551);
+            this.ClientSize = new System.Drawing.Size(617, 538);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Text1);

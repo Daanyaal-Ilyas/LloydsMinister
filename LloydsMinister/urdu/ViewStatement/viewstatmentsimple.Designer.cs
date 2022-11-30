@@ -70,7 +70,7 @@
             // 
             this.lbBack.AutoSize = true;
             this.lbBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBack.Location = new System.Drawing.Point(653, 379);
+            this.lbBack.Location = new System.Drawing.Point(675, 368);
             this.lbBack.Name = "lbBack";
             this.lbBack.Size = new System.Drawing.Size(76, 32);
             this.lbBack.TabIndex = 37;
@@ -79,9 +79,9 @@
             // btnStatBack
             // 
             this.btnStatBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnStatBack.Location = new System.Drawing.Point(735, 353);
+            this.btnStatBack.Location = new System.Drawing.Point(757, 353);
             this.btnStatBack.Name = "btnStatBack";
-            this.btnStatBack.Size = new System.Drawing.Size(65, 84);
+            this.btnStatBack.Size = new System.Drawing.Size(43, 47);
             this.btnStatBack.TabIndex = 36;
             this.btnStatBack.TabStop = false;
             this.btnStatBack.Click += new System.EventHandler(this.btnStatBack_Click);
@@ -89,18 +89,18 @@
             // pictureTriangle5
             // 
             this.pictureTriangle5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle5.Location = new System.Drawing.Point(735, 222);
+            this.pictureTriangle5.Location = new System.Drawing.Point(757, 222);
             this.pictureTriangle5.Name = "pictureTriangle5";
-            this.pictureTriangle5.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle5.Size = new System.Drawing.Size(43, 47);
             this.pictureTriangle5.TabIndex = 35;
             this.pictureTriangle5.TabStop = false;
             // 
             // pictureTriangle4
             // 
             this.pictureTriangle4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureTriangle4.Location = new System.Drawing.Point(735, 86);
+            this.pictureTriangle4.Location = new System.Drawing.Point(757, 86);
             this.pictureTriangle4.Name = "pictureTriangle4";
-            this.pictureTriangle4.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle4.Size = new System.Drawing.Size(43, 47);
             this.pictureTriangle4.TabIndex = 34;
             this.pictureTriangle4.TabStop = false;
             // 
@@ -109,7 +109,7 @@
             this.pictureTriangle2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.pictureTriangle2.Location = new System.Drawing.Point(0, 353);
             this.pictureTriangle2.Name = "pictureTriangle2";
-            this.pictureTriangle2.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle2.Size = new System.Drawing.Size(43, 47);
             this.pictureTriangle2.TabIndex = 33;
             this.pictureTriangle2.TabStop = false;
             // 
@@ -118,7 +118,7 @@
             this.pictureTriangle1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.pictureTriangle1.Location = new System.Drawing.Point(0, 222);
             this.pictureTriangle1.Name = "pictureTriangle1";
-            this.pictureTriangle1.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle1.Size = new System.Drawing.Size(43, 47);
             this.pictureTriangle1.TabIndex = 32;
             this.pictureTriangle1.TabStop = false;
             // 
@@ -128,7 +128,7 @@
             this.pictureTriangle3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.pictureTriangle3.Location = new System.Drawing.Point(0, 86);
             this.pictureTriangle3.Name = "pictureTriangle3";
-            this.pictureTriangle3.Size = new System.Drawing.Size(65, 84);
+            this.pictureTriangle3.Size = new System.Drawing.Size(43, 47);
             this.pictureTriangle3.TabIndex = 31;
             this.pictureTriangle3.TabStop = false;
             // 

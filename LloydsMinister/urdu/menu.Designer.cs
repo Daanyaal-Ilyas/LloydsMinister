@@ -52,9 +52,9 @@
             // btnMenuExit
             // 
             this.btnMenuExit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuExit.Location = new System.Drawing.Point(734, 351);
+            this.btnMenuExit.Location = new System.Drawing.Point(755, 351);
             this.btnMenuExit.Name = "btnMenuExit";
-            this.btnMenuExit.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuExit.Size = new System.Drawing.Size(43, 47);
             this.btnMenuExit.TabIndex = 48;
             this.btnMenuExit.TabStop = false;
             this.btnMenuExit.Click += new System.EventHandler(this.btnMenuExit_Click);
@@ -62,9 +62,9 @@
             // btnMenuTransfer
             // 
             this.btnMenuTransfer.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuTransfer.Location = new System.Drawing.Point(734, 221);
+            this.btnMenuTransfer.Location = new System.Drawing.Point(755, 221);
             this.btnMenuTransfer.Name = "btnMenuTransfer";
-            this.btnMenuTransfer.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuTransfer.Size = new System.Drawing.Size(43, 47);
             this.btnMenuTransfer.TabIndex = 47;
             this.btnMenuTransfer.TabStop = false;
             this.btnMenuTransfer.Click += new System.EventHandler(this.btnMenuTransfer_Click);
@@ -72,9 +72,9 @@
             // btnMenuDeposit
             // 
             this.btnMenuDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnMenuDeposit.Location = new System.Drawing.Point(734, 84);
+            this.btnMenuDeposit.Location = new System.Drawing.Point(755, 84);
             this.btnMenuDeposit.Name = "btnMenuDeposit";
-            this.btnMenuDeposit.Size = new System.Drawing.Size(67, 85);
+            this.btnMenuDeposit.Size = new System.Drawing.Size(43, 47);
             this.btnMenuDeposit.TabIndex = 46;
             this.btnMenuDeposit.TabStop = false;
             this.btnMenuDeposit.Click += new System.EventHandler(this.btnMenuDeposit_Click);
@@ -84,7 +84,7 @@
             this.btnMenuWithdraw.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnMenuWithdraw.Location = new System.Drawing.Point(-1, 221);
             this.btnMenuWithdraw.Name = "btnMenuWithdraw";
-            this.btnMenuWithdraw.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuWithdraw.Size = new System.Drawing.Size(43, 47);
             this.btnMenuWithdraw.TabIndex = 45;
             this.btnMenuWithdraw.TabStop = false;
             this.btnMenuWithdraw.Click += new System.EventHandler(this.btnMenuWithdraw_Click);
@@ -94,7 +94,7 @@
             this.btnMenuStatement.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnMenuStatement.Location = new System.Drawing.Point(-1, 353);
             this.btnMenuStatement.Name = "btnMenuStatement";
-            this.btnMenuStatement.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuStatement.Size = new System.Drawing.Size(43, 47);
             this.btnMenuStatement.TabIndex = 44;
             this.btnMenuStatement.TabStop = false;
             this.btnMenuStatement.Click += new System.EventHandler(this.btnMenuStatement_Click);
@@ -104,7 +104,7 @@
             this.btnMenuBalance.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnMenuBalance.Location = new System.Drawing.Point(-1, 84);
             this.btnMenuBalance.Name = "btnMenuBalance";
-            this.btnMenuBalance.Size = new System.Drawing.Size(64, 83);
+            this.btnMenuBalance.Size = new System.Drawing.Size(43, 47);
             this.btnMenuBalance.TabIndex = 43;
             this.btnMenuBalance.TabStop = false;
             this.btnMenuBalance.Click += new System.EventHandler(this.btnMenuBalance_Click);
@@ -124,7 +124,7 @@
             // 
             this.lbMenuTransfer.AutoSize = true;
             this.lbMenuTransfer.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuTransfer.Location = new System.Drawing.Point(644, 247);
+            this.lbMenuTransfer.Location = new System.Drawing.Point(665, 236);
             this.lbMenuTransfer.Name = "lbMenuTransfer";
             this.lbMenuTransfer.Size = new System.Drawing.Size(84, 32);
             this.lbMenuTransfer.TabIndex = 53;
@@ -134,7 +134,7 @@
             // 
             this.lbMenuStatement.AutoSize = true;
             this.lbMenuStatement.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuStatement.Location = new System.Drawing.Point(69, 379);
+            this.lbMenuStatement.Location = new System.Drawing.Point(48, 366);
             this.lbMenuStatement.Name = "lbMenuStatement";
             this.lbMenuStatement.Size = new System.Drawing.Size(52, 32);
             this.lbMenuStatement.TabIndex = 54;
@@ -144,7 +144,7 @@
             // 
             this.lbMenuWithdraw.AutoSize = true;
             this.lbMenuWithdraw.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuWithdraw.Location = new System.Drawing.Point(69, 247);
+            this.lbMenuWithdraw.Location = new System.Drawing.Point(48, 236);
             this.lbMenuWithdraw.Name = "lbMenuWithdraw";
             this.lbMenuWithdraw.Size = new System.Drawing.Size(114, 32);
             this.lbMenuWithdraw.TabIndex = 52;
@@ -154,7 +154,7 @@
             // 
             this.lbMenuDeposit.AutoSize = true;
             this.lbMenuDeposit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuDeposit.Location = new System.Drawing.Point(672, 110);
+            this.lbMenuDeposit.Location = new System.Drawing.Point(693, 99);
             this.lbMenuDeposit.Name = "lbMenuDeposit";
             this.lbMenuDeposit.Size = new System.Drawing.Size(56, 32);
             this.lbMenuDeposit.TabIndex = 51;
@@ -164,7 +164,7 @@
             // 
             this.lbMenuBalance.AutoSize = true;
             this.lbMenuBalance.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuBalance.Location = new System.Drawing.Point(69, 110);
+            this.lbMenuBalance.Location = new System.Drawing.Point(48, 99);
             this.lbMenuBalance.Name = "lbMenuBalance";
             this.lbMenuBalance.Size = new System.Drawing.Size(66, 32);
             this.lbMenuBalance.TabIndex = 50;
@@ -174,7 +174,7 @@
             // 
             this.lbMenuExit.AutoSize = true;
             this.lbMenuExit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbMenuExit.Location = new System.Drawing.Point(660, 379);
+            this.lbMenuExit.Location = new System.Drawing.Point(681, 368);
             this.lbMenuExit.Name = "lbMenuExit";
             this.lbMenuExit.Size = new System.Drawing.Size(68, 32);
             this.lbMenuExit.TabIndex = 49;

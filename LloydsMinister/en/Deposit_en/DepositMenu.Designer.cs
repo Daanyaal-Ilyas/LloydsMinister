@@ -53,7 +53,7 @@
             // 
             this.lbDepMenuBack.AutoSize = true;
             this.lbDepMenuBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDepMenuBack.Location = new System.Drawing.Point(662, 391);
+            this.lbDepMenuBack.Location = new System.Drawing.Point(686, 393);
             this.lbDepMenuBack.Name = "lbDepMenuBack";
             this.lbDepMenuBack.Size = new System.Drawing.Size(67, 32);
             this.lbDepMenuBack.TabIndex = 28;
@@ -64,7 +64,7 @@
             // 
             this.lbDepMenuLongTerm.AutoSize = true;
             this.lbDepMenuLongTerm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDepMenuLongTerm.Location = new System.Drawing.Point(70, 265);
+            this.lbDepMenuLongTerm.Location = new System.Drawing.Point(49, 265);
             this.lbDepMenuLongTerm.Name = "lbDepMenuLongTerm";
             this.lbDepMenuLongTerm.Size = new System.Drawing.Size(135, 32);
             this.lbDepMenuLongTerm.TabIndex = 27;
@@ -75,7 +75,7 @@
             // 
             this.lbDepMenuSimple.AutoSize = true;
             this.lbDepMenuSimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDepMenuSimple.Location = new System.Drawing.Point(543, 142);
+            this.lbDepMenuSimple.Location = new System.Drawing.Point(567, 142);
             this.lbDepMenuSimple.Name = "lbDepMenuSimple";
             this.lbDepMenuSimple.Size = new System.Drawing.Size(186, 32);
             this.lbDepMenuSimple.TabIndex = 26;
@@ -86,7 +86,7 @@
             // 
             this.lbDepMenuCurrent.AutoSize = true;
             this.lbDepMenuCurrent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDepMenuCurrent.Location = new System.Drawing.Point(70, 142);
+            this.lbDepMenuCurrent.Location = new System.Drawing.Point(49, 142);
             this.lbDepMenuCurrent.Name = "lbDepMenuCurrent";
             this.lbDepMenuCurrent.Size = new System.Drawing.Size(101, 32);
             this.lbDepMenuCurrent.TabIndex = 25;
@@ -96,9 +96,9 @@
             // btnDepositLongTerm
             // 
             this.btnDepositLongTerm.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnDepositLongTerm.Location = new System.Drawing.Point(0, 239);
+            this.btnDepositLongTerm.Location = new System.Drawing.Point(0, 250);
             this.btnDepositLongTerm.Name = "btnDepositLongTerm";
-            this.btnDepositLongTerm.Size = new System.Drawing.Size(64, 83);
+            this.btnDepositLongTerm.Size = new System.Drawing.Size(43, 47);
             this.btnDepositLongTerm.TabIndex = 31;
             this.btnDepositLongTerm.TabStop = false;
             this.btnDepositLongTerm.Click += new System.EventHandler(this.btnDepositLongTerm_Click);
@@ -106,18 +106,18 @@
             // BalanceExtrabtn
             // 
             this.BalanceExtrabtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.BalanceExtrabtn.Location = new System.Drawing.Point(0, 367);
+            this.BalanceExtrabtn.Location = new System.Drawing.Point(0, 378);
             this.BalanceExtrabtn.Name = "BalanceExtrabtn";
-            this.BalanceExtrabtn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceExtrabtn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtrabtn.TabIndex = 30;
             this.BalanceExtrabtn.TabStop = false;
             // 
             // btnDepositCurrent
             // 
             this.btnDepositCurrent.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnDepositCurrent.Location = new System.Drawing.Point(0, 116);
+            this.btnDepositCurrent.Location = new System.Drawing.Point(0, 127);
             this.btnDepositCurrent.Name = "btnDepositCurrent";
-            this.btnDepositCurrent.Size = new System.Drawing.Size(64, 83);
+            this.btnDepositCurrent.Size = new System.Drawing.Size(43, 47);
             this.btnDepositCurrent.TabIndex = 29;
             this.btnDepositCurrent.TabStop = false;
             this.btnDepositCurrent.Click += new System.EventHandler(this.btnDepositCurrent_Click);
@@ -125,18 +125,18 @@
             // BalanceExtra2btn
             // 
             this.BalanceExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceExtra2btn.Location = new System.Drawing.Point(735, 239);
+            this.BalanceExtra2btn.Location = new System.Drawing.Point(759, 250);
             this.BalanceExtra2btn.Name = "BalanceExtra2btn";
-            this.BalanceExtra2btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceExtra2btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtra2btn.TabIndex = 33;
             this.BalanceExtra2btn.TabStop = false;
             // 
             // btnDepositSimple
             // 
             this.btnDepositSimple.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnDepositSimple.Location = new System.Drawing.Point(735, 116);
+            this.btnDepositSimple.Location = new System.Drawing.Point(759, 127);
             this.btnDepositSimple.Name = "btnDepositSimple";
-            this.btnDepositSimple.Size = new System.Drawing.Size(67, 85);
+            this.btnDepositSimple.Size = new System.Drawing.Size(43, 47);
             this.btnDepositSimple.TabIndex = 32;
             this.btnDepositSimple.TabStop = false;
             this.btnDepositSimple.Click += new System.EventHandler(this.btnDepositSimple_Click);
@@ -144,9 +144,9 @@
             // btnDepositBack
             // 
             this.btnDepositBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnDepositBack.Location = new System.Drawing.Point(735, 365);
+            this.btnDepositBack.Location = new System.Drawing.Point(759, 378);
             this.btnDepositBack.Name = "btnDepositBack";
-            this.btnDepositBack.Size = new System.Drawing.Size(67, 85);
+            this.btnDepositBack.Size = new System.Drawing.Size(43, 47);
             this.btnDepositBack.TabIndex = 34;
             this.btnDepositBack.TabStop = false;
             this.btnDepositBack.Click += new System.EventHandler(this.btnDepositBack_Click);
@@ -189,6 +189,7 @@
             this.Controls.Add(this.lbDepMenuSimple);
             this.Controls.Add(this.lbDepMenuCurrent);
             this.Controls.Add(this.pictureBox1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "DepositMenu";
             this.Text = "DepositMenu";
             this.Load += new System.EventHandler(this.DepositMenu_Load);

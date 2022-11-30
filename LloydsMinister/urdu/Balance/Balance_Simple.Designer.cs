@@ -38,12 +38,16 @@
             this.btnBalanceextra4 = new System.Windows.Forms.PictureBox();
             this.btnBalanceextra5 = new System.Windows.Forms.PictureBox();
             this.btnBalanceextra3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbBalance
@@ -83,7 +87,7 @@
             // 
             this.lbBalCurrentBack.AutoSize = true;
             this.lbBalCurrentBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalCurrentBack.Location = new System.Drawing.Point(652, 378);
+            this.lbBalCurrentBack.Location = new System.Drawing.Point(674, 368);
             this.lbBalCurrentBack.Name = "lbBalCurrentBack";
             this.lbBalCurrentBack.Size = new System.Drawing.Size(76, 32);
             this.lbBalCurrentBack.TabIndex = 63;
@@ -92,18 +96,18 @@
             // btnBalanceextra2
             // 
             this.btnBalanceextra2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceextra2.Location = new System.Drawing.Point(734, 223);
+            this.btnBalanceextra2.Location = new System.Drawing.Point(756, 225);
             this.btnBalanceextra2.Name = "btnBalanceextra2";
-            this.btnBalanceextra2.Size = new System.Drawing.Size(67, 85);
+            this.btnBalanceextra2.Size = new System.Drawing.Size(43, 47);
             this.btnBalanceextra2.TabIndex = 61;
             this.btnBalanceextra2.TabStop = false;
             // 
             // btnBalanceBack
             // 
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceBack.Location = new System.Drawing.Point(734, 351);
+            this.btnBalanceBack.Location = new System.Drawing.Point(756, 353);
             this.btnBalanceBack.Name = "btnBalanceBack";
-            this.btnBalanceBack.Size = new System.Drawing.Size(67, 85);
+            this.btnBalanceBack.Size = new System.Drawing.Size(43, 47);
             this.btnBalanceBack.TabIndex = 62;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
@@ -111,9 +115,9 @@
             // btnBalanceextra1
             // 
             this.btnBalanceextra1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceextra1.Location = new System.Drawing.Point(734, 100);
+            this.btnBalanceextra1.Location = new System.Drawing.Point(756, 102);
             this.btnBalanceextra1.Name = "btnBalanceextra1";
-            this.btnBalanceextra1.Size = new System.Drawing.Size(67, 85);
+            this.btnBalanceextra1.Size = new System.Drawing.Size(43, 47);
             this.btnBalanceextra1.TabIndex = 60;
             this.btnBalanceextra1.TabStop = false;
             // 
@@ -131,7 +135,7 @@
             this.btnBalanceextra5.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnBalanceextra5.Location = new System.Drawing.Point(-1, 353);
             this.btnBalanceextra5.Name = "btnBalanceextra5";
-            this.btnBalanceextra5.Size = new System.Drawing.Size(64, 83);
+            this.btnBalanceextra5.Size = new System.Drawing.Size(43, 47);
             this.btnBalanceextra5.TabIndex = 58;
             this.btnBalanceextra5.TabStop = false;
             // 
@@ -143,6 +147,24 @@
             this.btnBalanceextra3.Size = new System.Drawing.Size(64, 83);
             this.btnBalanceextra3.TabIndex = 57;
             this.btnBalanceextra3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 102);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 47);
+            this.pictureBox1.TabIndex = 57;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 225);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 47);
+            this.pictureBox2.TabIndex = 59;
+            this.pictureBox2.TabStop = false;
             // 
             // Balance_Simple
             // 
@@ -157,8 +179,10 @@
             this.Controls.Add(this.btnBalanceextra2);
             this.Controls.Add(this.btnBalanceBack);
             this.Controls.Add(this.btnBalanceextra1);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnBalanceextra4);
             this.Controls.Add(this.btnBalanceextra5);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnBalanceextra3);
             this.Name = "Balance_Simple";
             this.Text = "Balance_Simple";
@@ -169,6 +193,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBalanceextra3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +212,7 @@
         private PictureBox btnBalanceextra4;
         private PictureBox btnBalanceextra5;
         private PictureBox btnBalanceextra3;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

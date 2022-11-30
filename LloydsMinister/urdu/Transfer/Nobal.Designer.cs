@@ -39,7 +39,7 @@
             // 
             this.lbWithnobal.AutoSize = true;
             this.lbWithnobal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithnobal.Location = new System.Drawing.Point(68, 365);
+            this.lbWithnobal.Location = new System.Drawing.Point(47, 356);
             this.lbWithnobal.Name = "lbWithnobal";
             this.lbWithnobal.Size = new System.Drawing.Size(76, 32);
             this.lbWithnobal.TabIndex = 64;
@@ -50,7 +50,7 @@
             this.btntransferdrawnobal.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferdrawnobal.Location = new System.Drawing.Point(-2, 341);
             this.btntransferdrawnobal.Name = "btntransferdrawnobal";
-            this.btntransferdrawnobal.Size = new System.Drawing.Size(64, 83);
+            this.btntransferdrawnobal.Size = new System.Drawing.Size(43, 47);
             this.btntransferdrawnobal.TabIndex = 63;
             this.btntransferdrawnobal.TabStop = false;
             this.btntransferdrawnobal.Click += new System.EventHandler(this.btntransferdrawnobal_Click);

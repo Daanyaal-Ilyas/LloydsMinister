@@ -61,9 +61,9 @@
             // btnViewStatBack
             // 
             this.btnViewStatBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnViewStatBack.Location = new System.Drawing.Point(734, 353);
+            this.btnViewStatBack.Location = new System.Drawing.Point(756, 355);
             this.btnViewStatBack.Name = "btnViewStatBack";
-            this.btnViewStatBack.Size = new System.Drawing.Size(67, 85);
+            this.btnViewStatBack.Size = new System.Drawing.Size(43, 47);
             this.btnViewStatBack.TabIndex = 51;
             this.btnViewStatBack.TabStop = false;
             this.btnViewStatBack.Click += new System.EventHandler(this.btnViewStatBack_Click);
@@ -71,18 +71,18 @@
             // BalanceExtra2btn
             // 
             this.BalanceExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceExtra2btn.Location = new System.Drawing.Point(734, 227);
+            this.BalanceExtra2btn.Location = new System.Drawing.Point(756, 227);
             this.BalanceExtra2btn.Name = "BalanceExtra2btn";
-            this.BalanceExtra2btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceExtra2btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtra2btn.TabIndex = 50;
             this.BalanceExtra2btn.TabStop = false;
             // 
             // btnViewStatSimple
             // 
             this.btnViewStatSimple.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnViewStatSimple.Location = new System.Drawing.Point(734, 104);
+            this.btnViewStatSimple.Location = new System.Drawing.Point(756, 104);
             this.btnViewStatSimple.Name = "btnViewStatSimple";
-            this.btnViewStatSimple.Size = new System.Drawing.Size(67, 85);
+            this.btnViewStatSimple.Size = new System.Drawing.Size(43, 47);
             this.btnViewStatSimple.TabIndex = 49;
             this.btnViewStatSimple.TabStop = false;
             this.btnViewStatSimple.Click += new System.EventHandler(this.btnViewStatSimple_Click);
@@ -92,7 +92,7 @@
             this.btnViewStatLongTerm.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnViewStatLongTerm.Location = new System.Drawing.Point(-1, 227);
             this.btnViewStatLongTerm.Name = "btnViewStatLongTerm";
-            this.btnViewStatLongTerm.Size = new System.Drawing.Size(64, 83);
+            this.btnViewStatLongTerm.Size = new System.Drawing.Size(43, 47);
             this.btnViewStatLongTerm.TabIndex = 48;
             this.btnViewStatLongTerm.TabStop = false;
             this.btnViewStatLongTerm.Click += new System.EventHandler(this.btnViewStatLongTerm_Click);
@@ -102,7 +102,7 @@
             this.BalanceExtrabtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalanceExtrabtn.Location = new System.Drawing.Point(-1, 355);
             this.BalanceExtrabtn.Name = "BalanceExtrabtn";
-            this.BalanceExtrabtn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceExtrabtn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtrabtn.TabIndex = 47;
             this.BalanceExtrabtn.TabStop = false;
             // 
@@ -111,7 +111,7 @@
             this.btnViewStatCurrent.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnViewStatCurrent.Location = new System.Drawing.Point(-1, 104);
             this.btnViewStatCurrent.Name = "btnViewStatCurrent";
-            this.btnViewStatCurrent.Size = new System.Drawing.Size(64, 83);
+            this.btnViewStatCurrent.Size = new System.Drawing.Size(43, 47);
             this.btnViewStatCurrent.TabIndex = 46;
             this.btnViewStatCurrent.TabStop = false;
             this.btnViewStatCurrent.Click += new System.EventHandler(this.btnViewStatCurrent_Click);
@@ -120,7 +120,7 @@
             // 
             this.lbStatMenuBack.AutoSize = true;
             this.lbStatMenuBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbStatMenuBack.Location = new System.Drawing.Point(652, 380);
+            this.lbStatMenuBack.Location = new System.Drawing.Point(674, 370);
             this.lbStatMenuBack.Name = "lbStatMenuBack";
             this.lbStatMenuBack.Size = new System.Drawing.Size(76, 32);
             this.lbStatMenuBack.TabIndex = 45;
@@ -130,7 +130,7 @@
             // 
             this.lbStatMenuSimple.AutoSize = true;
             this.lbStatMenuSimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbStatMenuSimple.Location = new System.Drawing.Point(615, 130);
+            this.lbStatMenuSimple.Location = new System.Drawing.Point(637, 119);
             this.lbStatMenuSimple.Name = "lbStatMenuSimple";
             this.lbStatMenuSimple.Size = new System.Drawing.Size(113, 32);
             this.lbStatMenuSimple.TabIndex = 44;
@@ -140,7 +140,7 @@
             // 
             this.lbStatMenuLongTerm.AutoSize = true;
             this.lbStatMenuLongTerm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbStatMenuLongTerm.Location = new System.Drawing.Point(69, 253);
+            this.lbStatMenuLongTerm.Location = new System.Drawing.Point(48, 242);
             this.lbStatMenuLongTerm.Name = "lbStatMenuLongTerm";
             this.lbStatMenuLongTerm.Size = new System.Drawing.Size(133, 32);
             this.lbStatMenuLongTerm.TabIndex = 54;
@@ -150,7 +150,7 @@
             // 
             this.lbStatMenuCurrent.AutoSize = true;
             this.lbStatMenuCurrent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbStatMenuCurrent.Location = new System.Drawing.Point(69, 130);
+            this.lbStatMenuCurrent.Location = new System.Drawing.Point(48, 119);
             this.lbStatMenuCurrent.Name = "lbStatMenuCurrent";
             this.lbStatMenuCurrent.Size = new System.Drawing.Size(64, 32);
             this.lbStatMenuCurrent.TabIndex = 53;

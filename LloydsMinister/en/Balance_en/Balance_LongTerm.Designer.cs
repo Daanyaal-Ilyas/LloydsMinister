@@ -53,18 +53,18 @@
             // BalLongTermExtra3btn
             // 
             this.BalLongTermExtra3btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalLongTermExtra3btn.Location = new System.Drawing.Point(736, 239);
+            this.BalLongTermExtra3btn.Location = new System.Drawing.Point(755, 239);
             this.BalLongTermExtra3btn.Name = "BalLongTermExtra3btn";
-            this.BalLongTermExtra3btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra3btn.Size = new System.Drawing.Size(46, 51);
             this.BalLongTermExtra3btn.TabIndex = 9;
             this.BalLongTermExtra3btn.TabStop = false;
             // 
             // btnBalanceBack
             // 
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceBack.Location = new System.Drawing.Point(737, 367);
+            this.btnBalanceBack.Location = new System.Drawing.Point(755, 367);
             this.btnBalanceBack.Name = "btnBalanceBack";
-            this.btnBalanceBack.Size = new System.Drawing.Size(65, 84);
+            this.btnBalanceBack.Size = new System.Drawing.Size(46, 51);
             this.btnBalanceBack.TabIndex = 10;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
@@ -72,9 +72,9 @@
             // BalLongTermExtra1btn
             // 
             this.BalLongTermExtra1btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalLongTermExtra1btn.Location = new System.Drawing.Point(736, 116);
+            this.BalLongTermExtra1btn.Location = new System.Drawing.Point(755, 116);
             this.BalLongTermExtra1btn.Name = "BalLongTermExtra1btn";
-            this.BalLongTermExtra1btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra1btn.Size = new System.Drawing.Size(46, 51);
             this.BalLongTermExtra1btn.TabIndex = 8;
             this.BalLongTermExtra1btn.TabStop = false;
             // 
@@ -83,7 +83,7 @@
             this.BalLongTermExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermExtra2btn.Location = new System.Drawing.Point(0, 239);
             this.BalLongTermExtra2btn.Name = "BalLongTermExtra2btn";
-            this.BalLongTermExtra2btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra2btn.Size = new System.Drawing.Size(46, 51);
             this.BalLongTermExtra2btn.TabIndex = 7;
             this.BalLongTermExtra2btn.TabStop = false;
             // 
@@ -92,7 +92,7 @@
             this.BalLongTermExtra4btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermExtra4btn.Location = new System.Drawing.Point(0, 367);
             this.BalLongTermExtra4btn.Name = "BalLongTermExtra4btn";
-            this.BalLongTermExtra4btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra4btn.Size = new System.Drawing.Size(46, 51);
             this.BalLongTermExtra4btn.TabIndex = 6;
             this.BalLongTermExtra4btn.TabStop = false;
             // 
@@ -101,7 +101,7 @@
             this.BalLongTermBackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermBackbtn.Location = new System.Drawing.Point(0, 116);
             this.BalLongTermBackbtn.Name = "BalLongTermBackbtn";
-            this.BalLongTermBackbtn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermBackbtn.Size = new System.Drawing.Size(46, 51);
             this.BalLongTermBackbtn.TabIndex = 5;
             this.BalLongTermBackbtn.TabStop = false;
             // 
@@ -120,7 +120,7 @@
             // 
             this.lbBalLongTermBack.AutoSize = true;
             this.lbBalLongTermBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalLongTermBack.Location = new System.Drawing.Point(664, 396);
+            this.lbBalLongTermBack.Location = new System.Drawing.Point(676, 380);
             this.lbBalLongTermBack.Name = "lbBalLongTermBack";
             this.lbBalLongTermBack.Size = new System.Drawing.Size(67, 32);
             this.lbBalLongTermBack.TabIndex = 12;

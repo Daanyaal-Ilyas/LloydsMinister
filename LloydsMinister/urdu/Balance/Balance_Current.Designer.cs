@@ -83,7 +83,7 @@
             // 
             this.lbBalCurrentBack.AutoSize = true;
             this.lbBalCurrentBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalCurrentBack.Location = new System.Drawing.Point(652, 378);
+            this.lbBalCurrentBack.Location = new System.Drawing.Point(677, 378);
             this.lbBalCurrentBack.Name = "lbBalCurrentBack";
             this.lbBalCurrentBack.Size = new System.Drawing.Size(76, 32);
             this.lbBalCurrentBack.TabIndex = 53;
@@ -92,18 +92,18 @@
             // BalanceCurrentextra3btn
             // 
             this.BalanceCurrentextra3btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceCurrentextra3btn.Location = new System.Drawing.Point(734, 223);
+            this.BalanceCurrentextra3btn.Location = new System.Drawing.Point(759, 225);
             this.BalanceCurrentextra3btn.Name = "BalanceCurrentextra3btn";
-            this.BalanceCurrentextra3btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceCurrentextra3btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceCurrentextra3btn.TabIndex = 51;
             this.BalanceCurrentextra3btn.TabStop = false;
             // 
             // btnBalanceBack
             // 
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceBack.Location = new System.Drawing.Point(734, 351);
+            this.btnBalanceBack.Location = new System.Drawing.Point(759, 363);
             this.btnBalanceBack.Name = "btnBalanceBack";
-            this.btnBalanceBack.Size = new System.Drawing.Size(67, 85);
+            this.btnBalanceBack.Size = new System.Drawing.Size(43, 47);
             this.btnBalanceBack.TabIndex = 52;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
@@ -111,9 +111,9 @@
             // BalanceCurrentextra1btn
             // 
             this.BalanceCurrentextra1btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceCurrentextra1btn.Location = new System.Drawing.Point(734, 100);
+            this.BalanceCurrentextra1btn.Location = new System.Drawing.Point(759, 102);
             this.BalanceCurrentextra1btn.Name = "BalanceCurrentextra1btn";
-            this.BalanceCurrentextra1btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceCurrentextra1btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceCurrentextra1btn.TabIndex = 50;
             this.BalanceCurrentextra1btn.TabStop = false;
             // 
@@ -122,7 +122,7 @@
             this.BalanceCurrentextra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalanceCurrentextra2btn.Location = new System.Drawing.Point(-1, 225);
             this.BalanceCurrentextra2btn.Name = "BalanceCurrentextra2btn";
-            this.BalanceCurrentextra2btn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceCurrentextra2btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceCurrentextra2btn.TabIndex = 49;
             this.BalanceCurrentextra2btn.TabStop = false;
             // 
@@ -131,7 +131,7 @@
             this.BalanceCurrentextra4btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalanceCurrentextra4btn.Location = new System.Drawing.Point(-1, 353);
             this.BalanceCurrentextra4btn.Name = "BalanceCurrentextra4btn";
-            this.BalanceCurrentextra4btn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceCurrentextra4btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceCurrentextra4btn.TabIndex = 48;
             this.BalanceCurrentextra4btn.TabStop = false;
             // 
@@ -140,7 +140,7 @@
             this.BalCurrentExtra5kbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalCurrentExtra5kbtn.Location = new System.Drawing.Point(-1, 102);
             this.BalCurrentExtra5kbtn.Name = "BalCurrentExtra5kbtn";
-            this.BalCurrentExtra5kbtn.Size = new System.Drawing.Size(64, 83);
+            this.BalCurrentExtra5kbtn.Size = new System.Drawing.Size(43, 47);
             this.BalCurrentExtra5kbtn.TabIndex = 47;
             this.BalCurrentExtra5kbtn.TabStop = false;
             // 

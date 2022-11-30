@@ -17,7 +17,10 @@ namespace LloydsMinister.urdu.Transfer.LongTerm
         {
             InitializeComponent();
         }
-
+        string texten = "transferred";
+        string texturdu = "منتقل";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void btntransfer20_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);

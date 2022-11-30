@@ -60,9 +60,9 @@
             // btnWithdrawBack
             // 
             this.btnWithdrawBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawBack.Location = new System.Drawing.Point(734, 354);
+            this.btnWithdrawBack.Location = new System.Drawing.Point(757, 356);
             this.btnWithdrawBack.Name = "btnWithdrawBack";
-            this.btnWithdrawBack.Size = new System.Drawing.Size(67, 85);
+            this.btnWithdrawBack.Size = new System.Drawing.Size(43, 47);
             this.btnWithdrawBack.TabIndex = 56;
             this.btnWithdrawBack.TabStop = false;
             this.btnWithdrawBack.Click += new System.EventHandler(this.btnWithdrawBack_Click);
@@ -70,18 +70,18 @@
             // BalanceExtra2btn
             // 
             this.BalanceExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceExtra2btn.Location = new System.Drawing.Point(734, 228);
+            this.BalanceExtra2btn.Location = new System.Drawing.Point(757, 228);
             this.BalanceExtra2btn.Name = "BalanceExtra2btn";
-            this.BalanceExtra2btn.Size = new System.Drawing.Size(67, 85);
+            this.BalanceExtra2btn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtra2btn.TabIndex = 55;
             this.BalanceExtra2btn.TabStop = false;
             // 
             // btnWithdrawSimple
             // 
             this.btnWithdrawSimple.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnWithdrawSimple.Location = new System.Drawing.Point(734, 105);
+            this.btnWithdrawSimple.Location = new System.Drawing.Point(757, 105);
             this.btnWithdrawSimple.Name = "btnWithdrawSimple";
-            this.btnWithdrawSimple.Size = new System.Drawing.Size(67, 85);
+            this.btnWithdrawSimple.Size = new System.Drawing.Size(43, 47);
             this.btnWithdrawSimple.TabIndex = 54;
             this.btnWithdrawSimple.TabStop = false;
             this.btnWithdrawSimple.Click += new System.EventHandler(this.btnWithdrawSimple_Click);
@@ -91,7 +91,7 @@
             this.btnWithdrawExtra.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnWithdrawExtra.Location = new System.Drawing.Point(-1, 228);
             this.btnWithdrawExtra.Name = "btnWithdrawExtra";
-            this.btnWithdrawExtra.Size = new System.Drawing.Size(64, 83);
+            this.btnWithdrawExtra.Size = new System.Drawing.Size(43, 47);
             this.btnWithdrawExtra.TabIndex = 53;
             this.btnWithdrawExtra.TabStop = false;
             // 
@@ -100,7 +100,7 @@
             this.BalanceExtrabtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalanceExtrabtn.Location = new System.Drawing.Point(-1, 356);
             this.BalanceExtrabtn.Name = "BalanceExtrabtn";
-            this.BalanceExtrabtn.Size = new System.Drawing.Size(64, 83);
+            this.BalanceExtrabtn.Size = new System.Drawing.Size(43, 47);
             this.BalanceExtrabtn.TabIndex = 52;
             this.BalanceExtrabtn.TabStop = false;
             // 
@@ -109,7 +109,7 @@
             this.btnWithdrawCurrent.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnWithdrawCurrent.Location = new System.Drawing.Point(-1, 105);
             this.btnWithdrawCurrent.Name = "btnWithdrawCurrent";
-            this.btnWithdrawCurrent.Size = new System.Drawing.Size(64, 83);
+            this.btnWithdrawCurrent.Size = new System.Drawing.Size(43, 47);
             this.btnWithdrawCurrent.TabIndex = 51;
             this.btnWithdrawCurrent.TabStop = false;
             this.btnWithdrawCurrent.Click += new System.EventHandler(this.btnWithdrawCurrent_Click);
@@ -118,7 +118,7 @@
             // 
             this.lbWithMenuBack.AutoSize = true;
             this.lbWithMenuBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuBack.Location = new System.Drawing.Point(652, 379);
+            this.lbWithMenuBack.Location = new System.Drawing.Point(675, 371);
             this.lbWithMenuBack.Name = "lbWithMenuBack";
             this.lbWithMenuBack.Size = new System.Drawing.Size(76, 32);
             this.lbWithMenuBack.TabIndex = 50;
@@ -128,7 +128,7 @@
             // 
             this.lbWithMenuSimple.AutoSize = true;
             this.lbWithMenuSimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuSimple.Location = new System.Drawing.Point(615, 131);
+            this.lbWithMenuSimple.Location = new System.Drawing.Point(638, 120);
             this.lbWithMenuSimple.Name = "lbWithMenuSimple";
             this.lbWithMenuSimple.Size = new System.Drawing.Size(113, 32);
             this.lbWithMenuSimple.TabIndex = 49;
@@ -138,7 +138,7 @@
             // 
             this.lbWithMenuCurrent.AutoSize = true;
             this.lbWithMenuCurrent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbWithMenuCurrent.Location = new System.Drawing.Point(69, 131);
+            this.lbWithMenuCurrent.Location = new System.Drawing.Point(48, 120);
             this.lbWithMenuCurrent.Name = "lbWithMenuCurrent";
             this.lbWithMenuCurrent.Size = new System.Drawing.Size(64, 32);
             this.lbWithMenuCurrent.TabIndex = 48;

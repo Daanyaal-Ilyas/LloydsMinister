@@ -17,7 +17,10 @@ namespace LloydsMinister.urdu.Transfer.Simple
         {
             InitializeComponent();
         }
-
+        string texten = "transferred";
+        string texturdu = "منتقل";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void TransferSimpleLong_Load(object sender, EventArgs e)
         {
             btntransfer10.Cursor = Cursors.Hand;

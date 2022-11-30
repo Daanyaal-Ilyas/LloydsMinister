@@ -53,18 +53,18 @@
             // BalSimpleExtra3btn
             // 
             this.BalSimpleExtra3btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalSimpleExtra3btn.Location = new System.Drawing.Point(737, 236);
+            this.BalSimpleExtra3btn.Location = new System.Drawing.Point(755, 237);
             this.BalSimpleExtra3btn.Name = "BalSimpleExtra3btn";
-            this.BalSimpleExtra3btn.Size = new System.Drawing.Size(65, 84);
+            this.BalSimpleExtra3btn.Size = new System.Drawing.Size(46, 51);
             this.BalSimpleExtra3btn.TabIndex = 9;
             this.BalSimpleExtra3btn.TabStop = false;
             // 
             // btnBalanceBack
             // 
             this.btnBalanceBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnBalanceBack.Location = new System.Drawing.Point(734, 364);
+            this.btnBalanceBack.Location = new System.Drawing.Point(752, 365);
             this.btnBalanceBack.Name = "btnBalanceBack";
-            this.btnBalanceBack.Size = new System.Drawing.Size(65, 84);
+            this.btnBalanceBack.Size = new System.Drawing.Size(46, 51);
             this.btnBalanceBack.TabIndex = 10;
             this.btnBalanceBack.TabStop = false;
             this.btnBalanceBack.Click += new System.EventHandler(this.btnBalanceBack_Click);
@@ -72,36 +72,36 @@
             // BalSimpleExtra1btn
             // 
             this.BalSimpleExtra1btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalSimpleExtra1btn.Location = new System.Drawing.Point(736, 113);
+            this.BalSimpleExtra1btn.Location = new System.Drawing.Point(754, 114);
             this.BalSimpleExtra1btn.Name = "BalSimpleExtra1btn";
-            this.BalSimpleExtra1btn.Size = new System.Drawing.Size(65, 84);
+            this.BalSimpleExtra1btn.Size = new System.Drawing.Size(46, 51);
             this.BalSimpleExtra1btn.TabIndex = 8;
             this.BalSimpleExtra1btn.TabStop = false;
             // 
             // BalSimpleExtra2btn
             // 
             this.BalSimpleExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.BalSimpleExtra2btn.Location = new System.Drawing.Point(0, 236);
+            this.BalSimpleExtra2btn.Location = new System.Drawing.Point(0, 239);
             this.BalSimpleExtra2btn.Name = "BalSimpleExtra2btn";
-            this.BalSimpleExtra2btn.Size = new System.Drawing.Size(65, 84);
+            this.BalSimpleExtra2btn.Size = new System.Drawing.Size(46, 51);
             this.BalSimpleExtra2btn.TabIndex = 7;
             this.BalSimpleExtra2btn.TabStop = false;
             // 
             // BalSimpleExtra4btn
             // 
             this.BalSimpleExtra4btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.BalSimpleExtra4btn.Location = new System.Drawing.Point(0, 364);
+            this.BalSimpleExtra4btn.Location = new System.Drawing.Point(0, 367);
             this.BalSimpleExtra4btn.Name = "BalSimpleExtra4btn";
-            this.BalSimpleExtra4btn.Size = new System.Drawing.Size(65, 84);
+            this.BalSimpleExtra4btn.Size = new System.Drawing.Size(46, 51);
             this.BalSimpleExtra4btn.TabIndex = 6;
             this.BalSimpleExtra4btn.TabStop = false;
             // 
             // BalSimpleBackbtn
             // 
             this.BalSimpleBackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.BalSimpleBackbtn.Location = new System.Drawing.Point(0, 113);
+            this.BalSimpleBackbtn.Location = new System.Drawing.Point(0, 116);
             this.BalSimpleBackbtn.Name = "BalSimpleBackbtn";
-            this.BalSimpleBackbtn.Size = new System.Drawing.Size(65, 84);
+            this.BalSimpleBackbtn.Size = new System.Drawing.Size(46, 51);
             this.BalSimpleBackbtn.TabIndex = 5;
             this.BalSimpleBackbtn.TabStop = false;
             // 
@@ -120,7 +120,7 @@
             // 
             this.lbBalSimpleBack.AutoSize = true;
             this.lbBalSimpleBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalSimpleBack.Location = new System.Drawing.Point(661, 388);
+            this.lbBalSimpleBack.Location = new System.Drawing.Point(678, 376);
             this.lbBalSimpleBack.Name = "lbBalSimpleBack";
             this.lbBalSimpleBack.Size = new System.Drawing.Size(67, 32);
             this.lbBalSimpleBack.TabIndex = 17;

@@ -17,7 +17,10 @@ namespace LloydsMinister.urdu.Transfer.Current
         {
             InitializeComponent();
         }
-
+        string texten = "transferred";
+        string texturdu = "منتقل";
+        string time = DateTime.Now.ToString("h:mm:ss tt");
+        string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void btntranscurrentlong10_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
@@ -30,11 +33,21 @@ namespace LloydsMinister.urdu.Transfer.Current
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
             if (baldata >= 10)
             {
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + pin_urdu.SetValuepin + "',10)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + pin_urdu.SetValuepin + "',10)");
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 10,BalanceLong = BalanceLong + 10 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final current = new Final();
                 current.ShowDialog();
@@ -60,13 +73,23 @@ namespace LloydsMinister.urdu.Transfer.Current
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            if (baldata >= 10)
+            if (baldata >= 20)
             {
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + pin_urdu.SetValuepin + "',20)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + pin_urdu.SetValuepin + "',20)");
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 20,BalanceLong = BalanceLong + 20 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final current = new Final();
                 current.ShowDialog();
@@ -92,13 +115,23 @@ namespace LloydsMinister.urdu.Transfer.Current
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            if (baldata >= 10)
+            if (baldata >= 50)
             {
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + pin_urdu.SetValuepin + "',50)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + pin_urdu.SetValuepin + "',50)");
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 50,BalanceLong = BalanceLong + 50 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final current = new Final();
                 current.ShowDialog();
@@ -124,13 +157,23 @@ namespace LloydsMinister.urdu.Transfer.Current
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(com);
             adapter.Fill(bc);
             int baldata = Convert.ToInt32(bc.Rows[0]["BalanceCurrent"]);
-            if (baldata >= 10)
+            if (baldata >= 100)
             {
+                string store = ("INSERT INTO current_historyen (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texten + "','" + pin_urdu.SetValuepin + "',100)");
+                string storeurdu = ("INSERT INTO current_historyurdu (date,time,description,Pin,amount) VALUES ('" + date + "','" + time + "','" + texturdu + "','" + pin_urdu.SetValuepin + "',100)");
                 string newquery = ("UPDATE customer SET  BalanceCurrent = BalanceCurrent - 100,BalanceLong = BalanceLong + 100 WHERE Pin = '" + pin_urdu.SetValuepin + "'");
                 SQLiteCommand cmd = new SQLiteCommand(newquery, con);
-                com.CommandText = newquery;
-                com.CommandType = CommandType.Text;
-                com.ExecuteNonQuery();
+                SQLiteCommand cd = new SQLiteCommand(store, con);
+                SQLiteCommand cs = new SQLiteCommand(storeurdu, con);
+                cmd.CommandText = newquery;
+                cs.CommandText = storeurdu;
+                cd.CommandText = store;
+                cs.CommandType = CommandType.Text;
+                cd.CommandType = CommandType.Text;
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                cs.ExecuteNonQuery();
+                cd.ExecuteNonQuery();
                 this.Hide();
                 Final current = new Final();
                 current.ShowDialog();
