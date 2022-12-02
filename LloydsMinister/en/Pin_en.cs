@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,9 +18,17 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void Pin_Load(object sender, EventArgs e)
         {
+            string text = "Enter Pin  Last button on your right is Enter";
+            read(text);
             pictureBox1.Cursor = Cursors.Hand;
         }
 

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,9 +17,17 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void BalanceMenu_Load(object sender, EventArgs e)
         {
+            string text = ("Balance Menu First button on your left is Current First button on your Right is Simple Deposit Second button on your left is Long Term Last button on your Right is Back");
+            read(text);
             btnBalanceCurrentbtn.Cursor  = Cursors.Hand;
             BalanceLongTermbtn.Cursor    = Cursors.Hand;
             BalanceSimplebtn.Cursor      = Cursors.Hand;

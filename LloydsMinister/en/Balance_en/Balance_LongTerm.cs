@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
+using System.Speech.Synthesis;
 
 namespace LloydsMinister
 {
@@ -22,7 +23,13 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-        
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void Balance_LongTerm_Load(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
@@ -34,7 +41,8 @@ namespace LloydsMinister
             adapt.Fill(bl);
             string data = bl.Rows[0]["BalanceLong"].ToString();
             lbBalLongTermBalance.Text = "£ " + data;
-
+            string text = ("Your Balance is " + lbBalLongTermBalance.Text + "Your Last button on your right is Back");
+            read(text);
             //cursor
             btnBalanceBack.Cursor = Cursors.Hand;
         }

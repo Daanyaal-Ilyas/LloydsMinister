@@ -54,7 +54,11 @@
             },
             "System.Data.SQLite": {
               "target": "Package",
-              "version": "[1.0.116, )"
+              "version": "[1.0.117, )"
+            },
+            "System.Speech": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

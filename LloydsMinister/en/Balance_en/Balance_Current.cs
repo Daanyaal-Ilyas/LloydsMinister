@@ -10,6 +10,9 @@ using System.Threading;
 using System.Windows.Forms;
 using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
+using System.Speech.Synthesis;
+using System.Globalization;
+
 namespace LloydsMinister
 {
     public partial class Balance_Current : Form
@@ -18,6 +21,13 @@ namespace LloydsMinister
         public Balance_Current()
         {
             InitializeComponent();
+        }
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
         }
         private void Balance_Current_Load(object sender, EventArgs e)
         {
@@ -30,6 +40,9 @@ namespace LloydsMinister
             adapter.Fill(bc);
             string data = bc.Rows[0]["BalanceCurrent"].ToString();
             lbBalcurrentBal.Text = "£ " + data;
+
+            string text = ("Your Balance is " + lbBalcurrentBal.Text + "Your Last button on your right is Back");
+            read(text);
 
             //cursor
             btnBalanceBack.Cursor = Cursors.Hand;

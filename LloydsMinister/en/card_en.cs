@@ -1,4 +1,6 @@
 using SQLite;
+using System.Speech;
+using System.Speech.Synthesis;
 
 namespace LloydsMinister
 {
@@ -9,7 +11,7 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-
+        SpeechSynthesizer sp = new SpeechSynthesizer();
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
@@ -20,9 +22,18 @@ namespace LloydsMinister
             
         }
 
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void CardInsert_Load(object sender, EventArgs e)
         {
             pictureBox2.Cursor = Cursors.Hand;
+            string text = "Insert card";
+            read(text);
+            
         }
     }
 }

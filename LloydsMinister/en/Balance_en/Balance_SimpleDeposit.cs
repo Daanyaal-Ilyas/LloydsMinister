@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using static LloydsMinister.Pin_en;
+using System.Speech.Synthesis;
+
 namespace LloydsMinister
 {
     public partial class Balance_SimpleDeposit : Form
@@ -17,6 +19,13 @@ namespace LloydsMinister
         public Balance_SimpleDeposit()
         {
             InitializeComponent();
+        }
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
         }
         private void Balance_SimpleDeposit_Load(object sender, EventArgs e)
         {
@@ -30,11 +39,10 @@ namespace LloydsMinister
             string data = bs.Rows[0]["BalanceSimple"].ToString();
             lbBalSimpleBal.Text = "£ " + data;
 
+            string text = ("Your Balance is " + lbBalSimpleBalance.Text + "Your Last button on your right is Back");
+            read(text);
 
             //cursor 
-            
-        
-
             btnBalanceBack.Cursor= Cursors.Hand;
         }
 
