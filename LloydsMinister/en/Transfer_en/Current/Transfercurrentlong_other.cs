@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,6 +23,13 @@ namespace LloydsMinister.Transfer_en.current
         string texturdu = "منتقل";
         string time = DateTime.Now.ToString("h:mm:ss tt");
         string date = DateTime.Now.ToString("dd-MM-yyyy");
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void btntransfercurrentlongback_Click(object sender, EventArgs e)
         {
             this.Hide();

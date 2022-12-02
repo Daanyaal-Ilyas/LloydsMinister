@@ -199,6 +199,7 @@
             this.Controls.Add(this.btntransferextras4);
             this.Name = "transfersimplecurrentother";
             this.Text = "transfersimplecurrentother";
+            this.Load += new System.EventHandler(this.transfersimplecurrentother_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbtntransfer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btntransferextras2)).EndInit();

@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -21,6 +22,13 @@ namespace LloydsMinister.Transfer_en.Simple
         string texturdu = "منتقل";
         string time = DateTime.Now.ToString("h:mm:ss tt");
         string date = DateTime.Now.ToString("dd-MM-yyyy");
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void btntransfer10_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
@@ -207,6 +215,8 @@ namespace LloydsMinister.Transfer_en.Simple
 
         private void transfersimplelongterm_Load(object sender, EventArgs e)
         {
+            string text = ("First button on your left is £10 First button on your right is £20 second button on your left is £50  second button on your right is £100 last button on your left is Other last button on your right is back ");
+            read(text);
             btntransfer10.Cursor = Cursors.Hand;
             btntransfer100.Cursor = Cursors.Hand;
             btntransfer20.Cursor = Cursors.Hand;

@@ -5,9 +5,11 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LloydsMinister.Transfer_en.Simple
 {
@@ -21,6 +23,13 @@ namespace LloydsMinister.Transfer_en.Simple
         string texturdu = "منتقل";
         string time = DateTime.Now.ToString("h:mm:ss tt");
         string date = DateTime.Now.ToString("dd-MM-yyyy");
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void btntransfer_Click(object sender, EventArgs e)
         {
             SQLiteConnection con = new SQLiteConnection(path.path1);
@@ -65,6 +74,8 @@ namespace LloydsMinister.Transfer_en.Simple
         }
         private void transfersimplelongother_Load(object sender, EventArgs e)
         {
+            string text = "Enter the ammount  Last button on your left is Transfer Last button Back";
+            read(text);
             btntransfer.Cursor = Cursors.Hand;
             btntransferback.Cursor = Cursors.Hand;
             btntransferextra2.Cursor = Cursors.Hand;
