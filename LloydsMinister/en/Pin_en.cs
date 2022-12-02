@@ -52,6 +52,8 @@ namespace LloydsMinister
             }
             else
             {
+                string text = "Wrong Pin";
+                read(text);
                 MessageBox.Show("Wrong Pin");
                 this.Hide();
                 CardInsert m2 = new CardInsert();

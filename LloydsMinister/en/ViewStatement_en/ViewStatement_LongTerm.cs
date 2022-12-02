@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,7 +18,13 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
-
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void ViewStatement_LongTerm_Load(object sender, EventArgs e)
         {
             btnStatBack.Cursor = Cursors.Hand;
@@ -30,7 +37,8 @@ namespace LloydsMinister
             adapter.Fill(bc);
 
             dataGridView1.DataSource = bc;
-
+            string text = ("View your Long Term account  Statment The Last button on your Right is Back");
+            read(text);
         }
 
         private void btnStatBack_Click(object sender, EventArgs e)

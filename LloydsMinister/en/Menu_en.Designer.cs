@@ -61,7 +61,6 @@
             this.lbMenuExit.Size = new System.Drawing.Size(83, 48);
             this.lbMenuExit.TabIndex = 13;
             this.lbMenuExit.Text = "Exit";
-            this.lbMenuExit.Click += new System.EventHandler(this.lbMenuExit_Click);
             // 
             // lbMenuBalance
             // 
@@ -73,7 +72,6 @@
             this.lbMenuBalance.Size = new System.Drawing.Size(149, 48);
             this.lbMenuBalance.TabIndex = 14;
             this.lbMenuBalance.Text = "Balance";
-            this.lbMenuBalance.Click += new System.EventHandler(this.lbMenuBalance_Click);
             // 
             // lbMenuDeposit
             // 
@@ -85,7 +83,6 @@
             this.lbMenuDeposit.Size = new System.Drawing.Size(150, 48);
             this.lbMenuDeposit.TabIndex = 15;
             this.lbMenuDeposit.Text = "Deposit";
-            this.lbMenuDeposit.Click += new System.EventHandler(this.lbMenuDeposit_Click);
             // 
             // lbMenuWithdraw
             // 
@@ -97,7 +94,6 @@
             this.lbMenuWithdraw.Size = new System.Drawing.Size(186, 48);
             this.lbMenuWithdraw.TabIndex = 16;
             this.lbMenuWithdraw.Text = "Withdraw";
-            this.lbMenuWithdraw.Click += new System.EventHandler(this.lbMenuWithdraw_Click);
             // 
             // lbMenuStatement
             // 
@@ -109,7 +105,6 @@
             this.lbMenuStatement.Size = new System.Drawing.Size(193, 48);
             this.lbMenuStatement.TabIndex = 17;
             this.lbMenuStatement.Text = "Statement";
-            this.lbMenuStatement.Click += new System.EventHandler(this.lbMenuStatement_Click);
             // 
             // lbMenuTransfer
             // 
@@ -121,7 +116,6 @@
             this.lbMenuTransfer.Size = new System.Drawing.Size(156, 48);
             this.lbMenuTransfer.TabIndex = 17;
             this.lbMenuTransfer.Text = "Transfer";
-            this.lbMenuTransfer.Click += new System.EventHandler(this.lbMenuTransfer_Click);
             // 
             // menuLabel1
             // 
@@ -134,7 +128,6 @@
             this.menuLabel1.Size = new System.Drawing.Size(162, 61);
             this.menuLabel1.TabIndex = 18;
             this.menuLabel1.Text = "Menu";
-            this.menuLabel1.Click += new System.EventHandler(this.menuLabel1_Click);
             // 
             // btnMenuWithdraw
             // 

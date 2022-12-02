@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,12 +20,21 @@ namespace LloydsMinister
         {
             InitializeComponent();
         }
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         string texten = "withdrawn";
         string texturdu = "واپس لے لیا";
         string time = DateTime.Now.ToString("h:mm:ss tt");
         string date = DateTime.Now.ToString("dd-MM-yyyy");
         private void Withdraw_Current_Load(object sender, EventArgs e)
         {
+            string text = ("Withdraw Current account menu First button on your left is £10 First button on your right is £20 second button on your left is £50  second button on your right is £100 last button on your left is £150 last button on your right is back ");
+            read(text);
             btnWithdrawBack.Cursor = Cursors.Hand;
             btn10CurrentWithdraw.Cursor  = Cursors.Hand;
             btn20CurrentWithdraw.Cursor  = Cursors.Hand;

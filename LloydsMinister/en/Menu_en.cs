@@ -26,7 +26,7 @@ namespace LloydsMinister
         }
         private void Menu_Load(object sender, EventArgs e)
         {
-            string text = "Main Menu First button on your left is Balance First button on your right is Deposit Second button on your left is  Withdraw Second button on your right is Transfer Last button on your left is Statement and Last button on your Left is Exit";
+            string text = "Main Menu First button on your left is Balance First button on your right is Deposit Second button on your left is  Withdraw Second button on your right is Transfer Last button on your left is Statement and Last button on your Right is Exit";
             read(text);
             btnMenuBalance.Cursor   = Cursors.Hand;
             btnMenuWithdraw.Cursor  = Cursors.Hand;
@@ -81,40 +81,5 @@ namespace LloydsMinister
             Application.Exit();
         }
 
-        //useless code
-
-        private void lbMenuBalance_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbMenuWithdraw_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbMenuStatement_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbMenuDeposit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbMenuTransfer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbMenuExit_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void menuLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
