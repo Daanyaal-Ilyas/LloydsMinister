@@ -82,7 +82,8 @@ namespace LloydsMinister.Transfer_en.Simple
 
         private void transfersimplecurrentother_Load(object sender, EventArgs e)
         {
-
+            string text = "Enter the ammount  Last button on your left is Transfer Last button Back";
+            read(text);
         }
     }
 }

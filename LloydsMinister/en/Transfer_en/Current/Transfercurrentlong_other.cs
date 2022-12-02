@@ -40,6 +40,8 @@ namespace LloydsMinister.Transfer_en.current
 
         private void Transfercurrentlong_other_Load(object sender, EventArgs e)
         {
+            string text = "Enter the ammount  Last button on your left is Transfer Last button Back";
+            read(text);
             btntransfercurrentlongback.Cursor = Cursors.Hand;
             btntransfercurrentlongextra1.Cursor = Cursors.Hand;
             btntransfercurrentlongextra2.Cursor = Cursors.Hand;

@@ -43,6 +43,9 @@
     <Compile Update="en\Pin_en.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="urdu\Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="urdu\Balance\Balancemenu.cs">
       <SubType>Form</SubType>
     </Compile>
