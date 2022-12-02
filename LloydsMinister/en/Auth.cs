@@ -1,5 +1,4 @@
-﻿using LloydsMinister.en;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LloydsMinister
+namespace LloydsMinister.en
 {
-    public partial class Pin_en : Form
+    public partial class Auth : Form
     {
-        public Pin_en()
+        public Auth()
         {
             InitializeComponent();
         }
@@ -26,40 +25,40 @@ namespace LloydsMinister
             sp = new SpeechSynthesizer();
             sp.SpeakAsync(text);
         }
-        private void Pin_Load(object sender, EventArgs e)
+        private void Auth_Load(object sender, EventArgs e)
         {
-            string text = "Enter Pin  Last button on your right is Enter";
+            string text = "Enter Auth code  Last button on your right is Enter";
             read(text);
             pictureBox1.Cursor = Cursors.Hand;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            SetValuepin = enterPin1.Text;
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT Pin FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT code FROM auth WHERE code = '" + enterPin1.Text + "'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             DataTable pin = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);
             adapt.Fill(pin);
-            if(pin.Rows.Count > 0)
+            if (pin.Rows.Count > 0)
             {
                 this.Hide();
-                Auth m2 = new Auth();
+                Menu_en m2 = new Menu_en();
                 m2.ShowDialog();
                 m2.Closed += (s, args) => this.Close();
             }
             else
             {
-                MessageBox.Show("Wrong Pin");
+                string text = "Wrong code";
+                read(text);
+                MessageBox.Show("Wrong code");
                 this.Hide();
-                CardInsert m2 = new CardInsert();
+                Pin_en m2 = new Pin_en();
                 m2.ShowDialog();
                 m2.Closed += (s, args) => this.Close();
             }
-            
+
         }
-        public static string SetValuepin = "";
     }
 }

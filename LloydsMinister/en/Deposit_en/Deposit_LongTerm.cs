@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,8 +24,17 @@ namespace LloydsMinister
         string texturdu = "جمع";
         string time = DateTime.Now.ToString("h:mm:ss tt");
         string date = DateTime.Now.ToString("dd-MM-yyyy");
+        SpeechSynthesizer sp = new SpeechSynthesizer();
+        private void read(string text)
+        {
+            sp.Dispose();
+            sp = new SpeechSynthesizer();
+            sp.SpeakAsync(text);
+        }
         private void Deposit_LongTerm_Load(object sender, EventArgs e)
         {
+            string text = ("Deposit Long term menu First button on your left is £10 First button on your right is £20 second button on your left is £50  second button on your right is £100 last button on your left is £150 last button on your right is back ");
+            read(text);
             btnDepositBack.Cursor = Cursors.Hand;
             btn10LongDeposit.Cursor  = Cursors.Hand;
             btn20LongDeposit.Cursor  = Cursors.Hand;

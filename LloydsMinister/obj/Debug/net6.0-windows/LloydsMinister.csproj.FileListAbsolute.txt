@@ -487,3 +487,4 @@ C:\Users\danis\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-w
 C:\Users\danis\Documents\GitHub\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\ref\LloydsMinister.dll
 D:\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\System.Speech.dll
 D:\LloydsMinister\LloydsMinister\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Speech.dll
+D:\LloydsMinister\LloydsMinister\obj\Debug\net6.0-windows\LloydsMinister.en.Auth.resources

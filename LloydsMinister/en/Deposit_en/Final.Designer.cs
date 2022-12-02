@@ -40,9 +40,8 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(140, 159);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(514, 90);
+            this.label1.Size = new System.Drawing.Size(0, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "You have Deposited the Money!\r\n     Please check your Balance!";
             // 
             // pictureBox1
             // 
@@ -75,6 +74,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Final";
             this.Text = "Final";
+            this.Load += new System.EventHandler(this.Final_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
