@@ -38,7 +38,7 @@ namespace LloydsMinister
             SetValuepin = enterPin1.Text;
             SQLiteConnection con = new SQLiteConnection(path.path1);
             con.Open();
-            string query = ("SELECT Pin FROM customer WHERE Pin = '" + Pin_en.SetValuepin + "'");
+            string query = ("SELECT Pin FROM card WHERE cardnum = '" + CardInsert.SetCard + "'AND Pin = '" + Pin_en.SetValuepin + "'");
             SQLiteCommand cmd = new SQLiteCommand(query, con);
             DataTable pin = new DataTable();
             SQLiteDataAdapter adapt = new SQLiteDataAdapter(cmd);

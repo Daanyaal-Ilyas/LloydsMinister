@@ -31,6 +31,7 @@
             this.Text1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.cardbox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -39,20 +40,18 @@
             // 
             this.Text1.AutoSize = true;
             this.Text1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Text1.Location = new System.Drawing.Point(254, 93);
-            this.Text1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Text1.Location = new System.Drawing.Point(178, 56);
             this.Text1.Name = "Text1";
-            this.Text1.Size = new System.Drawing.Size(504, 60);
+            this.Text1.Size = new System.Drawing.Size(336, 40);
             this.Text1.TabIndex = 0;
             this.Text1.Text = "Please Insert your Card";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Card;
-            this.pictureBox1.Location = new System.Drawing.Point(294, 203);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(206, 122);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(319, 354);
+            this.pictureBox1.Size = new System.Drawing.Size(223, 212);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -60,25 +59,32 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::LloydsMinister.Properties.Resources.up2;
-            this.pictureBox2.Location = new System.Drawing.Point(382, 604);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(279, 421);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(101, 101);
+            this.pictureBox2.Size = new System.Drawing.Size(71, 61);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // cardbox
+            // 
+            this.cardbox.FormattingEnabled = true;
+            this.cardbox.Location = new System.Drawing.Point(254, 354);
+            this.cardbox.Name = "cardbox";
+            this.cardbox.Size = new System.Drawing.Size(121, 23);
+            this.cardbox.TabIndex = 3;
+            // 
             // CardInsert
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(957, 988);
+            this.ClientSize = new System.Drawing.Size(670, 593);
+            this.Controls.Add(this.cardbox);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Text1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CardInsert";
             this.Text = "CardInsert";
             this.Load += new System.EventHandler(this.CardInsert_Load);
@@ -94,5 +100,6 @@
         private Label Text1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private ComboBox cardbox;
     }
 }

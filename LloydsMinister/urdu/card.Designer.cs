@@ -31,6 +31,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Text1 = new System.Windows.Forms.Label();
+            this.cardbox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,12 +67,21 @@
             this.Text1.TabIndex = 3;
             this.Text1.Text = "اپنا کارڈ داخل کریں";
             // 
+            // cardbox
+            // 
+            this.cardbox.FormattingEnabled = true;
+            this.cardbox.Location = new System.Drawing.Point(178, 320);
+            this.cardbox.Name = "cardbox";
+            this.cardbox.Size = new System.Drawing.Size(121, 23);
+            this.cardbox.TabIndex = 6;
+            // 
             // card
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(617, 538);
+            this.Controls.Add(this.cardbox);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Text1);
@@ -90,5 +100,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Label Text1;
+        private ComboBox cardbox;
     }
 }
