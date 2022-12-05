@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj": {}
+    "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj": {}
   },
   "projects": {
-    "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj": {
+    "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
         "projectName": "LloydsMinister",
-        "projectPath": "D:\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
-        "packagesPath": "C:\\Users\\rajad\\.nuget\\packages\\",
-        "outputPath": "D:\\LloydsMinister\\LloydsMinister\\obj\\",
+        "projectPath": "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\LloydsMinister.csproj",
+        "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omaid\\OneDrive\\Documents\\GitHub\\LloydsMinister\\LloydsMinister\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +89,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

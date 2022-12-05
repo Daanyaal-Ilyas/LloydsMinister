@@ -39,7 +39,7 @@ namespace LloydsMinister
             string data = bs.Rows[0]["BalanceSimple"].ToString();
             lbBalSimpleBal.Text = "£ " + data;
 
-            string text = ("Your Balance is " + lbBalSimpleBalance.Text + "Your Last button on your right is Back");
+            string text = ("Your Balance is " + lbBalSimpleBal.Text + "Your Last button on your right is Back");
             read(text);
 
             //cursor 
