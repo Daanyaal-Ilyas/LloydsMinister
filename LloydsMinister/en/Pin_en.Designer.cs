@@ -69,7 +69,7 @@
             // 
             this.textEnter1.AutoSize = true;
             this.textEnter1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textEnter1.Location = new System.Drawing.Point(587, 390);
+            this.textEnter1.Location = new System.Drawing.Point(587, 389);
             this.textEnter1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textEnter1.Name = "textEnter1";
             this.textEnter1.Size = new System.Drawing.Size(74, 30);

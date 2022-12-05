@@ -87,27 +87,33 @@
             // BalLongTermExtra2btn
             // 
             this.BalLongTermExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalLongTermExtra2btn.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermExtra2btn.Location = new System.Drawing.Point(0, 239);
             this.BalLongTermExtra2btn.Name = "BalLongTermExtra2btn";
-            this.BalLongTermExtra2btn.Size = new System.Drawing.Size(46, 51);
+            this.BalLongTermExtra2btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra2btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalLongTermExtra2btn.TabIndex = 7;
             this.BalLongTermExtra2btn.TabStop = false;
             // 
             // BalLongTermExtra4btn
             // 
             this.BalLongTermExtra4btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalLongTermExtra4btn.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermExtra4btn.Location = new System.Drawing.Point(0, 367);
             this.BalLongTermExtra4btn.Name = "BalLongTermExtra4btn";
-            this.BalLongTermExtra4btn.Size = new System.Drawing.Size(46, 51);
+            this.BalLongTermExtra4btn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermExtra4btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalLongTermExtra4btn.TabIndex = 6;
             this.BalLongTermExtra4btn.TabStop = false;
             // 
             // BalLongTermBackbtn
             // 
             this.BalLongTermBackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalLongTermBackbtn.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalLongTermBackbtn.Location = new System.Drawing.Point(0, 116);
             this.BalLongTermBackbtn.Name = "BalLongTermBackbtn";
-            this.BalLongTermBackbtn.Size = new System.Drawing.Size(46, 51);
+            this.BalLongTermBackbtn.Size = new System.Drawing.Size(65, 84);
+            this.BalLongTermBackbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalLongTermBackbtn.TabIndex = 5;
             this.BalLongTermBackbtn.TabStop = false;
             // 

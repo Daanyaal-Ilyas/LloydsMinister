@@ -13,7 +13,6 @@ using System.Windows.Forms;
 using static LloydsMinister.Pin_en;
 using static LloydsMinister.path;
 using System.Data.SQLite;
-using static System.ComponentModel.Design.ObjectSelectorEditor;
 using LloydsMinister.Deposit;
 using System.Speech.Synthesis;
 

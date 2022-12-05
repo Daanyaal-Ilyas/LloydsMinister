@@ -54,9 +54,11 @@
             // btnDepositBack
             // 
             this.btnDepositBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnDepositBack.Location = new System.Drawing.Point(757, 367);
+            this.btnDepositBack.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnDepositBack.Location = new System.Drawing.Point(737, 367);
             this.btnDepositBack.Name = "btnDepositBack";
-            this.btnDepositBack.Size = new System.Drawing.Size(46, 51);
+            this.btnDepositBack.Size = new System.Drawing.Size(65, 84);
+            this.btnDepositBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnDepositBack.TabIndex = 24;
             this.btnDepositBack.TabStop = false;
             this.btnDepositBack.Click += new System.EventHandler(this.btnDepositBack_Click);
@@ -64,9 +66,11 @@
             // btn100CurrentDeposit
             // 
             this.btn100CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btn100CurrentDeposit.Location = new System.Drawing.Point(755, 236);
+            this.btn100CurrentDeposit.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn100CurrentDeposit.Location = new System.Drawing.Point(736, 236);
             this.btn100CurrentDeposit.Name = "btn100CurrentDeposit";
-            this.btn100CurrentDeposit.Size = new System.Drawing.Size(46, 51);
+            this.btn100CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn100CurrentDeposit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btn100CurrentDeposit.TabIndex = 23;
             this.btn100CurrentDeposit.TabStop = false;
             this.btn100CurrentDeposit.Click += new System.EventHandler(this.btn100CurrentDeposit_Click);
@@ -74,9 +78,11 @@
             // btn20CurrentDeposit
             // 
             this.btn20CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btn20CurrentDeposit.Location = new System.Drawing.Point(755, 115);
+            this.btn20CurrentDeposit.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btn20CurrentDeposit.Location = new System.Drawing.Point(736, 115);
             this.btn20CurrentDeposit.Name = "btn20CurrentDeposit";
-            this.btn20CurrentDeposit.Size = new System.Drawing.Size(46, 51);
+            this.btn20CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn20CurrentDeposit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btn20CurrentDeposit.TabIndex = 22;
             this.btn20CurrentDeposit.TabStop = false;
             this.btn20CurrentDeposit.Click += new System.EventHandler(this.btn20CurrentDeposit_Click);
@@ -84,9 +90,11 @@
             // btn150CurrentDeposit
             // 
             this.btn150CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn150CurrentDeposit.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btn150CurrentDeposit.Location = new System.Drawing.Point(0, 367);
             this.btn150CurrentDeposit.Name = "btn150CurrentDeposit";
-            this.btn150CurrentDeposit.Size = new System.Drawing.Size(46, 51);
+            this.btn150CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn150CurrentDeposit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btn150CurrentDeposit.TabIndex = 21;
             this.btn150CurrentDeposit.TabStop = false;
             this.btn150CurrentDeposit.Click += new System.EventHandler(this.btn150CurrentDeposit_Click);
@@ -94,9 +102,11 @@
             // btn50CurrentDeposit
             // 
             this.btn50CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn50CurrentDeposit.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btn50CurrentDeposit.Location = new System.Drawing.Point(0, 236);
             this.btn50CurrentDeposit.Name = "btn50CurrentDeposit";
-            this.btn50CurrentDeposit.Size = new System.Drawing.Size(46, 51);
+            this.btn50CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn50CurrentDeposit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btn50CurrentDeposit.TabIndex = 20;
             this.btn50CurrentDeposit.TabStop = false;
             this.btn50CurrentDeposit.Click += new System.EventHandler(this.btn50CurrentDeposit_Click);
@@ -105,7 +115,7 @@
             // 
             this.lbDep_CurrentBack.AutoSize = true;
             this.lbDep_CurrentBack.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_CurrentBack.Location = new System.Drawing.Point(671, 376);
+            this.lbDep_CurrentBack.Location = new System.Drawing.Point(654, 376);
             this.lbDep_CurrentBack.Name = "lbDep_CurrentBack";
             this.lbDep_CurrentBack.Size = new System.Drawing.Size(77, 37);
             this.lbDep_CurrentBack.TabIndex = 48;
@@ -115,7 +125,7 @@
             // 
             this.lbDep_Current150.AutoSize = true;
             this.lbDep_Current150.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Current150.Location = new System.Drawing.Point(51, 376);
+            this.lbDep_Current150.Location = new System.Drawing.Point(71, 391);
             this.lbDep_Current150.Name = "lbDep_Current150";
             this.lbDep_Current150.Size = new System.Drawing.Size(81, 37);
             this.lbDep_Current150.TabIndex = 47;
@@ -125,7 +135,7 @@
             // 
             this.lbDep_Current100.AutoSize = true;
             this.lbDep_Current100.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Current100.Location = new System.Drawing.Point(666, 245);
+            this.lbDep_Current100.Location = new System.Drawing.Point(650, 250);
             this.lbDep_Current100.Name = "lbDep_Current100";
             this.lbDep_Current100.Size = new System.Drawing.Size(81, 37);
             this.lbDep_Current100.TabIndex = 46;
@@ -135,7 +145,7 @@
             // 
             this.lbDep_Current50.AutoSize = true;
             this.lbDep_Current50.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Current50.Location = new System.Drawing.Point(51, 245);
+            this.lbDep_Current50.Location = new System.Drawing.Point(81, 263);
             this.lbDep_Current50.Name = "lbDep_Current50";
             this.lbDep_Current50.Size = new System.Drawing.Size(65, 37);
             this.lbDep_Current50.TabIndex = 45;
@@ -145,7 +155,7 @@
             // 
             this.lbDep_Current20.AutoSize = true;
             this.lbDep_Current20.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Current20.Location = new System.Drawing.Point(682, 124);
+            this.lbDep_Current20.Location = new System.Drawing.Point(666, 135);
             this.lbDep_Current20.Name = "lbDep_Current20";
             this.lbDep_Current20.Size = new System.Drawing.Size(65, 37);
             this.lbDep_Current20.TabIndex = 44;
@@ -155,7 +165,7 @@
             // 
             this.lbDep_Current10.AutoSize = true;
             this.lbDep_Current10.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbDep_Current10.Location = new System.Drawing.Point(51, 124);
+            this.lbDep_Current10.Location = new System.Drawing.Point(81, 144);
             this.lbDep_Current10.Name = "lbDep_Current10";
             this.lbDep_Current10.Size = new System.Drawing.Size(65, 37);
             this.lbDep_Current10.TabIndex = 43;
@@ -184,9 +194,11 @@
             // btn10CurrentDeposit
             // 
             this.btn10CurrentDeposit.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btn10CurrentDeposit.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btn10CurrentDeposit.Location = new System.Drawing.Point(0, 115);
             this.btn10CurrentDeposit.Name = "btn10CurrentDeposit";
-            this.btn10CurrentDeposit.Size = new System.Drawing.Size(46, 51);
+            this.btn10CurrentDeposit.Size = new System.Drawing.Size(65, 84);
+            this.btn10CurrentDeposit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btn10CurrentDeposit.TabIndex = 51;
             this.btn10CurrentDeposit.TabStop = false;
             this.btn10CurrentDeposit.Click += new System.EventHandler(this.btn10CurrentDeposit_Click);
