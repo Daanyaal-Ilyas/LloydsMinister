@@ -62,7 +62,7 @@
             // 
             this.lbBalMenuBack.AutoSize = true;
             this.lbBalMenuBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalMenuBack.Location = new System.Drawing.Point(674, 380);
+            this.lbBalMenuBack.Location = new System.Drawing.Point(652, 394);
             this.lbBalMenuBack.Name = "lbBalMenuBack";
             this.lbBalMenuBack.Size = new System.Drawing.Size(76, 32);
             this.lbBalMenuBack.TabIndex = 18;
@@ -72,7 +72,7 @@
             // 
             this.lbBalMenuLongTerm.AutoSize = true;
             this.lbBalMenuLongTerm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalMenuLongTerm.Location = new System.Drawing.Point(48, 243);
+            this.lbBalMenuLongTerm.Location = new System.Drawing.Point(70, 261);
             this.lbBalMenuLongTerm.Name = "lbBalMenuLongTerm";
             this.lbBalMenuLongTerm.Size = new System.Drawing.Size(133, 32);
             this.lbBalMenuLongTerm.TabIndex = 17;
@@ -82,7 +82,7 @@
             // 
             this.lbBalMenuSimple.AutoSize = true;
             this.lbBalMenuSimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalMenuSimple.Location = new System.Drawing.Point(637, 120);
+            this.lbBalMenuSimple.Location = new System.Drawing.Point(615, 135);
             this.lbBalMenuSimple.Name = "lbBalMenuSimple";
             this.lbBalMenuSimple.Size = new System.Drawing.Size(113, 32);
             this.lbBalMenuSimple.TabIndex = 16;
@@ -92,7 +92,7 @@
             // 
             this.lbBalMenuCurrent.AutoSize = true;
             this.lbBalMenuCurrent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBalMenuCurrent.Location = new System.Drawing.Point(48, 120);
+            this.lbBalMenuCurrent.Location = new System.Drawing.Point(70, 135);
             this.lbBalMenuCurrent.Name = "lbBalMenuCurrent";
             this.lbBalMenuCurrent.Size = new System.Drawing.Size(64, 32);
             this.lbBalMenuCurrent.TabIndex = 15;
@@ -101,9 +101,11 @@
             // BalanceBackbtn
             // 
             this.BalanceBackbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceBackbtn.Location = new System.Drawing.Point(756, 365);
+            this.BalanceBackbtn.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.BalanceBackbtn.Location = new System.Drawing.Point(734, 365);
             this.BalanceBackbtn.Name = "BalanceBackbtn";
-            this.BalanceBackbtn.Size = new System.Drawing.Size(43, 47);
+            this.BalanceBackbtn.Size = new System.Drawing.Size(65, 84);
+            this.BalanceBackbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalanceBackbtn.TabIndex = 13;
             this.BalanceBackbtn.TabStop = false;
             this.BalanceBackbtn.Click += new System.EventHandler(this.BalanceBackbtn_Click);
@@ -111,18 +113,22 @@
             // BalanceExtra2btn
             // 
             this.BalanceExtra2btn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceExtra2btn.Location = new System.Drawing.Point(756, 228);
+            this.BalanceExtra2btn.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.BalanceExtra2btn.Location = new System.Drawing.Point(734, 228);
             this.BalanceExtra2btn.Name = "BalanceExtra2btn";
-            this.BalanceExtra2btn.Size = new System.Drawing.Size(43, 47);
+            this.BalanceExtra2btn.Size = new System.Drawing.Size(65, 84);
+            this.BalanceExtra2btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalanceExtra2btn.TabIndex = 14;
             this.BalanceExtra2btn.TabStop = false;
             // 
             // BalanceSimplebtn
             // 
             this.BalanceSimplebtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.BalanceSimplebtn.Location = new System.Drawing.Point(756, 105);
+            this.BalanceSimplebtn.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.BalanceSimplebtn.Location = new System.Drawing.Point(734, 105);
             this.BalanceSimplebtn.Name = "BalanceSimplebtn";
-            this.BalanceSimplebtn.Size = new System.Drawing.Size(43, 47);
+            this.BalanceSimplebtn.Size = new System.Drawing.Size(65, 84);
+            this.BalanceSimplebtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalanceSimplebtn.TabIndex = 12;
             this.BalanceSimplebtn.TabStop = false;
             this.BalanceSimplebtn.Click += new System.EventHandler(this.BalanceSimplebtn_Click);
@@ -130,18 +136,22 @@
             // BalanceExtrabtn
             // 
             this.BalanceExtrabtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.BalanceExtrabtn.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.BalanceExtrabtn.Location = new System.Drawing.Point(-1, 356);
             this.BalanceExtrabtn.Name = "BalanceExtrabtn";
-            this.BalanceExtrabtn.Size = new System.Drawing.Size(43, 47);
+            this.BalanceExtrabtn.Size = new System.Drawing.Size(65, 84);
+            this.BalanceExtrabtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.BalanceExtrabtn.TabIndex = 11;
             this.BalanceExtrabtn.TabStop = false;
             // 
             // btnBalanceCurrentbtn
             // 
             this.btnBalanceCurrentbtn.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnBalanceCurrentbtn.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnBalanceCurrentbtn.Location = new System.Drawing.Point(-1, 105);
             this.btnBalanceCurrentbtn.Name = "btnBalanceCurrentbtn";
-            this.btnBalanceCurrentbtn.Size = new System.Drawing.Size(43, 47);
+            this.btnBalanceCurrentbtn.Size = new System.Drawing.Size(65, 84);
+            this.btnBalanceCurrentbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnBalanceCurrentbtn.TabIndex = 10;
             this.btnBalanceCurrentbtn.TabStop = false;
             this.btnBalanceCurrentbtn.Click += new System.EventHandler(this.btnBalanceCurrentbtn_Click);
@@ -149,9 +159,11 @@
             // btnlong
             // 
             this.btnlong.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnlong.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnlong.Location = new System.Drawing.Point(-1, 230);
             this.btnlong.Name = "btnlong";
-            this.btnlong.Size = new System.Drawing.Size(43, 47);
+            this.btnlong.Size = new System.Drawing.Size(65, 84);
+            this.btnlong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnlong.TabIndex = 20;
             this.btnlong.TabStop = false;
             this.btnlong.Click += new System.EventHandler(this.btnlong_Click);
