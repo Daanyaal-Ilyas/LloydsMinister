@@ -51,11 +51,12 @@
             // btnTransferBack
             // 
             this.btnTransferBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnTransferBack.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnTransferBack.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnTransferBack.Location = new System.Drawing.Point(1082, 638);
-            this.btnTransferBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnTransferBack.Location = new System.Drawing.Point(735, 367);
             this.btnTransferBack.Name = "btnTransferBack";
-            this.btnTransferBack.Size = new System.Drawing.Size(61, 80);
+            this.btnTransferBack.Size = new System.Drawing.Size(65, 84);
+            this.btnTransferBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnTransferBack.TabIndex = 24;
             this.btnTransferBack.TabStop = false;
             this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
@@ -63,22 +64,24 @@
             // btnextra1
             // 
             this.btnextra1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnextra1.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnextra1.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnextra1.Location = new System.Drawing.Point(1082, 392);
-            this.btnextra1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnextra1.Location = new System.Drawing.Point(735, 235);
             this.btnextra1.Name = "btnextra1";
-            this.btnextra1.Size = new System.Drawing.Size(61, 84);
+            this.btnextra1.Size = new System.Drawing.Size(65, 84);
+            this.btnextra1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnextra1.TabIndex = 23;
             this.btnextra1.TabStop = false;
             // 
             // btnsimple
             // 
             this.btnsimple.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnsimple.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnsimple.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnsimple.Location = new System.Drawing.Point(1082, 165);
-            this.btnsimple.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnsimple.Location = new System.Drawing.Point(735, 99);
             this.btnsimple.Name = "btnsimple";
-            this.btnsimple.Size = new System.Drawing.Size(61, 79);
+            this.btnsimple.Size = new System.Drawing.Size(65, 84);
+            this.btnsimple.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnsimple.TabIndex = 22;
             this.btnsimple.TabStop = false;
             this.btnsimple.Click += new System.EventHandler(this.btnsimple_Click);
@@ -86,22 +89,24 @@
             // btnextra3
             // 
             this.btnextra3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra3.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnextra3.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnextra3.Location = new System.Drawing.Point(0, 638);
-            this.btnextra3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnextra3.Location = new System.Drawing.Point(0, 367);
             this.btnextra3.Name = "btnextra3";
-            this.btnextra3.Size = new System.Drawing.Size(63, 89);
+            this.btnextra3.Size = new System.Drawing.Size(65, 84);
+            this.btnextra3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnextra3.TabIndex = 21;
             this.btnextra3.TabStop = false;
             // 
             // btnextra2
             // 
             this.btnextra2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnextra2.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnextra2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnextra2.Location = new System.Drawing.Point(0, 392);
-            this.btnextra2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnextra2.Location = new System.Drawing.Point(0, 235);
             this.btnextra2.Name = "btnextra2";
-            this.btnextra2.Size = new System.Drawing.Size(63, 84);
+            this.btnextra2.Size = new System.Drawing.Size(65, 84);
+            this.btnextra2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnextra2.TabIndex = 20;
             this.btnextra2.TabStop = false;
             // 
@@ -109,11 +114,12 @@
             // 
             this.btnlongterm.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnlongterm.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btnlongterm.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btnlongterm.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
-            this.btnlongterm.Location = new System.Drawing.Point(0, 165);
-            this.btnlongterm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnlongterm.Location = new System.Drawing.Point(0, 99);
             this.btnlongterm.Name = "btnlongterm";
-            this.btnlongterm.Size = new System.Drawing.Size(63, 79);
+            this.btnlongterm.Size = new System.Drawing.Size(65, 84);
+            this.btnlongterm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnlongterm.TabIndex = 19;
             this.btnlongterm.TabStop = false;
             this.btnlongterm.Click += new System.EventHandler(this.btnlongterm_Click);
@@ -122,10 +128,9 @@
             // 
             this.lbBack.AutoSize = true;
             this.lbBack.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbBack.Location = new System.Drawing.Point(975, 651);
-            this.lbBack.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbBack.Location = new System.Drawing.Point(662, 404);
             this.lbBack.Name = "lbBack";
-            this.lbBack.Size = new System.Drawing.Size(99, 48);
+            this.lbBack.Size = new System.Drawing.Size(67, 32);
             this.lbBack.TabIndex = 26;
             this.lbBack.Text = "Back";
             // 
@@ -134,10 +139,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(481, 47);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(337, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 55);
+            this.label1.Size = new System.Drawing.Size(131, 37);
             this.label1.TabIndex = 27;
             this.label1.Text = "Current";
             // 
@@ -145,9 +149,8 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1146, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(802, 92);
             this.pictureBox1.TabIndex = 43;
             this.pictureBox1.TabStop = false;
             // 
@@ -155,10 +158,9 @@
             // 
             this.lbcurrentlong.AutoSize = true;
             this.lbcurrentlong.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbcurrentlong.Location = new System.Drawing.Point(71, 185);
-            this.lbcurrentlong.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbcurrentlong.Location = new System.Drawing.Point(71, 128);
             this.lbcurrentlong.Name = "lbcurrentlong";
-            this.lbcurrentlong.Size = new System.Drawing.Size(198, 48);
+            this.lbcurrentlong.Size = new System.Drawing.Size(135, 32);
             this.lbcurrentlong.TabIndex = 44;
             this.lbcurrentlong.Text = "Long Term";
             // 
@@ -166,19 +168,18 @@
             // 
             this.lbcurrentsimple.AutoSize = true;
             this.lbcurrentsimple.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbcurrentsimple.Location = new System.Drawing.Point(800, 185);
-            this.lbcurrentsimple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbcurrentsimple.Location = new System.Drawing.Point(543, 128);
             this.lbcurrentsimple.Name = "lbcurrentsimple";
-            this.lbcurrentsimple.Size = new System.Drawing.Size(274, 48);
+            this.lbcurrentsimple.Size = new System.Drawing.Size(186, 32);
             this.lbcurrentsimple.TabIndex = 45;
             this.lbcurrentsimple.Text = "Simple Deposit";
             // 
             // Transfer_Current
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1143, 750);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbcurrentsimple);
             this.Controls.Add(this.lbcurrentlong);
             this.Controls.Add(this.label1);
@@ -190,7 +191,6 @@
             this.Controls.Add(this.btnextra2);
             this.Controls.Add(this.btnlongterm);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Transfer_Current";
             this.Text = "Transfer_Current";
             this.Load += new System.EventHandler(this.Transfer_Current_Load);

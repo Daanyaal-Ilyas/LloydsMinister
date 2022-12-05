@@ -39,7 +39,7 @@
             // 
             this.textEnter1.AutoSize = true;
             this.textEnter1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textEnter1.Location = new System.Drawing.Point(634, 376);
+            this.textEnter1.Location = new System.Drawing.Point(614, 383);
             this.textEnter1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textEnter1.Name = "textEnter1";
             this.textEnter1.Size = new System.Drawing.Size(115, 30);
@@ -49,9 +49,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.pictureBox1.Location = new System.Drawing.Point(754, 355);
+            this.pictureBox1.Image = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.pictureBox1.Location = new System.Drawing.Point(734, 354);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 51);
+            this.pictureBox1.Size = new System.Drawing.Size(65, 84);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
