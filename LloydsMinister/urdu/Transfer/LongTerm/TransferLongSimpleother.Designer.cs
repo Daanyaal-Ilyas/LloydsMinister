@@ -52,7 +52,7 @@
             this.lbtransferback.AutoSize = true;
             this.lbtransferback.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbtransferback.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtransferback.Location = new System.Drawing.Point(674, 365);
+            this.lbtransferback.Location = new System.Drawing.Point(652, 377);
             this.lbtransferback.Name = "lbtransferback";
             this.lbtransferback.Size = new System.Drawing.Size(76, 32);
             this.lbtransferback.TabIndex = 92;
@@ -91,7 +91,7 @@
             // 
             this.lbtransfercurrentlong.AutoSize = true;
             this.lbtransfercurrentlong.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtransfercurrentlong.Location = new System.Drawing.Point(49, 365);
+            this.lbtransfercurrentlong.Location = new System.Drawing.Point(71, 377);
             this.lbtransfercurrentlong.Name = "lbtransfercurrentlong";
             this.lbtransfercurrentlong.Size = new System.Drawing.Size(84, 32);
             this.lbtransfercurrentlong.TabIndex = 88;
@@ -100,30 +100,36 @@
             // btntransferextra1
             // 
             this.btntransferextra1.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntransferextra1.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextra1.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextra1.Location = new System.Drawing.Point(0, 83);
             this.btntransferextra1.Name = "btntransferextra1";
-            this.btntransferextra1.Size = new System.Drawing.Size(43, 47);
+            this.btntransferextra1.Size = new System.Drawing.Size(65, 84);
+            this.btntransferextra1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferextra1.TabIndex = 87;
             this.btntransferextra1.TabStop = false;
             // 
             // btntransferextra4
             // 
             this.btntransferextra4.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransferextra4.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferextra4.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextra4.Location = new System.Drawing.Point(756, 219);
+            this.btntransferextra4.Location = new System.Drawing.Point(734, 219);
             this.btntransferextra4.Name = "btntransferextra4";
-            this.btntransferextra4.Size = new System.Drawing.Size(43, 47);
+            this.btntransferextra4.Size = new System.Drawing.Size(65, 84);
+            this.btntransferextra4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferextra4.TabIndex = 85;
             this.btntransferextra4.TabStop = false;
             // 
             // btntransferback
             // 
             this.btntransferback.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransferback.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferback.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferback.Location = new System.Drawing.Point(756, 350);
+            this.btntransferback.Location = new System.Drawing.Point(734, 350);
             this.btntransferback.Name = "btntransferback";
-            this.btntransferback.Size = new System.Drawing.Size(43, 47);
+            this.btntransferback.Size = new System.Drawing.Size(65, 84);
+            this.btntransferback.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferback.TabIndex = 86;
             this.btntransferback.TabStop = false;
             this.btntransferback.Click += new System.EventHandler(this.btntransferback_Click);
@@ -131,20 +137,24 @@
             // btntransferextra2
             // 
             this.btntransferextra2.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransferextra2.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferextra2.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferextra2.Location = new System.Drawing.Point(756, 83);
+            this.btntransferextra2.Location = new System.Drawing.Point(734, 83);
             this.btntransferextra2.Name = "btntransferextra2";
-            this.btntransferextra2.Size = new System.Drawing.Size(43, 47);
+            this.btntransferextra2.Size = new System.Drawing.Size(65, 84);
+            this.btntransferextra2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferextra2.TabIndex = 84;
             this.btntransferextra2.TabStop = false;
             // 
             // btntransfer
             // 
             this.btntransfer.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntransfer.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransfer.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransfer.Location = new System.Drawing.Point(0, 350);
             this.btntransfer.Name = "btntransfer";
-            this.btntransfer.Size = new System.Drawing.Size(43, 47);
+            this.btntransfer.Size = new System.Drawing.Size(65, 84);
+            this.btntransfer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransfer.TabIndex = 83;
             this.btntransfer.TabStop = false;
             this.btntransfer.Click += new System.EventHandler(this.btntransfer_Click);
@@ -152,10 +162,12 @@
             // btntransferextra3
             // 
             this.btntransferextra3.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntransferextra3.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextra3.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntransferextra3.Location = new System.Drawing.Point(0, 219);
             this.btntransferextra3.Name = "btntransferextra3";
-            this.btntransferextra3.Size = new System.Drawing.Size(43, 47);
+            this.btntransferextra3.Size = new System.Drawing.Size(65, 84);
+            this.btntransferextra3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferextra3.TabIndex = 82;
             this.btntransferextra3.TabStop = false;
             // 

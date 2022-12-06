@@ -53,7 +53,7 @@
             // 
             this.lbtranscurrentlongother.AutoSize = true;
             this.lbtranscurrentlongother.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlongother.Location = new System.Drawing.Point(49, 367);
+            this.lbtranscurrentlongother.Location = new System.Drawing.Point(71, 383);
             this.lbtranscurrentlongother.Name = "lbtranscurrentlongother";
             this.lbtranscurrentlongother.Size = new System.Drawing.Size(56, 32);
             this.lbtranscurrentlongother.TabIndex = 73;
@@ -63,7 +63,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(674, 367);
+            this.label4.Location = new System.Drawing.Point(652, 383);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 32);
             this.label4.TabIndex = 72;
@@ -73,7 +73,7 @@
             // 
             this.lbtranscurrentlong100.AutoSize = true;
             this.lbtranscurrentlong100.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlong100.Location = new System.Drawing.Point(680, 236);
+            this.lbtranscurrentlong100.Location = new System.Drawing.Point(658, 251);
             this.lbtranscurrentlong100.Name = "lbtranscurrentlong100";
             this.lbtranscurrentlong100.Size = new System.Drawing.Size(70, 32);
             this.lbtranscurrentlong100.TabIndex = 71;
@@ -83,7 +83,7 @@
             // 
             this.lbtranscurrentlong50.AutoSize = true;
             this.lbtranscurrentlong50.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlong50.Location = new System.Drawing.Point(49, 236);
+            this.lbtranscurrentlong50.Location = new System.Drawing.Point(71, 251);
             this.lbtranscurrentlong50.Name = "lbtranscurrentlong50";
             this.lbtranscurrentlong50.Size = new System.Drawing.Size(56, 32);
             this.lbtranscurrentlong50.TabIndex = 70;
@@ -93,7 +93,7 @@
             // 
             this.lbtranscurrentlong20.AutoSize = true;
             this.lbtranscurrentlong20.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlong20.Location = new System.Drawing.Point(694, 100);
+            this.lbtranscurrentlong20.Location = new System.Drawing.Point(672, 110);
             this.lbtranscurrentlong20.Name = "lbtranscurrentlong20";
             this.lbtranscurrentlong20.Size = new System.Drawing.Size(56, 32);
             this.lbtranscurrentlong20.TabIndex = 69;
@@ -103,7 +103,7 @@
             // 
             this.lbtranscurrentlong10.AutoSize = true;
             this.lbtranscurrentlong10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtranscurrentlong10.Location = new System.Drawing.Point(49, 100);
+            this.lbtranscurrentlong10.Location = new System.Drawing.Point(71, 110);
             this.lbtranscurrentlong10.Name = "lbtranscurrentlong10";
             this.lbtranscurrentlong10.Size = new System.Drawing.Size(56, 32);
             this.lbtranscurrentlong10.TabIndex = 68;
@@ -112,10 +112,12 @@
             // btntranscurrentlong10
             // 
             this.btntranscurrentlong10.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntranscurrentlong10.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlong10.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlong10.Location = new System.Drawing.Point(0, 85);
             this.btntranscurrentlong10.Name = "btntranscurrentlong10";
-            this.btntranscurrentlong10.Size = new System.Drawing.Size(43, 47);
+            this.btntranscurrentlong10.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentlong10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntranscurrentlong10.TabIndex = 67;
             this.btntranscurrentlong10.TabStop = false;
             this.btntranscurrentlong10.Click += new System.EventHandler(this.btntranscurrentlong10_Click);
@@ -134,10 +136,12 @@
             // btnTransferBack
             // 
             this.btnTransferBack.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btnTransferBack.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btnTransferBack.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btnTransferBack.Location = new System.Drawing.Point(756, 352);
+            this.btnTransferBack.Location = new System.Drawing.Point(734, 352);
             this.btnTransferBack.Name = "btnTransferBack";
-            this.btnTransferBack.Size = new System.Drawing.Size(43, 47);
+            this.btnTransferBack.Size = new System.Drawing.Size(65, 84);
+            this.btnTransferBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnTransferBack.TabIndex = 65;
             this.btnTransferBack.TabStop = false;
             this.btnTransferBack.Click += new System.EventHandler(this.btnTransferBack_Click);
@@ -145,10 +149,12 @@
             // btntranscurrentlong100
             // 
             this.btntranscurrentlong100.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntranscurrentlong100.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentlong100.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntranscurrentlong100.Location = new System.Drawing.Point(756, 221);
+            this.btntranscurrentlong100.Location = new System.Drawing.Point(734, 221);
             this.btntranscurrentlong100.Name = "btntranscurrentlong100";
-            this.btntranscurrentlong100.Size = new System.Drawing.Size(43, 47);
+            this.btntranscurrentlong100.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentlong100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntranscurrentlong100.TabIndex = 64;
             this.btntranscurrentlong100.TabStop = false;
             this.btntranscurrentlong100.Click += new System.EventHandler(this.btntranscurrentlong100_Click);
@@ -156,10 +162,12 @@
             // btntransfercurrentlong20
             // 
             this.btntransfercurrentlong20.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
+            this.btntransfercurrentlong20.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransfercurrentlong20.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransfercurrentlong20.Location = new System.Drawing.Point(756, 85);
+            this.btntransfercurrentlong20.Location = new System.Drawing.Point(734, 85);
             this.btntransfercurrentlong20.Name = "btntransfercurrentlong20";
-            this.btntransfercurrentlong20.Size = new System.Drawing.Size(43, 47);
+            this.btntransfercurrentlong20.Size = new System.Drawing.Size(65, 84);
+            this.btntransfercurrentlong20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransfercurrentlong20.TabIndex = 63;
             this.btntransfercurrentlong20.TabStop = false;
             this.btntransfercurrentlong20.Click += new System.EventHandler(this.btntransfercurrentlong20_Click);
@@ -167,10 +175,12 @@
             // btntranscurrentlongother
             // 
             this.btntranscurrentlongother.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntranscurrentlongother.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlongother.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlongother.Location = new System.Drawing.Point(0, 352);
             this.btntranscurrentlongother.Name = "btntranscurrentlongother";
-            this.btntranscurrentlongother.Size = new System.Drawing.Size(43, 47);
+            this.btntranscurrentlongother.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentlongother.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntranscurrentlongother.TabIndex = 62;
             this.btntranscurrentlongother.TabStop = false;
             this.btntranscurrentlongother.Click += new System.EventHandler(this.btntranscurrentlongother_Click);
@@ -178,10 +188,12 @@
             // btntranscurrentlong50
             // 
             this.btntranscurrentlong50.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
+            this.btntranscurrentlong50.Image = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlong50.InitialImage = global::LloydsMinister.Properties.Resources.Triangle_point_to_right;
             this.btntranscurrentlong50.Location = new System.Drawing.Point(0, 221);
             this.btntranscurrentlong50.Name = "btntranscurrentlong50";
-            this.btntranscurrentlong50.Size = new System.Drawing.Size(43, 47);
+            this.btntranscurrentlong50.Size = new System.Drawing.Size(65, 84);
+            this.btntranscurrentlong50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntranscurrentlong50.TabIndex = 61;
             this.btntranscurrentlong50.TabStop = false;
             this.btntranscurrentlong50.Click += new System.EventHandler(this.btntranscurrentlong50_Click);
