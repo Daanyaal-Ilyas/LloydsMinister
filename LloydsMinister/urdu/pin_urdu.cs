@@ -39,7 +39,7 @@ namespace LloydsMinister
             if (pin.Rows.Count > 0)
             {
                 this.Hide();
-                menu m2 = new menu();
+                Auth m2 = new Auth();
                 m2.ShowDialog();
                 m2.Closed += (s, args) => this.Close();
             }

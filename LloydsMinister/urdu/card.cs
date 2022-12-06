@@ -23,6 +23,7 @@ namespace LloydsMinister.urdu
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            SetCard = cardbox.Text;
             this.Hide();
             pin_urdu p2 = new pin_urdu();
             p2.ShowDialog();

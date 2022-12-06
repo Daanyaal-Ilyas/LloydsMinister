@@ -224,5 +224,13 @@ namespace LloydsMinister.Transfer_en.LongTerm
             menu.ShowDialog();
             menu.Closed += (s, args) => this.Close();
         }
+
+        private void btntransferother_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Transferlongcurrentother menu = new Transferlongcurrentother();
+            menu.ShowDialog();
+            menu.Closed += (s, args) => this.Close();
+        }
     }
 }

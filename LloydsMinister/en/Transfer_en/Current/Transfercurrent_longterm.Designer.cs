@@ -93,7 +93,7 @@
             this.btntransfercurrentlong20.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransfercurrentlong20.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransfercurrentlong20.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransfercurrentlong20.Location = new System.Drawing.Point(736, 116);
+            this.btntransfercurrentlong20.Location = new System.Drawing.Point(735, 116);
             this.btntransfercurrentlong20.Name = "btntransfercurrentlong20";
             this.btntransfercurrentlong20.Size = new System.Drawing.Size(65, 84);
             this.btntransfercurrentlong20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

@@ -153,7 +153,7 @@
             this.btntranscurrentsimple100.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple100.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple100.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntranscurrentsimple100.Location = new System.Drawing.Point(736, 235);
+            this.btntranscurrentsimple100.Location = new System.Drawing.Point(735, 235);
             this.btntranscurrentsimple100.Name = "btntranscurrentsimple100";
             this.btntranscurrentsimple100.Size = new System.Drawing.Size(65, 84);
             this.btntranscurrentsimple100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -166,7 +166,7 @@
             this.btntranscurrentsimple20.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple20.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntranscurrentsimple20.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntranscurrentsimple20.Location = new System.Drawing.Point(735, 99);
+            this.btntranscurrentsimple20.Location = new System.Drawing.Point(736, 99);
             this.btntranscurrentsimple20.Name = "btntranscurrentsimple20";
             this.btntranscurrentsimple20.Size = new System.Drawing.Size(65, 84);
             this.btntranscurrentsimple20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

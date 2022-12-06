@@ -87,6 +87,7 @@
             this.btntransferother.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btntransferother.TabIndex = 48;
             this.btntransferother.TabStop = false;
+            this.btntransferother.Click += new System.EventHandler(this.btntransferother_Click);
             // 
             // btntransfer50
             // 
@@ -180,7 +181,7 @@
             this.btntransferl100.BackgroundImage = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferl100.Image = global::LloydsMinister.Properties.Resources.Triangle1;
             this.btntransferl100.InitialImage = global::LloydsMinister.Properties.Resources.Triangle1;
-            this.btntransferl100.Location = new System.Drawing.Point(733, 238);
+            this.btntransferl100.Location = new System.Drawing.Point(733, 239);
             this.btntransferl100.Name = "btntransferl100";
             this.btntransferl100.Size = new System.Drawing.Size(65, 84);
             this.btntransferl100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
