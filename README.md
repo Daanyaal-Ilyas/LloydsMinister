@@ -4,3 +4,6 @@
          public static string path1 = (@"Data Source=C:\LloydsMinister\LloydsMinister\customer.db3");
 after paste 
          public static string path1 = (@"Data Source=D:\LloydsMinister\LloydsMinister\customer.db3");
+         
+make sure you hvae installed the lastest version of visual studio 
+and you have .net6.0
