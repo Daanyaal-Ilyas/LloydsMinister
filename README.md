@@ -8,5 +8,5 @@ after paste
 make sure you hvae installed the lastest version of visual studio 
 and you have .net6.0
 
-card num 4024007124184382 Pin is 6565 Auth code is 56789
+card num 4024007124184382 Pin is 6565 Auth code is 56789 :
 card num 4024007174286525 Pin is 4545 Auth Code is 44566
